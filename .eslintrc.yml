@@ -1,0 +1,10 @@
+extends: [airbnb, prettier, prettier/react]
+rules:
+  no-shadow: off
+  no-param-reassign: off
+  no-use-before-define: off
+  react/jsx-filename-extension: off
+env:
+  node: true
+  browser: true
+  jest: true
