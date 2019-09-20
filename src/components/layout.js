@@ -7,6 +7,9 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+
+import Footer from './footer';
 
 import './normalize.css';
 import './layout.css';
@@ -14,7 +17,14 @@ import './layout.css';
 const Layout = ({ children }) => {
   return (
     <>
+      <Helmet>
+        <link
+          href="https://fonts.googleapis.com/css?family=Chivo:400,700&display=swap"
+          rel="stylesheet"
+        />
+      </Helmet>
       <main>{children}</main>
+      <Footer />
     </>
   );
 };

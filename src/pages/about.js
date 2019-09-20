@@ -1,15 +1,13 @@
 import React from 'react';
 
+import Layout from '../components/layout';
 import Container from '../components/container';
 import Navbar from '../components/navbar';
+import SEO from '../components/seo';
 
-export default () => (
-  <header
-    style={{
-      borderBottom: '1px solid #eaeaef',
-      padding: '3rem 0 0',
-    }}
-  >
+const AboutPage = () => (
+  <Layout>
+    <SEO title="About" />
     <Container>
       <Navbar />
       <div
@@ -50,5 +48,7 @@ export default () => (
         </p>
       </div>
     </Container>
-  </header>
+  </Layout>
 );
+
+export default AboutPage;

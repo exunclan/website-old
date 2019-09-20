@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+:focus {
+  outline-width: 1px;
+  outline-color: #298bf5;
+  outline-style: dotted;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -33,12 +39,11 @@ h6 {
   font-weight: 600;
   font-family: var(--font-accent);
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 h1 {
   color: #298bf5;
   font-size: 4rem;
-  margin-bottom: 2rem;
 }
 h2 {
   font-size: 2.8rem;
@@ -145,6 +150,21 @@ ul,
 ol,
 form {
   margin-bottom: 2.5rem;
+}
+
+/*
+ * Forms
+ */
+input[type='text'] {
+  padding: 1.5rem;
+  border: 1px solid #eaeaef;
+}
+input[type='text']:focus {
+  outline: 0;
+  border: 1px solid #298bf5;
+}
+input[type='text']::placeholder {
+  color: #878787;
 }
 
 /*

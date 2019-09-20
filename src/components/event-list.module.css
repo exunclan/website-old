@@ -1,0 +1,16 @@
+.eventList {
+  display: grid;
+  grid-gap: 2rem;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 750px) {
+  .eventList {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.eventList::-webkit-scrollbar {
+  background: transparent;
+}

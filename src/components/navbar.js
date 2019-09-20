@@ -23,6 +23,7 @@ const Navbar = () => (
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
+          paddingTop: '3rem',
         }}
       >
         <div style={{ display: 'inline-block' }}>
@@ -46,6 +47,16 @@ const Navbar = () => (
             }}
           >
             <Link to="/about">About</Link>
+          </li>
+          <li
+            style={{
+              display: 'inline-block',
+              margin: 0,
+              marginRight: '2rem',
+              padding: 0,
+            }}
+          >
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>

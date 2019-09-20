@@ -1,9 +1,14 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 import Layout from '../components/layout';
 import Container from '../components/container';
 import Navbar from '../components/navbar';
 import SEO from '../components/seo';
+import EventList from '../components/event-list';
+import InviteForm from '../components/invite-form';
 
 import styles from './index.module.css';
 
@@ -11,7 +16,6 @@ const Header = () => (
   <header
     style={{
       borderBottom: '1px solid #eaeaef',
-      padding: '3rem 0 0',
     }}
     className={styles.header}
   >
@@ -19,11 +23,7 @@ const Header = () => (
       <Navbar />
       <div
         style={{
-          padding: '10rem 0',
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          textAlign: 'center',
+          padding: '10rem 0 4rem',
         }}
       >
         <h2
@@ -35,8 +35,10 @@ const Header = () => (
         </h2>
         <h1
           style={{
+            marginTop: '-1rem',
             color: '#298bf5',
           }}
+          className={styles.heading}
         >
           Hello, world.
         </h1>
@@ -49,17 +51,87 @@ const Header = () => (
           Exun 2019 is the 24th edition of Exun’s annual event. <br />
           Do you have what it takes to participate?
         </p>
-        <button type="button">Request an invite</button>
+        <InviteForm />
       </div>
     </Container>
   </header>
 );
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <Header />
-  </Layout>
+const Splash = ({ fluid }) => (
+  <div
+    style={{
+      overflow: 'hidden',
+      position: 'relative',
+    }}
+  >
+    <div className={styles.splashImage}>
+      <Img fluid={fluid} />
+    </div>
+    <div
+      style={{
+        color: '#fff',
+        padding: '20rem 0',
+      }}
+    >
+      <Container>
+        <div
+          style={{
+            fontWeight: '600',
+            marginBottom: '1rem',
+          }}
+        >
+          Bigger and better than ever before.
+        </div>
+        <div style={{ maxWidth: 600 }}>
+          Exun has been organizing its flagship event for two decades. With Exun
+          2019, we’re continuing its legacy as a national event open to
+          participants from around the country.
+        </div>
+      </Container>
+    </div>
+  </div>
 );
+Splash.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
+  fluid: PropTypes.object.isRequired,
+};
+
+const IndexPage = ({ data }) => {
+  return (
+    <Layout>
+      <SEO title="Home" />
+      <Header />
+      <Splash fluid={data.file.childImageSharp.fluid} />
+      <Container>
+        <div style={{ marginTop: '6rem' }}>
+          <EventList />
+        </div>
+      </Container>
+    </Layout>
+  );
+};
+IndexPage.propTypes = {
+  data: PropTypes.shape({
+    file: PropTypes.shape({
+      childImageSharp: PropTypes.shape({
+        fluid: PropTypes.object,
+      }),
+    }),
+  }).isRequired,
+};
+
+export const query = graphql`
+  query IndexQuery {
+    file(relativePath: { eq: "banner.png" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fluid(duotone: { highlight: "#298bf5", shadow: "#192550" }) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`;
 
 export default IndexPage;
