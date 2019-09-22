@@ -64,9 +64,18 @@ const Splash = ({ fluid }) => (
       position: 'relative',
     }}
   >
-    <div className={styles.splashImage}>
-      <Img fluid={fluid} />
-    </div>
+    <Img
+      objectFit="cover"
+      fluid={fluid}
+      style={{
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        height: '100%',
+        width: '100%',
+        zIndex: -1,
+      }}
+    />
     <div
       style={{
         color: '#fff',
@@ -74,14 +83,7 @@ const Splash = ({ fluid }) => (
       }}
     >
       <Container>
-        <div
-          style={{
-            fontWeight: '600',
-            marginBottom: '1rem',
-          }}
-        >
-          Bigger and better than ever before.
-        </div>
+        <h1 style={{ color: '#fff' }}>Bigger and better than ever before.</h1>
         <div style={{ maxWidth: 600 }}>
           Exun has been organizing its flagship event for two decades. With Exun
           2019, we’re continuing its legacy as a national event open to

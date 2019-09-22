@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 export default [
   {
     title: '',
@@ -105,7 +106,7 @@ export default [
       {
         name: 'Ram Kumar',
         role: 'Support Team',
-        image: '',
+        image: require('./images/default.png'),
       },
       {
         name: 'Gunanand Tiwari',
@@ -119,4 +120,4 @@ export default [
       },
     ],
   },
-]
+];

@@ -1,0 +1,20 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.input {
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 780px) {
+  .form {
+    flex-direction: column;
+  }
+
+  .input {
+    max-width: 350px;
+    margin-bottom: 1rem;
+  }
+}

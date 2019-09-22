@@ -2,66 +2,113 @@ import React from 'react';
 import { Link, graphql, StaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
 
-const Navbar = () => (
-  <StaticQuery
-    query={graphql`
-      query NavbarQuery {
-        file(relativePath: { eq: "logo.png" }) {
-          childImageSharp {
-            # Specify the image processing specifications right in the query.
-            # Makes it trivial to update as your page's design changes.
-            fixed(width: 120, height: 45) {
-              ...GatsbyImageSharpFixed
+import styles from './navbar.module.css';
+
+const links = [
+  {
+    title: 'About',
+    href: '/about',
+  },
+  {
+    title: 'Members',
+    href: '/members',
+  },
+  {
+    title: 'Alumni',
+    href: '/alumni',
+  },
+  {
+    title: 'Faculty',
+    href: '/faculty',
+  },
+  {
+    title: 'Archive',
+    href: '/archive',
+  },
+  {
+    title: 'Contact',
+    href: '/contact',
+  },
+  {
+    title: 'ln(exun)',
+    href: '//lnexun.com',
+    external: true,
+  },
+];
+
+class Navbar extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      active: false,
+    };
+    this.toggle = this.toggle.bind(this);
+  }
+
+  toggle() {
+    this.setState(prevState => ({
+      active: !prevState.active,
+    }));
+  }
+
+  render() {
+    const { active } = this.state;
+    return (
+      <StaticQuery
+        query={graphql`
+          query NavbarQuery {
+            file(relativePath: { eq: "logo.png" }) {
+              childImageSharp {
+                # Specify the image processing specifications right in the query.
+                # Makes it trivial to update as your page's design changes.
+                fixed(width: 120, height: 45) {
+                  ...GatsbyImageSharpFixed
+                }
+              }
             }
           }
-        }
-      }
-    `}
-    render={data => (
-      <nav
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          paddingTop: '3rem',
-        }}
-      >
-        <div style={{ display: 'inline-block' }}>
-          <Link to="/">
-            <Img fixed={data.file.childImageSharp.fixed} />
-          </Link>
-        </div>
-
-        <ul
-          style={{
-            listStyleType: 'none',
-            marginBottom: 0,
-          }}
-        >
-          <li
-            style={{
-              display: 'inline-block',
-              margin: 0,
-              marginRight: '2rem',
-              padding: 0,
-            }}
-          >
-            <Link to="/about">About</Link>
-          </li>
-          <li
-            style={{
-              display: 'inline-block',
-              margin: 0,
-              marginRight: '2rem',
-              padding: 0,
-            }}
-          >
-            <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
-      </nav>
-    )}
-  />
-);
+        `}
+        render={data => (
+          <nav className={styles.wrapper}>
+            <Link to="/" style={{ lineHeight: 0 }}>
+              <Img fixed={data.file.childImageSharp.fixed} />
+            </Link>
+            <button
+              type="button"
+              className={styles.hamburger}
+              onClick={this.toggle}
+            >
+              ☰
+            </button>
+            <div
+              className={[styles.nav, active ? styles.navActive : null].join(
+                ' '
+              )}
+            >
+              <button
+                type="button"
+                className={styles.cross}
+                onClick={this.toggle}
+              >
+                ✕
+              </button>
+              <ul className={styles.links}>
+                {links.map(link => (
+                  <li className={styles.linksItem} key={link.href}>
+                    {link.external ? (
+                      <a href={link.href}>{link.title}</a>
+                    ) : (
+                      <Link to={link.href}>{link.title}</Link>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </nav>
+        )}
+      />
+    );
+  }
+}
 
 export default Navbar;

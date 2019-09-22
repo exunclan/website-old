@@ -1,9 +1,17 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import Layout from '../components/layout';
 import Container from '../components/container';
 import Navbar from '../components/navbar';
 import SEO from '../components/seo';
+
+import styles from './about.module.css';
+
+const Grid = ({ children }) => <div className={styles.grid}>{children}</div>;
+Grid.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 
 const AboutPage = () => (
   <Layout>

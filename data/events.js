@@ -6,8 +6,9 @@ export default [
     description: (
       <p>
         Build is an event that requires creative participants from a team to
-        come together and build a solution to one of two prompts. The event will
-        test the creative skills of participants.
+        come together and build solutions to pervasive problems. Build at Exun
+        2019 will feature two separate events: the Designathon and the
+        Hackathon.
       </p>
     ),
     eligibility: 'Open',
@@ -18,7 +19,7 @@ export default [
       <p>
         Exun Clan is collaborating with the Delhi Chapter of the prestigious
         National Space Society (USA) to give students the opportunity to explore
-        the realms of space and it’s concurrence with technology.
+        the realms of space and its concurrence with technology.
       </p>
     ),
     eligibility: 'Open',
@@ -27,8 +28,8 @@ export default [
     name: 'Sudocrypt',
     description: (
       <p>
-        Sudocrypt, Exun Clan's annual online cryptic hunt, will be held over 48
-        hours from 00:00:00 on 23 October 2018 to 11:59:59 on 24 October 2018.
+        Sudocrypt, Exun Clan’s annual online cryptic hunt, will be held over 48
+        hours.
       </p>
     ),
     eligibility: 'Open',
@@ -39,16 +40,6 @@ export default [
       <p>
         Participants will face problems of logic, algorithms and data structures
         and will be tested on time taken and their solution(s).
-      </p>
-    ),
-    eligibility: 'Open',
-  },
-  {
-    name: 'Mar-athon',
-    description: (
-      <p>
-        Our tribute to David Morgan-Mar: you will be given unconventional
-        problems where finding the solution won’t be the only challenge.
       </p>
     ),
     eligibility: 'Open',
@@ -66,14 +57,7 @@ export default [
   },
   {
     name: 'Group Discussion',
-    description: (
-      <p>
-        A test of creativity, logical skills and wit; two different statements
-        will be released &mdash; one that states something that is blindingly
-        obvious and indisputable, and the other a more subjective topic akin to
-        a motion.
-      </p>
-    ),
+    description: <p>A test of creativity, logical skills and wit.</p>,
     eligibility: 'Open',
   },
   {
@@ -98,34 +82,12 @@ export default [
     eligibility: 'Open',
   },
   {
-    name: 'Sudocrypt Locus',
-    description: (
-      <p>
-        Only for schools from NCR, this will be an onsite treasure hunt. Each
-        school is allowed to send two participants. The format of the event will
-        be announced onsite.
-      </p>
-    ),
-    eligibility: 'Open',
-  },
-  {
-    name: 'Senior Quiz',
+    name: 'Open Quiz',
     description: (
       <p>
         An enigmatic quiz based on the field of computers, technology, and
-        recent events in the world of IT &mdash; a battleground for seasoned
-        professionals to test their wits under extreme pressure.
-      </p>
-    ),
-    eligibility: 'Open',
-  },
-  {
-    name: 'Junior Quiz',
-    description: (
-      <p>
-        An enigmatic quiz based on the field of computers, technology, and
-        recent events in the world of IT &mdash; the perfect platform for
-        upcoming quizzers to test their mettle.
+        recent events in the world of IT &mdash; a battleground for quizzers to
+        test their wits under extreme pressure.
       </p>
     ),
     eligibility: 'Open',
@@ -135,8 +97,7 @@ export default [
     description: (
       <p>
         A cryptic crossword based on wit, presence of mind, and an excellent
-        sense of humour. All answers will be related to the fields of computers,
-        technology, and recent events in the field of IT.
+        sense of humour. All answers will be related to the field of technology.
       </p>
     ),
     eligibility: 'Open',
@@ -166,7 +127,7 @@ export default [
     name: 'RoboWars',
     description: (
       <p>
-        "War does not decide who is right; only who is left". All robots must be
+        “War does not decide who is right; only who is left”. All robots must be
         controlled wirelessly or using wires from outside the arena. A maximum
         of 24 volts DC is allowed for powering the robot. Use of any and all
         weapons is allowed.
@@ -189,7 +150,7 @@ export default [
     description: (
       <p>
         At Exun Clan, we feel that a diverse set of participants is important
-        for the success of our event. With that in mind, Exun 2018 will feature
+        for the success of our event. With that in mind, Exun 2019 will feature
         an exciting surprise event for girls in collaboration with the
         organisation Women Who Code Delhi.
       </p>
@@ -201,7 +162,7 @@ export default [
     description: (
       <div>
         <p>
-          It's always the small pieces that make the big picture. 2 participants
+          It’s always the small pieces that make the big picture. 2 participants
           per school will compete individually in the following events:
         </p>
         <ul>

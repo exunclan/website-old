@@ -1,11 +1,12 @@
 import React from 'react';
 
+import styles from './invite-form.module.css';
+
 class InviteForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       complete: false,
-      name: '',
       email: '',
       completeText: '',
       completeColor: '',
@@ -18,23 +19,25 @@ class InviteForm extends React.Component {
 
   complete(success) {
     let completeColor = '#dd637e';
-    let completeText = 'Error Making Request';
+    let completeText = 'Invite Already Requested';
     if (success) {
       completeColor = '#42c8c5';
-      completeText = 'Check Your Email';
+      completeText = 'Invite Requested';
     }
     this.setState({ complete: true, completeColor, completeText });
   }
 
   request(e) {
     e.preventDefault();
-    const { email, name } = this.state;
-    const formData = new FormData();
-    formData.append('email', email);
-    formData.append('name', name);
-    fetch('/invites/add.php', {
+    const { email } = this.state;
+    fetch('https://register.exunclan.com/api/invite/request', {
       method: 'POST',
-      body: formData,
+      body: JSON.stringify({
+        email,
+      }),
+      headers: {
+        'Content-Type': 'application/json',
+      },
       mode: 'cors',
     })
       .then(res => {
@@ -72,51 +75,27 @@ class InviteForm extends React.Component {
   }
 
   renderForm() {
-    const { name, email } = this.state;
+    const { email } = this.state;
     return (
-      <form
-        style={{
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-        }}
-      >
-        <div
+      <form className={styles.form}>
+        <input
+          onChange={this.handleChange.bind(this, 'email')}
+          key="email"
+          type="text"
+          value={email}
+          placeholder="Email"
+          className={styles.input}
+        />
+        <button
+          type="button"
+          onClick={this.request}
           style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            marginBottom: '2rem',
+            display: 'inline-block',
+            marginRight: 'auto',
           }}
         >
-          <input
-            onChange={this.handleChange.bind(this, 'name')}
-            key="name"
-            value={name}
-            type="text"
-            placeholder="School"
-            style={{
-              marginRight: '1rem',
-            }}
-          />
-          <input
-            onChange={this.handleChange.bind(this, 'email')}
-            key="email"
-            type="text"
-            value={email}
-            placeholder="Email"
-            style={{ marginRight: '1em' }}
-          />
-          <button
-            type="button"
-            onClick={this.request}
-            style={{
-              display: 'inline-block',
-              marginRight: 'auto',
-            }}
-          >
-            Request Invite
-          </button>
-        </div>
+          Request Invite
+        </button>
       </form>
     );
   }
