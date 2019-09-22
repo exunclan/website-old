@@ -18,7 +18,7 @@ Grid.propTypes = {
 
 const Faculty = () => (
   <Layout>
-    <SEO title="Archive" />
+    <SEO title="Faculty" />
     <Container>
       <Navbar />
       <div
