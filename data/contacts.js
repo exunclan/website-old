@@ -19,7 +19,7 @@ export default [
   },
   {
     name: 'Aravind Ashok',
-    role: 'Chief Advisor, Exun Clan',
+    role: 'Chief Adviser, Exun Clan',
     number: '+91-8368265737',
     email: 'aravindashok345@gmail.com',
   },

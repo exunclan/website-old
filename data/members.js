@@ -23,6 +23,21 @@ export default [
         image: '',
       },
       {
+        name: 'Aaryak Garg',
+        role: 'Chief Adviser',
+        image: '',
+      },
+      {
+        name: 'Aravind Ashok',
+        role: 'Chief Adviser',
+        image: '',
+      },
+      {
+        name: 'Sarah Randhawa',
+        role: 'Chief Adviser',
+        image: '',
+      },
+      {
         name: 'Aditya Batra',
         role: 'Member',
         image: '',
@@ -43,22 +58,7 @@ export default [
         image: '',
       },
       {
-        name: 'Aravind Ashok',
-        role: 'Member',
-        image: '',
-      },
-      {
         name: 'Tanish Goel',
-        role: 'Member',
-        image: '',
-      },
-      {
-        name: 'Aaryak Garg',
-        role: 'Member',
-        image: '',
-      },
-      {
-        name: 'Sarah Randhawa',
         role: 'Member',
         image: '',
       },
@@ -69,6 +69,11 @@ export default [
       },
       {
         name: 'Arihant Hemendra',
+        role: 'Member',
+        image: '',
+      },
+      {
+        name: 'Nishant Dhankhar',
         role: 'Member',
         image: '',
       },
@@ -97,6 +102,21 @@ export default [
         role: 'Member',
         image: '',
       },
+      {
+        name: 'Saranyaa Kashyap',
+        role: 'Member',
+        image: '',
+      },
+      {
+        name: 'Areeb Nabi',
+        role: 'Member',
+        image: '',
+      },
+      {
+        name: 'Alankar Dutta',
+        role: '',
+        image: '',
+      },
     ],
   },
   {
@@ -119,6 +139,11 @@ export default [
       },
       {
         name: 'Rudraneel Sinha',
+        role: 'Member',
+        image: '',
+      },
+      {
+        name: 'Rahul Bhargava',
         role: 'Member',
         image: '',
       },
@@ -168,7 +193,22 @@ export default [
         image: '',
       },
       {
+        name: 'Pearl Dhingra',
+        role: 'Member',
+        image: '',
+      },
+      {
         name: 'Aryaman Chandra',
+        role: 'Member',
+        image: '',
+      },
+    ],
+  },
+  {
+    year: '8th',
+    members: [
+      {
+        name: 'Shivansh Gupta',
         role: 'Member',
         image: '',
       },
@@ -184,6 +224,31 @@ export default [
       },
       {
         name: 'Saksham Raheja',
+        role: 'Member',
+        image: '',
+      },
+      {
+        name: 'Pratyush Vempati',
+        role: 'Member',
+        image: '',
+      },
+      {
+        name: 'Angad Miglani',
+        role: 'Member',
+        image: '',
+      },
+      {
+        name: 'Shiven Kanodia',
+        role: 'Member',
+        image: '',
+      },
+    ],
+  },
+  {
+    year: '6th',
+    members: [
+      {
+        name: 'Nyra Bhushan',
         role: 'Member',
         image: '',
       },
