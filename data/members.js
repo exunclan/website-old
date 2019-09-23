@@ -114,7 +114,7 @@ export default [
       },
       {
         name: 'Alankar Dutta',
-        role: '',
+        role: 'Member',
         image: '',
       },
     ],

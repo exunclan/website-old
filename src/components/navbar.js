@@ -6,6 +6,10 @@ import styles from './navbar.module.css';
 
 const links = [
   {
+    title: 'Home',
+    href: '/',
+  },
+  {
     title: 'About',
     href: '/about',
   },

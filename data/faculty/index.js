@@ -44,19 +44,9 @@ export default [
         image: require('./images/sarikamaam.jpg'),
       },
       {
-        name: 'Mukesh Nagpal',
-        role: 'Faculty',
-        image: require('./images/mukeshnagpalsir.jpg'),
-      },
-      {
         name: 'Anjana Virmani',
         role: 'Faculty',
         image: require('./images/anjanamaam.jpg'),
-      },
-      {
-        name: 'Aashima Nagpal',
-        role: 'Faculty',
-        image: require('./images/aashimamaam.jpg'),
       },
       {
         name: 'Shekhar Sharma',
@@ -67,6 +57,16 @@ export default [
         name: 'Ajithkumar A.G.',
         role: 'Faculty',
         image: require('./images/ajithsir.jpg'),
+      },
+      {
+        name: 'Aashima Nagpal',
+        role: 'Former Faculty',
+        image: require('./images/aashimamaam.jpg'),
+      },
+      {
+        name: 'Mukesh Nagpal',
+        role: 'Faculty',
+        image: require('./images/mukeshnagpalsir.jpg'),
       },
     ],
   },
