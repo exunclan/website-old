@@ -14,7 +14,7 @@ export default [
   {
     name: 'Naman Dhingra',
     role: 'President, Exun Clan',
-    number: '+91-9582358200',
+    number: '+91-7290809097',
     email: '1608naman@gmail.com',
   },
   {

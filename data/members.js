@@ -212,6 +212,11 @@ export default [
         role: 'Member',
         image: '',
       },
+      {
+        name: 'Pratyush Vempati',
+        role: 'Member',
+        image: '',
+      },
     ],
   },
   {
@@ -224,11 +229,6 @@ export default [
       },
       {
         name: 'Saksham Raheja',
-        role: 'Member',
-        image: '',
-      },
-      {
-        name: 'Pratyush Vempati',
         role: 'Member',
         image: '',
       },
