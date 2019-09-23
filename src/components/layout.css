@@ -122,6 +122,12 @@ pre > code {
 /*
  * Tables
  */
+th {
+  font-weight: normal;
+}
+td {
+  color: #7c828a;
+}
 th,
 td {
   padding: 12px 15px;

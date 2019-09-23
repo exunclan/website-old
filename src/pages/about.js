@@ -20,26 +20,16 @@ const AboutPage = () => (
       <Navbar />
       <div
         style={{
-          padding: '10rem 0',
+          padding: '10rem 0 5rem',
         }}
       >
         <h1>Exun Clan</h1>
-        <h2
-          style={{
-            marginTop: '-1rem',
-            marginBottom: '2rem',
-            maxWidth: 550,
-            fontWeight: 400,
-          }}
-        >
-          Founded in 1992, Exun is the technology club at Delhi Public School
-          R.K. Puram.
-        </h2>
         <p>
-          The word ‘Exun’ is short for Experts Unlimited, and that’s exactly
-          what we are: young technology enthusiasts excelling in diverse fields
-          of technology, from research, development, and programming to tech
-          quizzing, debating and design.
+          Founded in 1992, Exun is the technology club at Delhi Public School
+          R.K. Puram. The word ‘Exun’ is short for Experts Unlimited, and that’s
+          exactly what we are: young technology enthusiasts excelling in diverse
+          fields of technology, from research, development, and programming to
+          tech quizzing, debating and design.
         </p>
         <p>
           Under the mentorship of Mr. Mukesh Kumar, its founder &
@@ -55,8 +45,12 @@ const AboutPage = () => (
           contemporary technology landscape.
         </p>
       </div>
-      <div>
-        <h3>Event History</h3>
+      <div
+        style={{
+          padding: '0 0 10rem',
+        }}
+      >
+        <h2>Event History</h2>
         <p>
           Having represented the school in various computing symposia in India
           and around the world, the club also hosts its annual computer
@@ -147,7 +141,7 @@ const AboutPage = () => (
             </tr>
             <tr>
               <td>Exun 2001</td>
-              <td />
+              <td>-</td>
             </tr>
             <tr>
               <td>Exun 2000</td>
