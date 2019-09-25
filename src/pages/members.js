@@ -1,13 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
 
 import Card from '../components/card';
 import Container from '../components/container';
 import Layout from '../components/layout';
 import Navbar from '../components/navbar';
 import SEO from '../components/seo';
-
-import classes from '../../data/members';
 
 import styles from './members.module.css';
 
@@ -16,7 +15,7 @@ Grid.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-const MembersPage = () => (
+const MembersPage = ({ data }) => (
   <Layout>
     <SEO title="Members" />
     <Container>
@@ -31,7 +30,7 @@ const MembersPage = () => (
           Exun’s members form an elite team of technology enthusiasts, with
           skills ranging from design and programming to quizzing and hardware.
         </p>
-        {classes.map(cls => (
+        {data.allMembersJson.nodes.map(cls => (
           <div key={cls.year}>
             <h2 style={{ marginTop: '5rem' }}>{` ${cls.year}`}</h2>
             <Grid>
@@ -61,5 +60,26 @@ const MembersPage = () => (
     </Container>
   </Layout>
 );
+MembersPage.propTypes = {
+  data: PropTypes.shape({
+    allMembersJson: PropTypes.shape({
+      nodes: PropTypes.array,
+    }),
+  }).isRequired,
+};
 
 export default MembersPage;
+
+export const query = graphql`
+  query MembersQuery {
+    allMembersJson {
+      nodes {
+        year
+        members {
+          name
+          role
+        }
+      }
+    }
+  }
+`;

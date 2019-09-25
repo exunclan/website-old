@@ -1,13 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Container from '../components/container';
 import Card from '../components/card';
 import Navbar from '../components/navbar';
-
-import batches from '../../data/alumni';
 
 import styles from './alumni.module.css';
 
@@ -16,7 +15,7 @@ Grid.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-const AlumniPage = () => (
+const AlumniPage = ({ data }) => (
   <Layout>
     <SEO title="Alumni" />
 
@@ -32,7 +31,7 @@ const AlumniPage = () => (
           Exun has an immense, well-connected alumni network that provides
           mentorship and support to its members.
         </p>
-        {batches.map(batch => (
+        {data.allAlumniJson.nodes.map(batch => (
           <div key={batch.year}>
             <h2 style={{ marginTop: '5rem' }}>
               Batch of
@@ -65,5 +64,26 @@ const AlumniPage = () => (
     </Container>
   </Layout>
 );
+AlumniPage.propTypes = {
+  data: PropTypes.shape({
+    allAlumniJson: PropTypes.shape({
+      nodes: PropTypes.array,
+    }),
+  }).isRequired,
+};
 
 export default AlumniPage;
+
+export const query = graphql`
+  query AlumniQuery {
+    allAlumniJson {
+      nodes {
+        year
+        alumni {
+          name
+          role
+        }
+      }
+    }
+  }
+`;

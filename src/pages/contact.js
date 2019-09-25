@@ -1,13 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 import Container from '../components/container';
 import Navbar from '../components/navbar';
 import SEO from '../components/seo';
 import Card from '../components/card';
-
-import contacts from '../../data/contacts';
 
 import styles from './contact.module.css';
 
@@ -16,7 +15,7 @@ Grid.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-const ContactPage = () => (
+const ContactPage = ({ data }) => (
   <Layout>
     <SEO title="Contact" />
     <Container>
@@ -28,7 +27,7 @@ const ContactPage = () => (
       >
         <h1>Contact Us</h1>
         <Grid>
-          {contacts.map(contact => (
+          {data.allContactsJson.nodes.map(contact => (
             <Card>
               <div
                 style={{
@@ -57,5 +56,25 @@ const ContactPage = () => (
     </Container>
   </Layout>
 );
+ContactPage.propTypes = {
+  data: PropTypes.shape({
+    allContactsJson: PropTypes.shape({
+      nodes: PropTypes.array,
+    }),
+  }).isRequired,
+};
 
 export default ContactPage;
+
+export const query = graphql`
+  query ContactsQuery {
+    allContactsJson {
+      nodes {
+        name
+        role
+        number
+        email
+      }
+    }
+  }
+`;

@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 import Layout from '../components/layout';
 import Navbar from '../components/navbar';
 import Container from '../components/container';
 import Card from '../components/card';
 import SEO from '../components/seo';
-
-import departments from '../../data/faculty';
 
 import styles from './faculty.module.css';
 
@@ -16,7 +16,7 @@ Grid.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-const Faculty = () => (
+const FacultyPage = ({ data }) => (
   <Layout>
     <SEO title="Faculty" />
     <Container>
@@ -28,22 +28,20 @@ const Faculty = () => (
       >
         <h1>Faculty</h1>
         <p>The Exun faculty forms the bedrock of all of its activities.</p>
-        {departments.map(department => (
+        {data.allFacultyJson.nodes.map(department => (
           <div key={department.title}>
             <h2 style={{ marginTop: '5rem' }}>{department.title}</h2>
             <Grid>
               {department.members.map(member => (
                 <Card key={member.name}>
-                  <div
+                  <Img
+                    fixed={member.image.childImageSharp.fixed}
                     style={{
-                      height: 80,
-                      width: 80,
+                      // height: 80,
+                      // width: 80,
                       borderRadius: '50%',
                       overflow: 'hidden',
-                      backgroundImage: `url(${member.image})`,
-                      backgroundSize: 'cover',
                       marginBottom: '1rem',
-                      backgroundPosition: '50% 50%',
                     }}
                   />
                   <div
@@ -70,5 +68,33 @@ const Faculty = () => (
     </Container>
   </Layout>
 );
+FacultyPage.propTypes = {
+  data: PropTypes.shape({
+    allFacultyJson: PropTypes.shape({
+      nodes: PropTypes.array,
+    }),
+  }).isRequired,
+};
 
-export default Faculty;
+export default FacultyPage;
+
+export const query = graphql`
+  query FacultyQuery {
+    allFacultyJson {
+      nodes {
+        title
+        members {
+          name
+          role
+          image {
+            childImageSharp {
+              fixed(width: 80, height: 80, cropFocus: CENTER) {
+                ...GatsbyImageSharpFixed
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`;
