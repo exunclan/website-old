@@ -77,7 +77,7 @@ class InviteForm extends React.Component {
   renderForm() {
     const { email } = this.state;
     return (
-      <form className={styles.form}>
+      <form onSubmit={this.request} className={styles.form}>
         <input
           onChange={this.handleChange.bind(this, 'email')}
           key="email"
@@ -87,8 +87,7 @@ class InviteForm extends React.Component {
           className={styles.input}
         />
         <button
-          type="button"
-          onClick={this.request}
+          type="submit"
           style={{
             display: 'inline-block',
             marginRight: 'auto',
