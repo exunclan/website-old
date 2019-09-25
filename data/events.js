@@ -43,6 +43,7 @@ export default [
       </p>
     ),
     eligibility: 'Open',
+    shortlink: 'cp',
   },
   {
     name: 'Turing Test',
@@ -59,6 +60,7 @@ export default [
     name: 'Group Discussion',
     description: <p>A test of creativity, logical skills and wit.</p>,
     eligibility: 'Open',
+    shortlink: 'gd',
   },
   {
     name: 'Hardware',
@@ -106,12 +108,25 @@ export default [
     name: 'Domain²+ Gaming',
     description: (
       <p>
-        The prelims will be held online in multiple batches, from October 2-5. A
+        The prelims will be held online in multiple batches, from October 4-7. A
         Discord link will be released and the game to be played will be revealed
         a week before. 30 players will qualify for the onsite round on Exun.
       </p>
     ),
     eligibility: 'Open',
+    shortlink: 'd2s',
+  },
+  {
+    name: 'Domain²+ Gaming Quiz',
+    description: (
+      <p>
+        The prelims will be held online in multiple batches, from October 4-7. A
+        Discord link will be released and the game to be played will be revealed
+        a week before. 30 players will qualify for the onsite round on Exun.
+      </p>
+    ),
+    eligibility: 'Open',
+    shortlink: null,
   },
   {
     name: 'Delhi-NCR Jr. Gaming Championship Finals',
@@ -122,18 +137,13 @@ export default [
       </p>
     ),
     eligibility: 'Open',
+    shortlink: null,
   },
   {
-    name: 'RoboWars',
-    description: (
-      <p>
-        “War does not decide who is right; only who is left”. All robots must be
-        controlled wirelessly or using wires from outside the arena. A maximum
-        of 24 volts DC is allowed for powering the robot. Use of any and all
-        weapons is allowed.
-      </p>
-    ),
+    name: 'NOVA 2.0 (RoboRace)',
+    description: <p>May the fastest circuit win.</p>,
     eligibility: 'Open',
+    shortlink: 'roborace',
   },
   {
     name: 'MX+C',
@@ -151,14 +161,15 @@ export default [
       <p>
         At Exun Clan, we feel that a diverse set of participants is important
         for the success of our event. With that in mind, Exun 2019 will feature
-        an exciting surprise event for girls in collaboration with the
-        organisation Women Who Code Delhi.
+        an exciting surprise event for girls in collaboration with Women Who
+        Code Delhi.
       </p>
     ),
     eligibility: 'Open',
+    shortlink: null,
   },
   {
-    name: 'Cubing Events',
+    name: 'Cubing by CubXL',
     description: (
       <div>
         <p>
@@ -173,5 +184,6 @@ export default [
       </div>
     ),
     eligibility: 'Open',
+    shortlink: 'cubing',
   },
 ];

@@ -89,18 +89,22 @@ class Events extends React.Component {
             .map(event => (
               <Card key={event.name}>
                 <h5>
-                  <a
-                    href={
-                      event.shortlink
-                        ? `https://exun.co/19/${event.shortlink}`
-                        : `https://exun.co/19/${event.name
-                            .toLowerCase()
-                            .replace(' ', '')
-                            .replace('-', '')}`
-                    }
-                  >
-                    {event.name}
-                  </a>
+                  {event.shortlink !== null ? (
+                    <a
+                      href={
+                        event.shortlink
+                          ? `https://exun.co/19/${event.shortlink}`
+                          : `https://exun.co/19/${event.name
+                              .toLowerCase()
+                              .replace(' ', '')
+                              .replace('-', '')}`
+                      }
+                    >
+                      {event.name}
+                    </a>
+                  ) : (
+                    event.name
+                  )}
                 </h5>
                 <div>{event.description}</div>
               </Card>
