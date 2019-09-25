@@ -252,6 +252,11 @@ export default [
         role: 'Member',
         image: '',
       },
+      {
+        name: 'Anisha Mahajn',
+        role: 'Member',
+        image: '',
+      },
     ],
   },
 ];
