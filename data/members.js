@@ -253,7 +253,7 @@ export default [
         image: '',
       },
       {
-        name: 'Anisha Mahajn',
+        name: 'Anisha Mahajan',
         role: 'Member',
         image: '',
       },
