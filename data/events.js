@@ -108,13 +108,12 @@ export default [
     name: 'Domain²+ Gaming',
     description: (
       <p>
-        The prelims will be held online in multiple batches, from October 4-7. A
-        Discord link will be released and the game to be played will be revealed
-        a week before. 30 players will qualify for the onsite round on Exun.
+        An enigmatic quiz cross based on the field of gaming- a battleground for
+        seasoned professionals to test their wits under extreme pressure.
       </p>
     ),
     eligibility: 'Open',
-    shortlink: 'd2s',
+    shortlink: null,
   },
   {
     name: 'Domain²+ Gaming Quiz',
