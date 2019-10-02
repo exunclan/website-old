@@ -49,6 +49,7 @@ const Header = () => (
           }}
         >
           Exun 2019 is the 24th edition of Exun’s annual event. <br />
+          It'll be held on 19th and 20th October. <br />
           Do you have what it takes to participate?
         </p>
         <InviteForm />
