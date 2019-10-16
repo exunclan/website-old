@@ -9,8 +9,14 @@ import Navbar from '../components/navbar';
 import SEO from '../components/seo';
 import EventList from '../components/event-list';
 import InviteForm from '../components/invite-form';
+import Sponsors from '../components/sponsors';
 
 import styles from './index.module.css';
+
+const Grid = ({ children }) => <div className={styles.grid}>{children}</div>;
+Grid.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 
 const Header = () => (
   <header
@@ -52,6 +58,7 @@ const Header = () => (
           Do you have what it takes to participate?
         </p>
         <InviteForm />
+        <Sponsors />
       </div>
     </Container>
   </header>
@@ -84,7 +91,7 @@ const Splash = ({ fluid }) => (
     >
       <Container>
         <h1 style={{ color: '#fff' }}>Bigger and better than ever before.</h1>
-        <div style={{ maxWidth: 600 }}>
+        <div style={{ maxWidth: 600, marginBottom: '3rem' }}>
           Exun has been organizing its flagship event for two decades. With Exun
           2019, we’re continuing its legacy as a national event open to
           participants from around the country.
@@ -98,6 +105,10 @@ Splash.propTypes = {
   fluid: PropTypes.object.isRequired,
 };
 
+const quickLinkStyle = {
+  color: '#298bf5',
+};
+
 const IndexPage = ({ data }) => {
   return (
     <Layout>
@@ -105,6 +116,32 @@ const IndexPage = ({ data }) => {
       <Header />
       <Splash fluid={data.file.childImageSharp.fluid} />
       <Container>
+        <div style={{ marginTop: '6rem' }}>
+          <h1 style={{ marginBottom: '2rem' }}>Quick Links</h1>
+          <ul>
+            <li>
+              <a style={quickLinkStyle} href="//exun.co/19/schedule">
+                Schedule
+              </a>
+            </li>
+            <li>
+              <a style={quickLinkStyle} href="//lnexun.com">
+                ln(Exun)
+              </a>{' '}
+              (Results)
+            </li>
+            <li>
+              <a style={quickLinkStyle} href="//facebook.com/ExunClan">
+                Facebook Page
+              </a>
+            </li>
+            <li>
+              <a style={quickLinkStyle} href="//exun.co/19/coc">
+                Code of Conduct
+              </a>
+            </li>
+          </ul>
+        </div>
         <div style={{ marginTop: '6rem' }}>
           <EventList />
         </div>
