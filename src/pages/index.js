@@ -31,7 +31,7 @@ const Header = () => (
             color: '#456484',
           }}
         >
-          Exun 2019
+          19-20 October
         </h2>
         <h1
           style={{
@@ -40,7 +40,7 @@ const Header = () => (
           }}
           className={styles.heading}
         >
-          Hello, world.
+          Exun 2019
         </h1>
         <p
           style={{
@@ -49,7 +49,6 @@ const Header = () => (
           }}
         >
           Exun 2019 is the 24th edition of Exun’s annual event. <br />
-          It'll be held on 19th and 20th October. <br />
           Do you have what it takes to participate?
         </p>
         <InviteForm />
