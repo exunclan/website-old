@@ -2,6 +2,8 @@ import React from 'react';
 
 import BMLLogo from './bml-munjal-logo.png';
 import EvelynLogo from './evelyn-logo.png';
+import OxfordLogo from './oxford.jpg';
+import DigitalIndia from './digitalindia.jpg';
 
 const logoStyles = {
   height: '100px',
@@ -28,6 +30,8 @@ export default () => (
       >
         <img alt="BML Munjal University" src={BMLLogo} style={logoStyles} />
         <img alt="Evelyn" src={EvelynLogo} style={logoStyles} />
+        <img alt="Oxford" src={OxfordLogo} style={logoStyles} />
+        <img alt="Digital India" src={DigitalIndia} style={logoStyles} />
       </div>
     </div>
   </>
