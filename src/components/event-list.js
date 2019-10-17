@@ -99,6 +99,7 @@ class Events extends React.Component {
                               .replace(' ', '')
                               .replace('-', '')}`
                       }
+                      target="_blank"
                     >
                       {event.name}
                     </a>
