@@ -55,7 +55,7 @@ const Header = () => (
           }}
         >
           Exun 2019 was the 24th edition of Exun’s annual event. <br />
-          Thank you for attending.{' '}
+          Enter your email to stay tuned for updates{' '}
         </p>{' '}
         <InviteForm />
         <Sponsors />
