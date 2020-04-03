@@ -37,8 +37,8 @@ const Header = () => (
             color: '#456484',
           }}
         >
-          19 - 20 October{' '}
-        </h2>{' '}
+          19 - 20 October
+        </h2>
         <h1
           style={{
             marginTop: '-1rem',
@@ -46,8 +46,8 @@ const Header = () => (
           }}
           className={styles.heading}
         >
-          Exun 2019{' '}
-        </h1>{' '}
+          Exun 2019
+        </h1>
         <p
           style={{
             color: '#7c828a',
@@ -55,12 +55,12 @@ const Header = () => (
           }}
         >
           Exun 2019 was the 24th edition of Exun’s annual event. <br />
-          Enter your email to stay tuned for updates{' '}
-        </p>{' '}
+          Enter your email to stay tuned for updates
+        </p>
         <InviteForm />
         <Sponsors />
-      </div>{' '}
-    </Container>{' '}
+      </div>
+    </Container>
   </header>
 );
 
@@ -82,7 +82,7 @@ const Splash = ({ fluid }) => (
         width: '100%',
         zIndex: -1,
       }}
-    />{' '}
+    />
     <div
       style={{
         color: '#fff',
@@ -90,14 +90,14 @@ const Splash = ({ fluid }) => (
       }}
     >
       <Container>
-        <h1 style={{ color: '#fff' }}> Bigger and better than ever before. </h1>{' '}
+        <h1 style={{ color: '#fff' }}> Bigger and better than ever before. </h1>
         <div style={{ maxWidth: 600, marginBottom: '3rem' }}>
           Exun has been organizing its flagship event for two decades. With Exun
           2019, we continued its legacy as a national event open to participants
-          from around the country.{' '}
-        </div>{' '}
-      </Container>{' '}
-    </div>{' '}
+          from around the country.
+        </div>
+      </Container>
+    </div>
   </div>
 );
 Splash.propTypes = {
@@ -114,38 +114,38 @@ const IndexPage = ({ data }) => {
     <Layout>
       <SEO title="Home" />
       <Header />
-      <Splash fluid={data.file.childImageSharp.fluid} />{' '}
+      <Splash fluid={data.file.childImageSharp.fluid} />
       <Container>
         <div style={{ marginTop: '6rem' }}>
-          <h1 style={{ marginBottom: '2rem' }}> Quick Links </h1>{' '}
+          <h1 style={{ marginBottom: '2rem' }}> Quick Links </h1>
           <ul>
             <li>
               <a style={quickLinkStyle} href="//exun.co/19/schedule">
-                Schedule{' '}
-              </a>{' '}
-            </li>{' '}
+                Schedule
+              </a>
+            </li>
             <li>
               <a style={quickLinkStyle} href="//lnexun.com">
-                ln(Exun){' '}
-              </a>{' '}
-              (Results){' '}
-            </li>{' '}
+                ln(Exun)
+              </a>
+              (Results)
+            </li>
             <li>
               <a style={quickLinkStyle} href="//facebook.com/ExunClan">
-                Facebook Page{' '}
-              </a>{' '}
-            </li>{' '}
+                Facebook Page
+              </a>
+            </li>
             <li>
               <a style={quickLinkStyle} href="//exun.co/19/coc">
-                Code of Conduct{' '}
-              </a>{' '}
-            </li>{' '}
-          </ul>{' '}
-        </div>{' '}
+                Code of Conduct
+              </a>
+            </li>
+          </ul>
+        </div>
         <div style={{ marginTop: '6rem' }}>
           <EventList />
-        </div>{' '}
-      </Container>{' '}
+        </div>
+      </Container>
     </Layout>
   );
 };
