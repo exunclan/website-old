@@ -13,7 +13,7 @@ import Sponsors from '../components/sponsors';
 
 import styles from './index.module.css';
 
-const Grid = ({ children }) => <div className={styles.grid}>{children}</div>;
+const Grid = ({ children }) => <div className={styles.grid}> {children} </div>;
 Grid.propTypes = {
   children: PropTypes.node.isRequired,
 };
@@ -37,7 +37,7 @@ const Header = () => (
             color: '#456484',
           }}
         >
-          19-20 October
+          19 - 20 October
         </h2>
         <h1
           style={{
@@ -54,8 +54,8 @@ const Header = () => (
             maxWidth: 600,
           }}
         >
-          Exun 2019 is the 24th edition of Exun’s annual event. <br />
-          Do you have what it takes to participate?
+          Exun 2019 was the 24th edition of Exun’s annual event. <br />
+          Enter your email to stay tuned for updates
         </p>
         <InviteForm />
         <Sponsors />
@@ -90,11 +90,11 @@ const Splash = ({ fluid }) => (
       }}
     >
       <Container>
-        <h1 style={{ color: '#fff' }}>Bigger and better than ever before.</h1>
+        <h1 style={{ color: '#fff' }}> Bigger and better than ever before. </h1>
         <div style={{ maxWidth: 600, marginBottom: '3rem' }}>
           Exun has been organizing its flagship event for two decades. With Exun
-          2019, we’re continuing its legacy as a national event open to
-          participants from around the country.
+          2019, we continued its legacy as a national event open to participants
+          from around the country.
         </div>
       </Container>
     </div>
@@ -117,7 +117,7 @@ const IndexPage = ({ data }) => {
       <Splash fluid={data.file.childImageSharp.fluid} />
       <Container>
         <div style={{ marginTop: '6rem' }}>
-          <h1 style={{ marginBottom: '2rem' }}>Quick Links</h1>
+          <h1 style={{ marginBottom: '2rem' }}> Quick Links </h1>
           <ul>
             <li>
               <a style={quickLinkStyle} href="//exun.co/19/schedule">
@@ -127,7 +127,7 @@ const IndexPage = ({ data }) => {
             <li>
               <a style={quickLinkStyle} href="//lnexun.com">
                 ln(Exun)
-              </a>{' '}
+              </a>
               (Results)
             </li>
             <li>

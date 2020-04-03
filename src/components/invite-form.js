@@ -19,30 +19,32 @@ class InviteForm extends React.Component {
 
   complete(success) {
     let completeColor = '#dd637e';
-    let completeText = 'Invite Already Requested';
+    let completeText = 'Already Subscribed';
     if (success) {
       completeColor = '#42c8c5';
-      completeText = 'Invite Requested';
+      completeText = 'Subscribed!';
     }
     this.setState({ complete: true, completeColor, completeText });
   }
 
   request(e) {
     e.preventDefault();
+
     const { email } = this.state;
-    fetch('https://register.exunclan.com/api/invite/request', {
+    fetch('https://email-api.now.sh/', {
       method: 'POST',
       body: JSON.stringify({
-        email,
+        email: email,
       }),
       headers: {
         'Content-Type': 'application/json',
       },
-      mode: 'cors',
     })
-      .then(res => {
-        if (res.status === 200) this.complete(true);
-        else this.complete(false);
+      .then(async res => res.json())
+      .then(data => {
+        const code = data.statusCode;
+        if (code === 300) this.complete(false);
+        else this.complete(true);
       })
       .catch(err => {
         // eslint-disable-next-line no-console
@@ -93,7 +95,7 @@ class InviteForm extends React.Component {
             marginRight: 'auto',
           }}
         >
-          Request Invite
+          Stay Tuned
         </button>
       </form>
     );
