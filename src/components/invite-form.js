@@ -71,7 +71,7 @@ class InviteForm extends React.Component {
           boxShadow: 'none',
         }}
       >
-        {completeText}{' '}
+        {completeText}
       </button>
     );
   }
@@ -87,7 +87,7 @@ class InviteForm extends React.Component {
           value={email}
           placeholder="Email"
           className={styles.input}
-        />{' '}
+        />
         <button
           type="submit"
           style={{
@@ -95,8 +95,8 @@ class InviteForm extends React.Component {
             marginRight: 'auto',
           }}
         >
-          Stay Tuned{' '}
-        </button>{' '}
+          Stay Tuned
+        </button>
       </form>
     );
   }
