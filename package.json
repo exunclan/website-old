@@ -35,6 +35,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
+    "clean": "rm -rf node_modules .cache public",
     "deploy": "gatsby build && gh-pages --dist public --branch master"
   },
   "repository": {
