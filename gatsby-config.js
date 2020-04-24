@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Exun Clan',
+    siteUrl: 'https://exunclan.com',
     description:
       'Exun Clan is the technology club at Delhi Public School, R.K. Puram.',
     author: '@exunclan',
@@ -43,6 +44,7 @@ module.exports = {
         head: true,
       },
     },
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',
