@@ -1,8 +1,6 @@
-name: Build and Deploy
+name: Build
 
 on:
-  push:
-    branches: [develop]
   pull_request:
     branches: [develop]
 
@@ -27,12 +25,3 @@ jobs:
           npm i
           npm i -g gatsby-cli
           npm run build
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: master
-          FOLDER: public
-          SINGLE_COMMIT: true
