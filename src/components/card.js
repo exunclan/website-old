@@ -16,7 +16,7 @@ const Card = ({ children, style }) => (
 Card.propTypes = {
   children: PropTypes.node.isRequired,
   // eslint-disable-next-line react/forbid-prop-types
-  style: PropTypes.object.isRequired,
+  style: PropTypes.object,
 };
 
 export default Card;
