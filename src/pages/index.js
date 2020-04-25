@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
+import { ToastProvider } from 'react-toast-notifications';
 
 import Layout from '../components/layout';
 import Container from '../components/container';
@@ -57,7 +58,9 @@ const Header = () => (
           Exun 2019 was the 24th edition of Exun’s annual event. <br />
           Enter your email to stay tuned for updates.
         </p>
-        <InviteForm />
+        <ToastProvider>
+          <InviteForm />
+        </ToastProvider>
         <Sponsors />
       </div>
     </Container>
