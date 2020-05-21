@@ -55,7 +55,7 @@ const pages = [
       'https://docs.google.com/document/d/1n60Upx3FkRpZT_rHwyQnVI6kZ-z274YPOHXXhuPl_WI/edit?usp=sharing',
   },
   {
-    name: 'Crytic Hunts',
+    name: 'Cryptic Hunts',
     url:
       'https://docs.google.com/document/d/1bpeRtE2YC09lHyKIuPUFJkxxp1gfuPPvRneCMJxPv7U/edit?usp=sharing',
   },
