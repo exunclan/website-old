@@ -12,7 +12,7 @@ const pages = [
   {
     name: 'Programming',
     url:
-      '"https://docs.google.com/document/d/1SGbqGwCewDjNVt36wCMepo93DfZEPQYsrhfJSR67XQ0/edit?usp=sharing',
+      'https://docs.google.com/document/d/1SGbqGwCewDjNVt36wCMepo93DfZEPQYsrhfJSR67XQ0/edit?usp=sharing',
   },
   {
     name: 'Quizzing',
