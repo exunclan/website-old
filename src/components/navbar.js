@@ -30,9 +30,14 @@ const links = [
     href: '/archive',
   },
   {
+    title: 'Resources',
+    href: '/resources',
+  },
+  {
     title: 'Contact',
     href: '/contact',
   },
+  ,
   {
     title: 'ln(exun)',
     href: '//lnexun.com',
@@ -50,7 +55,7 @@ class Navbar extends React.Component {
   }
 
   toggle() {
-    this.setState(prevState => ({
+    this.setState((prevState) => ({
       active: !prevState.active,
     }));
   }
@@ -72,7 +77,7 @@ class Navbar extends React.Component {
             }
           }
         `}
-        render={data => (
+        render={(data) => (
           <nav className={styles.wrapper}>
             <Link to="/" style={{ lineHeight: 0 }}>
               <Img fixed={data.file.childImageSharp.fixed} />
@@ -97,7 +102,7 @@ class Navbar extends React.Component {
                 ✕
               </button>
               <ul className={styles.links}>
-                {links.map(link => (
+                {links.map((link) => (
                   <li className={styles.linksItem} key={link.href}>
                     {link.external ? (
                       <a href={link.href}>{link.title}</a>
