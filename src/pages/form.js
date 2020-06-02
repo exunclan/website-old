@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { useLocation } from '@reach/router';
+import { navigate } from '@reach/router';
 import queryString from 'query-string';
 import PropTypes from 'prop-types';
 import base64 from 'base-64';
@@ -14,6 +14,8 @@ import styles from './about.module.css';
 import departments from '../components/formItem';
 import { useState } from 'react';
 import axios from 'axios';
+
+import './form.module.css';
 
 const Grid = ({ children }) => <div className={styles.grid}>{children}</div>;
 toast.configure();
@@ -37,30 +39,31 @@ class eLite extends Component {
             this.state.email
           )}?array=${JSON.stringify(
             this.state.list
-              .filter((dept) => {
+              .filter(dept => {
                 return dept.selected == true;
               })
-              .map((value) => {
+              .map(value => {
                 return value.name;
               })
           )}`
         )
-        .then((response) => {
-          toast('Form Submitted!', {
-            position: 'top-right',
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-          });
-          // handle success
-          console.log(response);
-          this.setState({ loading: false });
-          this.setState({ submitted: true });
+        .then(response => {
+          // toast('Form Submitted!', {
+          //   position: 'top-right',
+          //   autoClose: 5000,
+          //   hideProgressBar: false,
+          //   closeOnClick: true,
+          //   pauseOnHover: true,
+          //   draggable: true,
+          //   progress: undefined,
+          // });
+          // // handle success
+          // console.log(response);
+          // this.setState({ loading: false });
+          // this.setState({ submitted: true });
+          navigate('/thankyou');
         })
-        .catch((error) => {
+        .catch(error => {
           // handle error
           console.log(error);
           toast('An error occured, please try again.', {
@@ -78,9 +81,9 @@ class eLite extends Component {
         });
     };
 
-    const selectDept = (id) => {
+    const selectDept = id => {
       this.setState({
-        list: this.state.list.map((dept) => {
+        list: this.state.list.map(dept => {
           if (dept.id === id) {
             return {
               id: dept.id,
@@ -93,7 +96,7 @@ class eLite extends Component {
         }),
       });
     };
-    const FormOpt = (props) => {
+    const FormOpt = props => {
       if (props.name.name === 'Creative') {
         return (
           <div>
@@ -109,12 +112,14 @@ class eLite extends Component {
                 style={{
                   fontSize: '13px',
                   lineHeight: '100%',
-                  padding: '0',
-                  margin: 0,
+                  padding: 0,
+                  marginTop: '-06px',
+                  marginBottom: '12px',
                 }}
               >
-                Graphic Design, Video Design, Audio Production, Web Development,{' '}
-                <br /> Game Development, App Development and 3D Design
+                This includes Graphic Design, Video Design, Audio Production,
+                Web Development, <br /> Game Development, App Development and 3D
+                Design
               </p>
             </span>
           </div>
@@ -185,7 +190,7 @@ class eLite extends Component {
                 postReq();
               }}
             >
-              Sign up for eLite
+              Sign up for e-Lite
             </button>
           </div>
         );
@@ -214,17 +219,17 @@ class eLite extends Component {
               padding: '10rem 0 5rem',
             }}
           >
-            <h1>e-Lite Reg Form</h1>
+            <h1>e-Lite Registration Form</h1>
 
             <RenderMain />
 
             <span>
               {console.log(
                 this.state.list
-                  .filter((dept) => {
+                  .filter(dept => {
                     return dept.selected == true;
                   })
-                  .map((value) => {
+                  .map(value => {
                     return value.name;
                   })
               )}
