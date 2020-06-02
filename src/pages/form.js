@@ -153,7 +153,7 @@ class eLite extends Component {
             <p>
               Hey there,{' '}
               <span style={{ textTransform: 'capitalize' }}>
-                {this.state.email.slice(6, -11)}
+                {this.state.email.slice(6, -11)}!
               </span>
               <br />
               Please select the department(s) you’d like to participate in:
