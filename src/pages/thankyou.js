@@ -20,7 +20,7 @@ export default () => (
           Thank you for registering! We will be e-mailing invitations to the
           Google Classroom(s) for the department(s) you have registered for,
           within 24 hours. All announcements and details regarding the
-          inductions for that department will be posed in the classroom.
+          inductions for that department will be posted in the classroom.
         </p>
         <p>
           If you wish to participate in another department and did not select it
