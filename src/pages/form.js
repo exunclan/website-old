@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { useLocation } from '@reach/router';
+import { navigate } from '@reach/router';
 import queryString from 'query-string';
 import PropTypes from 'prop-types';
 import base64 from 'base-64';
@@ -14,6 +14,8 @@ import styles from './about.module.css';
 import departments from '../components/formItem';
 import { useState } from 'react';
 import axios from 'axios';
+
+import './form.module.css';
 
 const Grid = ({ children }) => <div className={styles.grid}>{children}</div>;
 toast.configure();
@@ -46,19 +48,20 @@ class eLite extends Component {
           )}`
         )
         .then(response => {
-          toast('Form Submitted!', {
-            position: 'top-right',
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-          });
-          // handle success
-          console.log(response);
-          this.setState({ loading: false });
-          this.setState({ submitted: true });
+          // toast('Form Submitted!', {
+          //   position: 'top-right',
+          //   autoClose: 5000,
+          //   hideProgressBar: false,
+          //   closeOnClick: true,
+          //   pauseOnHover: true,
+          //   draggable: true,
+          //   progress: undefined,
+          // });
+          // // handle success
+          // console.log(response);
+          // this.setState({ loading: false });
+          // this.setState({ submitted: true });
+          navigate('/thankyou');
         })
         .catch(error => {
           // handle error
@@ -110,7 +113,8 @@ class eLite extends Component {
                   fontSize: '13px',
                   lineHeight: '100%',
                   padding: 0,
-                  margin: 0,
+                  marginTop: '-06px',
+                  marginBottom: '12px',
                 }}
               >
                 This includes Graphic Design, Video Design, Audio Production,
