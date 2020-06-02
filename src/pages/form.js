@@ -106,15 +106,15 @@ class eLite extends Component {
                 checked={props.name.selected}
                 onChange={() => selectDept(props.name.id)}
               />{' '}
-              {props.name.name}
+              {props.name.name}!
               <br />
               <p
                 style={{
                   fontSize: '13px',
                   lineHeight: '100%',
-                  padding: 0,
                   marginTop: '-06px',
                   marginBottom: '12px',
+                  paddingLeft: '20px'
                 }}
               >
                 This includes Graphic Design, Video Design, Audio Production,
@@ -153,10 +153,17 @@ class eLite extends Component {
             <p>
               Hey there,{' '}
               <span style={{ textTransform: 'capitalize' }}>
-                {this.state.email.slice(6, -11)}
+                {this.state.email.slice(6, -11)}!
               </span>
               <br />
-              Please select the department(s) you’d like to participate in:
+              Please select the department(s) you’d like to participate in.{' '}
+              <br /> You will only receive regular information and updates about
+              the departments you select, so please register carefully. To know
+              more about these departments, visit our{' '}
+              <a href="/resources" style={{ color: '#298bf5' }}>
+                resources
+              </a>
+              .
             </p>
             <RenderDept />
             <ButtonRender />
