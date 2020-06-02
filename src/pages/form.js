@@ -106,7 +106,7 @@ class eLite extends Component {
                 checked={props.name.selected}
                 onChange={() => selectDept(props.name.id)}
               />{' '}
-              {props.name.name}!
+              {props.name.name}
               <br />
               <p
                 style={{
