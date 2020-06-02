@@ -13,7 +13,7 @@ Grid.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-const AboutPage = () => (
+const ELitePage = () => (
   <Layout>
     <SEO title="e-Lite" />
     <Container>
@@ -43,4 +43,4 @@ const AboutPage = () => (
   </Layout>
 );
 
-export default AboutPage;
+export default ELitePage;
