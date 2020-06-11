@@ -40,7 +40,7 @@ const AboutPage = () => (
           with its prestigious membership.
         </p>
         <p>
-          With an alumni network of 300 individuals at companies and
+          With an alumni network of 334 individuals at companies and
           universities around the world, Exun is well connected to the
           contemporary technology landscape.
         </p>
@@ -54,7 +54,7 @@ const AboutPage = () => (
         <p>
           Having represented the school in various computing symposia in India
           and around the world, the club also hosts its annual computer
-          symposium, Exun. Exun has been held 23 times and has been a great
+          symposium, Exun. Exun has been held 24 times and has been a great
           success each time.
         </p>
         <table>
@@ -62,6 +62,12 @@ const AboutPage = () => (
             <tr>
               <th>Symposium</th>
               <th>Sponsor</th>
+            </tr>
+            <tr>
+              <td>Exun 2019</td>
+              <td>
+                BML Munjal University, Oxford University Press, Evelyn Learning, Digital India
+              </td>
             </tr>
             <tr>
               <td>Exun 2018</td>
