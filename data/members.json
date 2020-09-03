@@ -12,7 +12,8 @@
       { "name": "Alankar Dutta", "role": "Member", "image": "" },
       { "name": "Arsh Malik", "role": "Member", "image": "" },
       { "name": "Amadika Mahapatra", "role": "Member", "image": "" },
-      { "name": "Akshit Kumar", "role": "Member", "image": "" }
+      { "name": "Akshit Kumar", "role": "Member", "image": "" },
+      { "name": "Naman Mansukhani", "role": "Member", "image": "" }
     ]
   },
   {
@@ -57,11 +58,7 @@
     "year": "7th",
     "members": [
       { "name": "Nyra Bhushan", "role": "Member", "image": "" },
-      {
-        "name": "Anisha Mahajan",
-        "role": "Member",
-        "image": ""
-      }
+      { "name": "Anisha Mahajan", "role": "Member", "image": "" }
     ]
   }
 ]
