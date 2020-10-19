@@ -93,8 +93,8 @@ class Events extends React.Component {
                     <a
                       href={
                         event.shortlink
-                          ? `https://exun.co/19/${event.shortlink}`
-                          : `https://exun.co/19/${event.name
+                          ? `https://exun.co/20/${event.shortlink}`
+                          : `https://exun.co/20/${event.name
                               .toLowerCase()
                               .replace(' ', '')
                               .replace('-', '')}`
