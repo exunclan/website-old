@@ -21,49 +21,66 @@ Grid.propTypes = {
 
 const Header = () => (
   <header
-    style={{
-      borderBottom: '1px solid #eaeaef',
-    }}
+    style={
+      {
+        // borderBottom: '1px solid #eaeaef',
+      }
+    }
     className={styles.header}
   >
     <Container>
       <Navbar />
-      <div
+      {/* <div style={{ padding: '10rem 0 4rem', color: 'green' }}> */}
+      {/* <div
         style={{
           padding: '10rem 0 4rem',
         }}
-      >
-        <h2
-          style={{
-            color: '#456484',
-          }}
         >
-          19 - 20 October
+        <h2
+        style={{
+          color: '#456484',
+        }}
+        >
+        19 - 20 October
         </h2>
         <h1
-          style={{
-            marginTop: '-1rem',
-            color: '#298bf5',
-          }}
-          className={styles.heading}
+        style={{
+          marginTop: '-1rem',
+          color: '#298bf5',
+        }}
+        className={styles.heading}
         >
-          Exun 2019
+        Exun 2019
         </h1>
         <p
-          style={{
-            color: '#7c828a',
-            maxWidth: 600,
-          }}
+        style={{
+          color: '#7c828a',
+          maxWidth: 600,
+        }}
         >
-          Exun 2019 was the 24th edition of Exun’s annual event. <br />
-          Enter your email to stay tuned for updates.
+        Exun 2019 was the 24th edition of Exun’s annual event. <br />
+        Enter your email to stay tuned for updates.
         </p>
         <ToastProvider>
-          <InviteForm />
+        <InviteForm />
         </ToastProvider>
         <Sponsors />
-      </div>
+      </div> */}
     </Container>
+    <div className={styles.landingContainer}>
+      <Container style={{ padding: '0' }}>
+        <div className={styles.contentContainer}>
+          <div className={styles.emphasized}>Celebrating 25 years of Exun.</div>
+          <div>
+            <div className={styles.date}>15 - 22 November</div>
+            <div className={styles.name}>Exun 2020</div>
+            <a href="https://example.com/" target="_blank">
+              <div className={styles.register}>Register Now</div>
+            </a>
+          </div>
+        </div>
+      </Container>
+    </div>
   </header>
 );
 
@@ -74,7 +91,7 @@ const Splash = ({ fluid }) => (
       position: 'relative',
     }}
   >
-    <Img
+    {/* <Img
       objectFit="cover"
       fluid={fluid}
       style={{
@@ -85,18 +102,17 @@ const Splash = ({ fluid }) => (
         width: '100%',
         zIndex: -1,
       }}
-    />
+    /> */}
     <div
       style={{
-        color: '#fff',
         padding: '20rem 0',
       }}
     >
       <Container>
-        <h1 style={{ color: '#fff' }}> Bigger and better than ever before. </h1>
+        <h1> Bigger and better than ever before. </h1>
         <div style={{ maxWidth: 600, marginBottom: '3rem' }}>
           Exun has been organizing its flagship event for two decades. With Exun
-          2019, we continued its legacy as a national event open to participants
+          2012, we continued its legacy as a national event open to participants
           from around the country.
         </div>
       </Container>
@@ -117,29 +133,38 @@ const IndexPage = ({ data }) => {
     <Layout>
       <SEO title="Home" />
       <Header />
+      <Sponsors />
       <Splash fluid={data.file.childImageSharp.fluid} />
       <Container>
         <div style={{ marginTop: '6rem' }}>
           <h1 style={{ marginBottom: '2rem' }}> Quick Links </h1>
           <ul>
             <li>
-              <a style={quickLinkStyle} href="//exun.co/19/schedule">
+              <a
+                style={quickLinkStyle}
+                href="//exun.co/19/schedule"
+                target="_blank"
+              >
                 Schedule
               </a>
             </li>
             <li>
-              <a style={quickLinkStyle} href="//lnexun.com">
+              <a style={quickLinkStyle} href="//lnexun.com" target="_blank">
                 ln(Exun)
               </a>
               (Results)
             </li>
             <li>
-              <a style={quickLinkStyle} href="//facebook.com/ExunClan">
+              <a
+                style={quickLinkStyle}
+                href="//facebook.com/ExunClan"
+                target="_blank"
+              >
                 Facebook Page
               </a>
             </li>
             <li>
-              <a style={quickLinkStyle} href="//exun.co/19/coc">
+              <a style={quickLinkStyle} href="//exun.co/code" target="_blank">
                 Code of Conduct
               </a>
             </li>

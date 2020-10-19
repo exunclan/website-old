@@ -14,7 +14,7 @@ export default () => (
   <>
     <div
       style={{
-        borderTop: '1px solid #eaeaef',
+        // borderTop: '1px solid #eaeaef',
         margin: '3em 0',
         padding: '3em 0',
         paddingBottom: '',
@@ -26,6 +26,8 @@ export default () => (
           justifyContent: 'space-around',
           alignItems: 'center',
           flexWrap: 'wrap',
+          maxWidth: '1000px',
+          margin: '0 auto',
         }}
       >
         <img alt="BML Munjal University" src={BMLLogo} style={logoStyles} />
