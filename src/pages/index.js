@@ -139,7 +139,7 @@ const IndexPage = ({ data }) => {
         <div style={{ marginTop: '6rem' }}>
           <h1 style={{ marginBottom: '2rem' }}> Quick Links </h1>
           <ul>
-            <li>
+            {/* <li>
               <a
                 style={quickLinkStyle}
                 href="//exun.co/19/schedule"
@@ -147,12 +147,30 @@ const IndexPage = ({ data }) => {
               >
                 Schedule
               </a>
-            </li>
+            </li> */}
             <li>
+              <a
+                style={quickLinkStyle}
+                href="//exun.co/invite2020"
+                target="_blank"
+              >
+                Invite
+              </a>
+            </li>
+            {/* <li>
               <a style={quickLinkStyle} href="//lnexun.com" target="_blank">
                 ln(Exun)
-              </a>
+              </a>{' '}
               (Results)
+            </li> */}
+            <li>
+              <a
+                style={quickLinkStyle}
+                href="//exun.co/discord"
+                target="_blank"
+              >
+                Discord Server
+              </a>
             </li>
             <li>
               <a
