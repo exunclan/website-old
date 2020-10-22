@@ -179,7 +179,7 @@ export default [
     description: (
       <p>
         At Exun Clan, we feel that a diverse set of participants is important
-        for the success of our event. With that in mind, Exun 2019 will feature
+        for the success of our event. With that in mind, Exun 2020 will feature
         an exciting surprise event for girls in collaboration with Women Who
         Code Delhi.
       </p>
