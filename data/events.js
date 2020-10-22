@@ -155,21 +155,18 @@ export default [
     name: 'Make-A-Thon',
     description: (
       <p>
-        Build an innovative solution to solve some real-life problems in any
-        field using robotics (anything related to Engineering can be presented,
-        but it should meet the given requirements). Participants are required to
-        explain the challenge and provide a solution to it.
+        Build an innovative solution to solve real-life problems using Robotics
+        and Engineering.
       </p>
     ),
     eligibility: 'Open',
   },
   {
-    name: 'Biscuits - Build and Simulate Circuits',
+    name: 'BISCUITS - Build and Simulate Circuits',
     description: (
       <p>
-        Participants will have to solve 10-12 questions related to circuits and
-        electronics and the winners will be decided based on the number of
-        questions solved.
+        Race your problem solving skills in circuits and electronics in a new
+        cryptic hunt format.
       </p>
     ),
     eligibility: 'Open',
