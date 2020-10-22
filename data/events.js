@@ -80,7 +80,7 @@ export default [
     eligibility: 'Open',
   },
   {
-    name: 'Machine Learning',
+    name: 'ExML',
     description: (
       <p>
         Tired of the usual plug-and-chug in contests? Look no further, we bring
