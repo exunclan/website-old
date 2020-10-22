@@ -140,10 +140,10 @@ export default [
     eligibility: 'Open',
   },
   {
-    name: 'Domain²+ Gaming',
+    name: 'DomainSquare+ Gaming',
     description: (
       <p>
-        The prelims will be held online in multiple batches, on 10th,11th and
+        The prelims will be held online in multiple batches, on 10th, 11th and
         12th November. Games for the prelims will be revealed a week before on
         the Discord server. All further details will be given on the official
         Domain<sup>2</sup>+ Discord server.
