@@ -74,9 +74,20 @@ const Header = () => (
           <div>
             <div className={styles.date}>15 - 22 November</div>
             <div className={styles.name}>Exun 2020</div>
-            <a href="https://example.com/" target="_blank">
-              <div className={styles.register}>Register Now</div>
-            </a>
+            <div
+              className={styles.name}
+              style={{ fontSize: '25px', marginTop: '25px' }}
+            >
+              Register
+            </div>
+            <div className={styles.registerButtons}>
+              <a href="//exun.co/schoolreg" target="_blank">
+                <div className={styles.register}>School</div>
+              </a>
+              <a href="//exun.co/independentreg" target="_blank">
+                <div className={styles.register}>Independent</div>
+              </a>
+            </div>
           </div>
         </div>
       </Container>
@@ -105,15 +116,16 @@ const Splash = ({ fluid }) => (
     /> */}
     <div
       style={{
-        padding: '20rem 0',
+        padding: '5rem 0',
       }}
     >
       <Container>
         <h1> Bigger and better than ever before. </h1>
-        <div style={{ maxWidth: 600, marginBottom: '3rem' }}>
-          Exun has been organizing its flagship event for two decades. With Exun
-          2012, we continued its legacy as a national event open to participants
-          from around the country.
+        <div style={{ maxWidth: 600 }}>
+          Exun has been organizing its annual flagship event for over two
+          decades. With Exun 2020, we're going international — participants from
+          all around the globe, coming together to celebrate the essence of
+          technology.
         </div>
       </Container>
     </div>
@@ -139,15 +151,6 @@ const IndexPage = ({ data }) => {
         <div style={{ marginTop: '6rem' }}>
           <h1 style={{ marginBottom: '2rem' }}> Quick Links </h1>
           <ul>
-            {/* <li>
-              <a
-                style={quickLinkStyle}
-                href="//exun.co/19/schedule"
-                target="_blank"
-              >
-                Schedule
-              </a>
-            </li> */}
             <li>
               <a
                 style={quickLinkStyle}
@@ -155,6 +158,15 @@ const IndexPage = ({ data }) => {
                 target="_blank"
               >
                 Invite
+              </a>
+            </li>
+            <li>
+              <a
+                style={quickLinkStyle}
+                href="//exun.co/schedule"
+                target="_blank"
+              >
+                Schedule
               </a>
             </li>
             {/* <li>

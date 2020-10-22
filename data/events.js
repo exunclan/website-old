@@ -29,10 +29,12 @@ export default [
     description: (
       <p>
         Sudocrypt, Exun Clan’s annual online cryptic hunt, will be held over 48
-        hours. Details will be announced soon.
+        hours from 00:00:00 IST on 9th November to 23:59:59 IST on 10th
+        November. Details will be released soon.
       </p>
     ),
     eligibility: 'Open',
+    shortlink: '//sudocrypt.com',
   },
   {
     name: 'Competitive Programming',
@@ -43,7 +45,6 @@ export default [
       </p>
     ),
     eligibility: 'Open',
-    shortlink: 'cp',
   },
   {
     name: 'LessWrong',
@@ -55,7 +56,6 @@ export default [
       </p>
     ),
     eligibility: 'Open',
-    shortlink: 'lesswrong',
   },
   {
     name: 'Lockout',
@@ -67,7 +67,6 @@ export default [
       </p>
     ),
     eligibility: 'Open',
-    shortlink: 'lockout',
   },
   {
     name: 'Turing Test',
@@ -91,13 +90,11 @@ export default [
       </p>
     ),
     eligibility: 'Open',
-    shortlink: 'ml',
   },
   {
     name: 'Group Discussion',
     description: <p>A test of creativity, logical skills and wit.</p>,
     eligibility: 'Open',
-    shortlink: 'gd',
   },
   {
     name: 'Hardware',
@@ -132,17 +129,6 @@ export default [
     eligibility: 'Open',
   },
   {
-    name: 'Junior Quiz',
-    description: (
-      <p>
-        An enigmatic quiz based on the field of computers, technology, and
-        recent events in the world of IT &mdash; the perfect platform for
-        upcoming quizzers to test their mettle.
-      </p>
-    ),
-    eligibility: 'Open',
-  },
-  {
     name: 'Crossword',
     description: (
       <p>
@@ -164,56 +150,18 @@ export default [
       </p>
     ),
     eligibility: 'Open',
-    shortlink: null,
   },
-  // {
-  //   name: 'Domain²+ Gaming Quiz',
-  //   description: (
-  //     <p>
-  //       An enigmatic quiz cross based on the field of gaming- a battleground for
-  //       seasoned professionals to test their wits under extreme pressure.
-  //     </p>
-  //   ),
-  //   eligibility: 'Open',
-  //   shortlink: null,
-  // },
-  // {
-  //   name: 'Delhi-NCR Jr. Gaming Championship Finals',
-  //   description: (
-  //     <p>
-  //       The finals of the Delhi-NCR Jr. Gaming Championship, of which the
-  //       qualifiers were held in the 15 schools that registered for it.
-  //     </p>
-  //   ),
-  //   eligibility: 'Open',
-  //   shortlink: null,
-  // },
-  // {
-  //   name: 'NOVA 2.0 (RoboRace)',
-  //   description: <p>May the fastest circuit win.</p>,
-  //   eligibility: 'Open',
-  //   shortlink: 'roborace',
-  // },
-  // {
-  //   name: 'MX+C',
-  //   description: (
-  //     <p>
-  //       Build a line following robot which is capable of following a black line
-  //       on a white surface in the least possible time.
-  //     </p>
-  //   ),
-  //   eligibility: 'Open',
-  // },
   {
-    name: 'Innovate (Robotics)',
+    name: 'Make-A-Thon',
     description: (
       <p>
-        The focus of the event is to build an innovative solution to solve
-        real-life problems using robotics and technology.
+        Build an innovative solution to solve some real-life problems in any
+        field using robotics (anything related to Engineering can be presented,
+        but it should meet the given requirements). Participants are required to
+        explain the challenge and provide a solution to it.
       </p>
     ),
     eligibility: 'Open',
-    shortlink: 'innovate',
   },
   {
     name: 'Biscuits - Build and Simulate Circuits',
@@ -225,7 +173,6 @@ export default [
       </p>
     ),
     eligibility: 'Open',
-    shortlink: 'biscuits',
   },
   {
     name: 'Girls in Tech by WWC Delhi',
@@ -238,7 +185,6 @@ export default [
       </p>
     ),
     eligibility: 'Open',
-    shortlink: null,
   },
   {
     name: 'Cubing by CubXL',
@@ -256,6 +202,5 @@ export default [
       </div>
     ),
     eligibility: 'Open',
-    shortlink: 'cubing',
   },
 ];
