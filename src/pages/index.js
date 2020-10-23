@@ -169,6 +169,11 @@ const IndexPage = ({ data }) => {
                 Schedule
               </a>
             </li>
+            <li>
+              <a style={quickLinkStyle} href="//sudocrypt.com" target="_blank">
+                Sudocrypt
+              </a>
+            </li>
             {/* <li>
               <a style={quickLinkStyle} href="//lnexun.com" target="_blank">
                 ln(Exun)
