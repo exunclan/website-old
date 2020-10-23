@@ -1,0 +1,195 @@
+[
+  {
+    "year": "12th",
+    "members": [
+      {
+        "name": "Alhad Sethi",
+        "role": "Member",
+        "image": "./images/alhad.jpg"
+      },
+      {
+        "name": "Natasha Arya",
+        "role": "Member",
+        "image": "./images/natasha.jpg"
+      },
+      {
+        "name": "Shashwat Chandra",
+        "role": "Member",
+        "image": "./images/shashwatchandra.jpg"
+      },
+      {
+        "name": "Priyanshi Ahuja",
+        "role": "Member",
+        "image": "./images/priyanshi.jpg"
+      },
+      {
+        "name": "Saranyaa Kashyap",
+        "role": "Member",
+        "image": "./images/saranyaa.jpg"
+      },
+      { "name": "Areeb Nabi", "role": "Member", "image": "./images/areeb.jpg" },
+      {
+        "name": "Alankar Dutta",
+        "role": "Member",
+        "image": "./images/alankar.jpg"
+      },
+      { "name": "Arsh Malik", "role": "Member", "image": "./images/arsh.jpg" },
+      {
+        "name": "Amadika Mahapatra",
+        "role": "Member",
+        "image": "./images/amadika.jpg"
+      },
+      {
+        "name": "Akshit Kumar",
+        "role": "Member",
+        "image": "./images/akshit.jpg"
+      },
+      {
+        "name": "Naman Mansukhani",
+        "role": "Member",
+        "image": "./images/namanmansukhani.jpg"
+      }
+    ]
+  },
+  {
+    "year": "11th",
+    "members": [
+      {
+        "name": "Angad Singh",
+        "role": "Member",
+        "image": "./images/angad.jpg"
+      },
+      {
+        "name": "Ashvin Verma",
+        "role": "Member",
+        "image": "./images/ashvin.jpg"
+      },
+      {
+        "name": "Somesh Kar",
+        "role": "Member",
+        "image": "./images/somesh.jpg"
+      },
+      {
+        "name": "Rudraneel Sinha",
+        "role": "Member",
+        "image": "./images/rudraneel.jpg"
+      },
+      {
+        "name": "Rahul Bhargava",
+        "role": "Member",
+        "image": "./images/rahul.jpg"
+      },
+      {
+        "name": "Anirudh Vempati",
+        "role": "Member",
+        "image": "./images/anirudh.jpg"
+      },
+      {
+        "name": "Ishir Bhardwaj",
+        "role": "Member",
+        "image": "./images/ishir.jpg"
+      },
+      {
+        "name": "Josh Randhawa",
+        "role": "Member",
+        "image": "./images/josh.jpg"
+      },
+      {
+        "name": "Ashay Srivastava",
+        "role": "Member",
+        "image": "./images/ashay.jpg"
+      },
+      {
+        "name": "Vinayak Pachnanda",
+        "role": "Member",
+        "image": "./images/vinayak.jpg"
+      },
+      {
+        "name": "Saathvik Sharma",
+        "role": "Member",
+        "image": "./images/saathvik.jpg"
+      },
+      {
+        "name": "Pulkit Garg",
+        "role": "Member",
+        "image": "./images/pulkit.jpg"
+      },
+      {
+        "name": "Sarthak Mangla",
+        "role": "Member",
+        "image": "./images/sarthakmangla.jpg"
+      },
+      {
+        "name": "Shashwat Mundra",
+        "role": "Member",
+        "image": "./images/shashwatmundra.jpg"
+      },
+      {
+        "name": "Pearl Dhingra",
+        "role": "Member",
+        "image": "./images/pearl.jpg"
+      },
+      {
+        "name": "Aryaman Chandra",
+        "role": "Member",
+        "image": "./images/aryaman.jpg"
+      },
+      { "name": "Vir Malhotra", "role": "Member", "image": "./images/vir.jpg" },
+      {
+        "name": "Sarthak Asotra",
+        "role": "Member",
+        "image": "./images/sarthakasotra.jpg"
+      }
+    ]
+  },
+  {
+    "year": "9th",
+    "members": [
+      {
+        "name": "Shivansh Gupta",
+        "role": "Member",
+        "image": "./images/shivansh.jpg"
+      },
+      {
+        "name": "Pratyush Vempati",
+        "role": "Member",
+        "image": "./images/pratyush.jpg"
+      }
+    ]
+  },
+  {
+    "year": "8th",
+    "members": [
+      {
+        "name": "Saksham Raheja",
+        "role": "Member",
+        "image": "./images/saksham.jpg"
+      },
+      {
+        "name": "Angad Miglani",
+        "role": "Member",
+        "image": "./images/angadmiglani.jpg"
+      },
+      {
+        "name": "Shiven Kanodia",
+        "role": "Member",
+        "image": "./images/shiven.jpg"
+      }
+    ]
+  },
+  {
+    "year": "7th",
+    "members": [
+      {
+        "name": "Nyra Bhushan",
+        "role": "Member",
+        "image": "./images/nyra.jpg"
+      },
+      {
+        "name": "Anisha Mahajan",
+        "role": "Member",
+        "image": "./images/anishamahajan.jpg"
+      }
+    ]
+  }
+]
