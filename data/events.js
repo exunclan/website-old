@@ -8,7 +8,7 @@ export default [
         Build is an event that requires creative participants from a team to
         come together and build solutions to pervasive problems. Build at Exun
         2020 will feature three separate sub-events, the Designathon, Hackathon,
-        and Unreality.
+        and Unreality (GameDev).
       </p>
     ),
     eligibility: 'Open',
@@ -30,7 +30,12 @@ export default [
       <p>
         Sudocrypt, Exun Clan’s annual online cryptic hunt, will be held over 48
         hours from 00:00:00 IST on 9th November to 23:59:59 IST on 10th
-        November. Details will be released soon.
+        November. Details will be released soon. Participants are required to
+        join the{' '}
+        <a href="//exun.co/sudocrypt" target="_blank">
+          <b>official Sudocrypt Discord server</b>
+        </a>
+        .
       </p>
     ),
     eligibility: 'Open',
