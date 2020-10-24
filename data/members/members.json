@@ -139,6 +139,11 @@
         "name": "Sarthak Asotra",
         "role": "Member",
         "image": "./images/sarthakasotra.jpg"
+      },
+      {
+        "name": "Shinjini Harisukh",
+        "role": "Member",
+        "image": "./images/shinjini.jpg"
       }
     ]
   },
@@ -189,6 +194,11 @@
         "name": "Anisha Mahajan",
         "role": "Member",
         "image": "./images/anishamahajan.jpg"
+      },
+      {
+        "name": "Vaibhav Sekhri",
+        "role": "Member",
+        "image": "./images/vaibhav.jpg"
       }
     ]
   }
