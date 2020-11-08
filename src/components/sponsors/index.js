@@ -4,6 +4,8 @@ import BMLLogo from './bml-munjal-logo.png';
 import EvelynLogo from './evelyn-logo.png';
 import OxfordLogo from './oxford.jpg';
 import DigitalIndia from './digitalindia.jpg';
+import WolframLogo from './wolfram.png';
+import DevfolioLogo from './devfolio.png';
 
 const logoStyles = {
   height: '100px',
@@ -31,9 +33,11 @@ export default () => (
         }}
       >
         <img alt="BML Munjal University" src={BMLLogo} style={logoStyles} />
-        <img alt="Evelyn" src={EvelynLogo} style={logoStyles} />
-        <img alt="Oxford" src={OxfordLogo} style={logoStyles} />
-        <img alt="Digital India" src={DigitalIndia} style={logoStyles} />
+        <img alt="Wolfram" src={WolframLogo} style={logoStyles} />
+        <img alt="Devfolio" src={DevfolioLogo} style={{ height: '50px', width: 'auto' }} />
+        {/* <img alt="Evelyn" src={EvelynLogo} style={logoStyles} /> */}
+        {/* <img alt="Oxford" src={OxfordLogo} style={logoStyles} /> */}
+        {/* <img alt="Digital India" src={DigitalIndia} style={logoStyles} /> */}
       </div>
     </div>
   </>

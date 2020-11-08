@@ -145,7 +145,7 @@ const IndexPage = ({ data }) => {
     <Layout>
       <SEO title="Home" />
       <Header />
-      {/* <Sponsors /> */}
+      <Sponsors />
       <Splash fluid={data.file.childImageSharp.fluid} />
       <Container>
         <div style={{ marginTop: '6rem' }}>
