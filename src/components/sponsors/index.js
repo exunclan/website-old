@@ -6,9 +6,11 @@ import OxfordLogo from './oxford.jpg';
 import DigitalIndia from './digitalindia.jpg';
 import WolframLogo from './wolfram.png';
 import DevfolioLogo from './devfolio.png';
+import AthenaLogo from './athena.png';
+import WwcDelhiLogo from './wwc.jpeg';
 
 const logoStyles = {
-  height: '100px',
+  height: '150px',
   width: 'auto',
 };
 
@@ -28,16 +30,31 @@ export default () => (
           justifyContent: 'space-around',
           alignItems: 'center',
           flexWrap: 'wrap',
-          maxWidth: '1000px',
+          maxWidth: '600px',
           margin: '0 auto',
         }}
       >
         <img alt="BML Munjal University" src={BMLLogo} style={logoStyles} />
-        <img alt="Wolfram" src={WolframLogo} style={logoStyles} />
-        <img alt="Devfolio" src={DevfolioLogo} style={{ height: '50px', width: 'auto' }} />
-        {/* <img alt="Evelyn" src={EvelynLogo} style={logoStyles} /> */}
-        {/* <img alt="Oxford" src={OxfordLogo} style={logoStyles} /> */}
+        <img alt="Athena" src={AthenaLogo} style={logoStyles} />
+        {/* <img alt="Wolfram" src={WolframLogo} style={logoStyles} /> */}
+        {/* <img alt="Devfolio" src={DevfolioLogo} style={{ height: '50px', width: 'auto' }} /> */}
         {/* <img alt="Digital India" src={DigitalIndia} style={logoStyles} /> */}
+      </div>
+      <div style={{ maxWidth: '600px', margin: '30px auto'  }}>
+        <div style={{ fontSize: '30px', marginBottom: '30px', textAlign: 'center' }}>Community Partners</div>
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'space-around',
+            alignItems: 'center',
+            flexWrap: 'wrap',
+         }}
+        >
+          <img alt="Wolfram" src={WolframLogo} style={{ height: '70px', width: 'auto' }} />
+          <img alt="Women Who Code Delhi" src={WwcDelhiLogo} style={{ height: '70px', width: 'auto' }} />
+          {/* <img alt="Devfolio" src={DevfolioLogo} style={{ height: '50px', width: 'auto' }} /> */}
+          {/* <img alt="Digital India" src={DigitalIndia} style={logoStyles} /> */}
+        </div>
       </div>
     </div>
   </>
