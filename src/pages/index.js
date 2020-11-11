@@ -192,6 +192,15 @@ const IndexPage = ({ data }) => {
             <li>
               <a
                 style={quickLinkStyle}
+                href="https://docs.google.com/document/d/1GQsqPgDt_v38wkblmI3NX6AM7TMJYR0iixnlh8dyaf4/view"
+                target="_blank"
+              >
+                Frequently Asked Questions
+              </a>
+            </li>
+            <li>
+              <a
+                style={quickLinkStyle}
                 href="//facebook.com/ExunClan"
                 target="_blank"
               >
