@@ -12,6 +12,7 @@ import SEO from '../components/seo';
 import EventList from '../components/event-list';
 import InviteForm from '../components/invite-form';
 import Sponsors from '../components/sponsors';
+import Talks from '../components/talks'
 
 import faqData from '../../data/faq';
 
@@ -213,6 +214,7 @@ const IndexPage = ({ data }) => {
         </div>
         <div style={{ marginTop: '6rem' }}>
           <EventList />
+          <Talks />
         </div>
       </Container>
     </Layout>
