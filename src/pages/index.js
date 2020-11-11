@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
+import FAQ from 'react-faq-component';
 import Img from 'gatsby-image';
 import { ToastProvider } from 'react-toast-notifications';
 
@@ -11,6 +12,8 @@ import SEO from '../components/seo';
 import EventList from '../components/event-list';
 import InviteForm from '../components/invite-form';
 import Sponsors from '../components/sponsors';
+
+import faqData from '../../data/faq';
 
 import styles from './index.module.css';
 
@@ -192,15 +195,6 @@ const IndexPage = ({ data }) => {
             <li>
               <a
                 style={quickLinkStyle}
-                href="https://docs.google.com/document/d/1GQsqPgDt_v38wkblmI3NX6AM7TMJYR0iixnlh8dyaf4/view"
-                target="_blank"
-              >
-                Frequently Asked Questions
-              </a>
-            </li>
-            <li>
-              <a
-                style={quickLinkStyle}
                 href="//facebook.com/ExunClan"
                 target="_blank"
               >
@@ -213,6 +207,9 @@ const IndexPage = ({ data }) => {
               </a>
             </li>
           </ul>
+        </div>
+        <div style={{ marginTop: '6rem' }}>
+          <FAQ data={faqData} />
         </div>
         <div style={{ marginTop: '6rem' }}>
           <EventList />
