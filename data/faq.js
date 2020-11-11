@@ -44,7 +44,23 @@ export default {
         <>
           <p>
             You can find complete descriptions of competitions by scrolling down
-            in the invite. The schedule is available at exun.co/schedule.
+            in the{' '}
+            <a
+              href="http://exun.co/invite2020"
+              target="_blank"
+              style={{ color: '#2977f5' }}
+            >
+              invite
+            </a>
+            . The schedule is available at{' '}
+            <a
+              href="http://exun.co/invite2020"
+              target="_blank"
+              style={{ color: '#2977f5' }}
+            >
+              exun.co/schedule
+            </a>
+            .
           </p>
         </>
       ),
@@ -55,8 +71,15 @@ export default {
       content: (
         <>
           <p>
-            Please address any queries to our email exun@dpsrkp.net — our team
-            will get back to you at the soonest.
+            Please address any queries to our email{' '}
+            <a
+              href="mailto:exun@dpsrkp.net"
+              target="_blank"
+              style={{ color: '#2977f5' }}
+            >
+              exun@dpsrkp.net
+            </a>{' '}
+            — our team will get back to you at the soonest.
           </p>
         </>
       ),
@@ -69,11 +92,11 @@ export default {
           <p>
             Participants who are not registering as part of a school or
             educational institution have to register as{' '}
-            <b>“independent” participants</b> (check Q7). Only certain
-            competitions are open to independent participation, which include:
-            Competitive Programming, Turing Test, Girls in Tech, SpaceTech,
-            Build, Machine Learning, Make-a-thon. Only a limited number of teams
-            can participate on behalf of a school, specifics in invite. The
+            <b>“independent” participants</b>. Only certain competitions are
+            open to independent participation, which include: Competitive
+            Programming, Turing Test, Girls in Tech, SpaceTech, Build, Machine
+            Learning, Make-a-thon. Only a limited number of teams can
+            participate on behalf of a school, specifics in invite. The
             school-registered competition teams which win a competition
             contribute points towards the school’s “overall” score. The school
             with the highest “overall” score wins the <b>Overall Trophy</b>.
@@ -89,8 +112,8 @@ export default {
         <>
           <p>
             International (out of India) participants can only participate as
-            “independent” participants in competitions (check Q5). However, they
-            can attend Exun Talks, taking place in Exun Week.
+            “independent” participants in competitions. However, they can attend
+            Exun Talks, taking place in Exun Week.
           </p>
         </>
       ),
