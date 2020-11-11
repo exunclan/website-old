@@ -3,19 +3,24 @@
     "year": "12th",
     "members": [
       {
-        "name": "Alhad Sethi",
-        "role": "Member",
-        "image": "./images/alhad.jpg"
-      },
-      {
         "name": "Natasha Arya",
-        "role": "Member",
+        "role": "President",
         "image": "./images/natasha.jpg"
       },
       {
         "name": "Shashwat Chandra",
-        "role": "Member",
+        "role": "President",
         "image": "./images/shashwatchandra.jpg"
+      },
+      {
+        "name": "Amadika Mahapatra",
+        "role": "Vice President",
+        "image": "./images/amadika.jpg"
+      },
+      {
+        "name": "Alhad Sethi",
+        "role": "Member",
+        "image": "./images/alhad.jpg"
       },
       {
         "name": "Priyanshi Ahuja",
@@ -34,11 +39,6 @@
         "image": "./images/alankar.jpg"
       },
       { "name": "Arsh Malik", "role": "Member", "image": "./images/arsh.jpg" },
-      {
-        "name": "Amadika Mahapatra",
-        "role": "Member",
-        "image": "./images/amadika.jpg"
-      },
       {
         "name": "Akshit Kumar",
         "role": "Member",
