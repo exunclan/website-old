@@ -1,0 +1,55 @@
+.responsive{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #eaeaef;
+    margin-top: 5%;
+    padding: 2.5rem;
+  }
+  .btn{
+    color: #298bf5;
+  }
+  .lefttalk{
+    padding-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .righttalk{
+    max-width: 70%;
+  }
+  .talksimg{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    display: block;
+    margin-top: 1rem
+  }
+  .talksh1{
+    font-size: 3rem;
+  }
+  .talksh2{
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #456484;
+    text-align: center;
+    padding-top: 2%;
+    /* margin-left: 25%; */
+  }
+  .talksh3{
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #456484,
+  }
+
+  @media (max-width: 768px) {
+    .responsive{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .lefttalk{
+      padding: 0;
+    }
+}
