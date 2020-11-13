@@ -12,5 +12,12 @@
         "title": "Game Development",
         "date": "17 November, 7:00 - 8:00 PM IST",
         "para": "Mix and Jam is a YouTube channel, created by André Cardoso, devoted to replicating fun mechanics from popular video games in the Unity development software, providing a unique and entertaining way to learn more about making games. He is an official content creator for Unity."
+    },
+    {
+        "name": "Udit Malik",
+        "image": "udit.jpg",
+        "title": "A new economy for a post-automation world",
+        "date": "20 November, 6:00 - 6:30 PM IST",
+        "para": "Udit Malik is an alumnus of Exun Clan and DPS RK Puram (Class of 2019), and is currently studying Computer Science and Mathematics at Vanderbilt University, and is extremely active in political discourse circles and local activism."
     }
 ]
