@@ -24,7 +24,7 @@ class List extends React.Component {
         return (
             <div>
                 <div>
-                    <h1 style={{ paddingTop: '7rem' }}>Exun Talks</h1>
+                    <h1>Exun Talks</h1>
                     <p>Exun Talks are a series of semi-professional sessions relating to technology, with speakers including Exun and DPS RKP alumni, YouTubers among others. We have an exciting lineup in store and more speakers to be confirmed soon! Register at <a target="_blank" className={styles.btn} href="//exun.co/talkreg">exun.co/talkreg</a> to receive all information and latest updates regarding Exun Talks.</p>
                 </div>
 
@@ -50,7 +50,7 @@ class List extends React.Component {
 
                             <div className={styles.responsive}>
                                 <div className={styles.lefttalk}>
-                                    <img className={styles.talksimg} src={require(`../../data/speakers/${list.image}.jpeg`)} alt="#error in the code" />
+                                    <img className={styles.talksimg} src={require(`../../data/speakers/${list.image}`)} alt="#error in the code" />
                                     <h2 className={styles.talksh2}>{list.name}</h2>
                                 </div>
                                 <div className={styles.righttalk}>

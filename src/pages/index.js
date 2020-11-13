@@ -210,11 +210,11 @@ const IndexPage = ({ data }) => {
           </ul>
         </div>
         <div style={{ marginTop: '6rem' }}>
-          <FAQ data={faqData} />
+          <Talks />
+          <EventList />
         </div>
         <div style={{ marginTop: '6rem' }}>
-          <EventList />
-          <Talks />
+          <FAQ data={faqData} />
         </div>
       </Container>
     </Layout>
