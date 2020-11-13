@@ -4,7 +4,7 @@ export default {
   title: <h1>Frequently Asked Questions</h1>,
   rows: [
     {
-      title: <div>What is Exun Clan?'</div>,
+      title: <span style={{ color: '#456484' }}>What is Exun Clan?'</span>,
       content: (
         <>
           <p>
