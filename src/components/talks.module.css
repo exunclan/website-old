@@ -16,6 +16,7 @@
   }
   .righttalk{
     max-width: 70%;
+    min-width: 70%;
   }
   .talksimg{
     border-radius: 50%;
