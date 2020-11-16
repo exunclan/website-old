@@ -4,7 +4,10 @@ import Card from './card';
 
 import styles from './talks.module.css';
 
-import list from '../../data/talk.json';
+import list from "../../data/talk"
+
+import parse from 'html-react-parser'
+
 
 class List extends React.Component {
     constructor(props) {
@@ -18,7 +21,6 @@ class List extends React.Component {
     toggle() {
         this.setState(prevState => ({ active: !prevState.active }));
     }
-
     render() {
         const { active } = this.state;
         return (
@@ -56,7 +58,7 @@ class List extends React.Component {
                                 <div className={styles.righttalk}>
                                     <h1 className={styles.talksh1}>{list.title}</h1>
                                     <h2>{list.date}</h2>
-                                    <p>{list.para}</p>
+                                    <p>{parse(list.para)}</p>
                                 </div>
                             </div>
                         ))}
