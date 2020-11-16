@@ -59,6 +59,7 @@ class List extends React.Component {
                                     <h1 className={styles.talksh1}>{list.title}</h1>
                                     <h2>{list.date}</h2>
                                     <p>{parse(list.para)}</p>
+                                    <p>{parse(list.live)}</p>
                                 </div>
                             </div>
                         ))}
