@@ -7,7 +7,7 @@ const talk =
             "title": "The history of AI and what its future holds",
             "date": "16 November, 3:00 - 4:00 PM IST",
             "para": "Ishaan Chugh is an alumnus of Exun Clan & Delhi Public RK Puram (Class of 2008) and Massachusetts Institute of Technology (Class of 2011). Having been involved in various endeavours like EagerPanda and <a style='color: #298bf5' target='_blank' href='https://mauna.ai'>mauna.ai</a>, Ishaan's expertise in the field of STEM is monumental, to say the least.",
-            "live": "Now live at <a style='color: #298bf5' target='_blank' href='https://exun.co/talks'>exun.co/talks</a>"
+            "live": "Now live at <a style='color: #298bf5' target='_blank' href='https://exun.co/talks'>exun.co/talks</a> "
         },
         {
             "name": "André Cardoso",
