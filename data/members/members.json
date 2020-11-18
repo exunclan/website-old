@@ -32,13 +32,21 @@
         "role": "Member",
         "image": "./images/saranyaa.jpg"
       },
-      { "name": "Areeb Nabi", "role": "Member", "image": "./images/areeb.jpg" },
+      {
+        "name": "Areeb Nabi",
+        "role": "Member",
+        "image": "./images/areeb.jpg"
+      },
       {
         "name": "Alankar Dutta",
         "role": "Member",
         "image": "./images/alankar.jpg"
       },
-      { "name": "Arsh Malik", "role": "Member", "image": "./images/arsh.jpg" },
+      {
+        "name": "Arsh Malik",
+        "role": "Member",
+        "image": "./images/arsh.jpg"
+      },
       {
         "name": "Akshit Kumar",
         "role": "Member",
@@ -134,7 +142,11 @@
         "role": "Member",
         "image": "./images/aryaman.jpg"
       },
-      { "name": "Vir Malhotra", "role": "Member", "image": "./images/vir.jpg" },
+      {
+        "name": "Vir Malhotra",
+        "role": "Member",
+        "image": "./images/vir.jpg"
+      },
       {
         "name": "Sarthak Asotra",
         "role": "Member",
