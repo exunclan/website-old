@@ -1,19 +1,18 @@
 const talk =
     [
-
-        {
-            "name": "Udit Malik",
-            "image": "udit.jpg",
-            "title": "A new economy for a post-automation world",
-            "date": "20 November, 6:00 - 6:30 PM IST ",
-            "para": "Udit Malik is an alumnus of Exun Clan and DPS RK Puram (Class of 2019), and is currently studying Computer Science and Mathematics at Vanderbilt University, and is extremely active in political discourse circles and local activism.",
-        },
         {
             "name": "Aarman Roy",
             "image": "aarman.jpg",
             "title": "Final_final_okaythisoneisfinal.psd",
             "date": "21 November, 5:00 - 6:00 PM IST ",
             "para": "Aarman Roy is an alumnus of Exun Clan (class of 2013-14) and currently studying at the School of Visual Arts, New York. He is the co-founder of Akademi, an upcoming publication dedicated to politics, art, culture and society. Join us here as he discusses his journey, his work with Akademi and why he believes his life and design career are always in progress - Just like our <em>finally final</em> designs",
+        },
+        {
+            "name": "Udit Malik",
+            "image": "udit.jpg",
+            "title": "A new economy for a post-automation world",
+            "date": "20 November, 6:00 - 6:30 PM IST ",
+            "para": "Udit Malik is an alumnus of Exun Clan and DPS RK Puram (Class of 2019), and is currently studying Computer Science and Mathematics at Vanderbilt University, and is extremely active in political discourse circles and local activism.",
         },
         {
             "name": "Shashwat Goel",
