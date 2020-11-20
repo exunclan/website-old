@@ -9,7 +9,7 @@
     "axios": "^0.19.2",
     "base-64": "^0.1.0",
     "crypto-js": "^4.0.0",
-    "gatsby": "^2.25.4",
+    "gatsby": "^2.27.0",
     "gatsby-image": "^2.4.12",
     "gatsby-plugin-google-analytics": "^2.3.10",
     "gatsby-plugin-manifest": "^2.4.17",
