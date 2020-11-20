@@ -63,7 +63,7 @@ class Events extends React.Component {
           }}
         >
           <div>
-            <h1 style={{ marginBottom: 0 }}>Events</h1>
+            <h1 style={{ marginBottom: 0, marginTop: "6rem" }}>Events</h1>
           </div>
           {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions */}
           <div
@@ -94,8 +94,8 @@ class Events extends React.Component {
                       {event.name}
                     </a>
                   ) : (
-                    event.name
-                  )}
+                      event.name
+                    )}
                 </h5>
                 <div>{event.description}</div>
               </Card>

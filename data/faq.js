@@ -4,7 +4,7 @@ export default {
   title: <h1>Frequently Asked Questions</h1>,
   rows: [
     {
-      title: 'What is Exun Clan?',
+      title: <span style={{ color: '#456484' }}>What is Exun Clan?</span>,
       content: (
         <>
           <p>
@@ -25,7 +25,7 @@ export default {
       ),
     },
     {
-      title: 'What is Exun 2020?',
+      title: <span style={{ color: '#456484' }}>What is Exun 2020?</span>,
       content: (
         <>
           <p>
@@ -39,7 +39,11 @@ export default {
       ),
     },
     {
-      title: 'Where are the competitions listed? What about the schedule?',
+      title: (
+        <span style={{ color: '#456484' }}>
+          Where are the competitions listed? What about the schedule?
+        </span>
+      ),
       content: (
         <>
           <p>
@@ -66,8 +70,12 @@ export default {
       ),
     },
     {
-      title:
-        'I have a doubt or query about participation in the symposium. How can I get it resolved?',
+      title: (
+        <span style={{ color: '#456484' }}>
+          I have a doubt or query about participation in the symposium. How can
+          I get it resolved?
+        </span>
+      ),
       content: (
         <>
           <p>
@@ -85,8 +93,12 @@ export default {
       ),
     },
     {
-      title:
-        'What is independent participation? How is it different from school participation?',
+      title: (
+        <span style={{ color: '#456484' }}>
+          What is independent participation? How is it different from school
+          participation?
+        </span>
+      ),
       content: (
         <>
           <p>
@@ -107,7 +119,11 @@ export default {
       ),
     },
     {
-      title: 'I am an international participant. Where can I participate?',
+      title: (
+        <span style={{ color: '#456484' }}>
+          I am an international participant. Where can I participate?
+        </span>
+      ),
       content: (
         <>
           <p>
@@ -119,8 +135,11 @@ export default {
       ),
     },
     {
-      title:
-        'I’m interested! Where can I get further information and register?',
+      title: (
+        <span style={{ color: '#456484' }}>
+          I’m interested! Where can I get further information and register?
+        </span>
+      ),
       content: (
         <>
           <p>
@@ -157,8 +176,12 @@ export default {
       ),
     },
     {
-      title:
-        'Do I need prerequisite knowledge for participation in competitions? Will there be workshops organised?',
+      title: (
+        <span style={{ color: '#456484' }}>
+          Do I need prerequisite knowledge for participation in competitions?
+          Will there be workshops organised?
+        </span>
+      ),
       content: (
         <>
           <p>
@@ -174,7 +197,11 @@ export default {
       ),
     },
     {
-      title: 'What and when are Exun Talks? Can I attend them?',
+      title: (
+        <span style={{ color: '#456484' }}>
+          What and when are Exun Talks? Can I attend them?
+        </span>
+      ),
       content: (
         <>
           <p>
@@ -201,7 +228,7 @@ export default {
       ),
     },
     {
-      title: 'What are the prizes?',
+      title: <span style={{ color: '#456484' }}>What are the prizes?</span>,
       content: (
         <>
           <p>
@@ -212,7 +239,11 @@ export default {
       ),
     },
     {
-      title: 'Why was I disqualified? Can I appeal?',
+      title: (
+        <span style={{ color: '#456484' }}>
+          Why was I disqualified? Can I appeal?
+        </span>
+      ),
       content: (
         <>
           <p>
