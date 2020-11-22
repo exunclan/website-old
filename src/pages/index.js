@@ -13,6 +13,7 @@ import EventList from '../components/event-list';
 import InviteForm from '../components/invite-form';
 import Sponsors from '../components/sponsors';
 import Talks from '../components/talks'
+import Fireside from '../components/fireside'
 
 import faqData from '../../data/faq';
 
@@ -210,6 +211,7 @@ const IndexPage = ({ data }) => {
           </ul>
         </div>
         <div style={{ marginTop: '6rem' }}>
+          <Fireside />
           <Talks />
           <EventList />
         </div>
