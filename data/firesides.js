@@ -15,7 +15,7 @@ const firesides = [
   },
   {
     img: 'manas.jpeg',
-    name: 'Saif Hasan',
+    name: 'Manas Mittal',
     post: "Exun President '01",
     work: 'Head of Product (Ads)',
     company: 'Uber, San Francisco',
