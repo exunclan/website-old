@@ -26,7 +26,7 @@ class List extends React.Component {
     return (
       <div>
         <div>
-          <h1>Exun Talks</h1>
+          <h1 style={{ marginTop: '6rem' }}>Exun Talks</h1>
           <p>
             Exun Talks are a series of semi-professional sessions relating to
             technology, with speakers including Exun and DPS RKP alumni,
