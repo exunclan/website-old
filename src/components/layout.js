@@ -13,6 +13,7 @@ import Footer from './footer';
 
 import './normalize.css';
 import './layout.css';
+import './fonts.css';
 
 const Layout = ({ children }) => {
   return (

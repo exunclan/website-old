@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
+import FAQ from 'react-faq-component';
 import Img from 'gatsby-image';
 import { ToastProvider } from 'react-toast-notifications';
 
@@ -11,6 +12,10 @@ import SEO from '../components/seo';
 import EventList from '../components/event-list';
 import InviteForm from '../components/invite-form';
 import Sponsors from '../components/sponsors';
+import Talks from '../components/talks'
+import Fireside from '../components/fireside'
+
+import faqData from '../../data/faq';
 
 import styles from './index.module.css';
 
@@ -21,49 +26,77 @@ Grid.propTypes = {
 
 const Header = () => (
   <header
-    style={{
-      borderBottom: '1px solid #eaeaef',
-    }}
+    style={
+      {
+        // borderBottom: '1px solid #eaeaef',
+      }
+    }
     className={styles.header}
   >
     <Container>
       <Navbar />
-      <div
+      {/* <div style={{ padding: '10rem 0 4rem', color: 'green' }}> */}
+      {/* <div
         style={{
           padding: '10rem 0 4rem',
         }}
-      >
-        <h2
-          style={{
-            color: '#456484',
-          }}
         >
-          19 - 20 October
+        <h2
+        style={{
+          color: '#456484',
+        }}
+        >
+        19 - 20 October
         </h2>
         <h1
-          style={{
-            marginTop: '-1rem',
-            color: '#298bf5',
-          }}
-          className={styles.heading}
+        style={{
+          marginTop: '-1rem',
+          color: '#298bf5',
+        }}
+        className={styles.heading}
         >
-          Exun 2019
+        Exun 2019
         </h1>
         <p
-          style={{
-            color: '#7c828a',
-            maxWidth: 600,
-          }}
+        style={{
+          color: '#7c828a',
+          maxWidth: 600,
+        }}
         >
-          Exun 2019 was the 24th edition of Exun’s annual event. <br />
-          Enter your email to stay tuned for updates.
+        Exun 2019 was the 24th edition of Exun’s annual event. <br />
+        Enter your email to stay tuned for updates.
         </p>
         <ToastProvider>
-          <InviteForm />
+        <InviteForm />
         </ToastProvider>
         <Sponsors />
-      </div>
+      </div> */}
     </Container>
+    <div className={styles.landingContainer}>
+      <Container style={{ padding: '0' }}>
+        <div className={styles.contentContainer}>
+          <div className={styles.emphasized}>Celebrating 25 years of Exun.</div>
+          <div>
+            <div className={styles.date}>15 - 22 November</div>
+            <div className={styles.name}>Exun 2020</div>
+            <div
+              className={styles.name}
+              style={{ fontSize: '25px', marginTop: '25px' }}
+            >
+              Register
+            </div>
+            <div className={styles.registerButtons}>
+              <a href="//exun.co/schoolreg" target="_blank">
+                <div className={styles.register}>School</div>
+              </a>
+              <a href="//exun.co/independentreg" target="_blank">
+                <div className={styles.register}>Independent</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </Container>
+    </div>
   </header>
 );
 
@@ -74,7 +107,7 @@ const Splash = ({ fluid }) => (
       position: 'relative',
     }}
   >
-    <Img
+    {/* <Img
       objectFit="cover"
       fluid={fluid}
       style={{
@@ -85,19 +118,19 @@ const Splash = ({ fluid }) => (
         width: '100%',
         zIndex: -1,
       }}
-    />
+    /> */}
     <div
       style={{
-        color: '#fff',
-        padding: '20rem 0',
+        padding: '5rem 0',
       }}
     >
       <Container>
-        <h1 style={{ color: '#fff' }}> Bigger and better than ever before. </h1>
-        <div style={{ maxWidth: 600, marginBottom: '3rem' }}>
-          Exun has been organizing its flagship event for two decades. With Exun
-          2019, we continued its legacy as a national event open to participants
-          from around the country.
+        <h1> Bigger and better than ever before. </h1>
+        <div style={{ maxWidth: 600 }}>
+          Exun has been organizing its annual flagship event for over two
+          decades. With Exun 2020, we're going international — participants from
+          all around the globe, coming together to celebrate the essence of
+          technology.
         </div>
       </Container>
     </div>
@@ -117,36 +150,73 @@ const IndexPage = ({ data }) => {
     <Layout>
       <SEO title="Home" />
       <Header />
+      <Sponsors />
       <Splash fluid={data.file.childImageSharp.fluid} />
       <Container>
         <div style={{ marginTop: '6rem' }}>
           <h1 style={{ marginBottom: '2rem' }}> Quick Links </h1>
           <ul>
             <li>
-              <a style={quickLinkStyle} href="//exun.co/19/schedule">
+              <a
+                style={quickLinkStyle}
+                href="//exun.co/invite2020"
+                target="_blank"
+              >
+                Invite
+              </a>
+            </li>
+            <li>
+              <a
+                style={quickLinkStyle}
+                href="//exun.co/schedule"
+                target="_blank"
+              >
                 Schedule
               </a>
             </li>
             <li>
-              <a style={quickLinkStyle} href="//lnexun.com">
-                ln(Exun)
+              <a style={quickLinkStyle} href="//sudocrypt.com" target="_blank">
+                Sudocrypt
               </a>
+            </li>
+            {/* <li>
+              <a style={quickLinkStyle} href="//lnexun.com" target="_blank">
+                ln(Exun)
+              </a>{' '}
               (Results)
+            </li> */}
+            <li>
+              <a
+                style={quickLinkStyle}
+                href="//exun.co/discord"
+                target="_blank"
+              >
+                Discord Server
+              </a>
             </li>
             <li>
-              <a style={quickLinkStyle} href="//facebook.com/ExunClan">
+              <a
+                style={quickLinkStyle}
+                href="//facebook.com/ExunClan"
+                target="_blank"
+              >
                 Facebook Page
               </a>
             </li>
             <li>
-              <a style={quickLinkStyle} href="//exun.co/19/coc">
+              <a style={quickLinkStyle} href="//exun.co/code" target="_blank">
                 Code of Conduct
               </a>
             </li>
           </ul>
         </div>
         <div style={{ marginTop: '6rem' }}>
+          <Fireside />
+          <Talks />
           <EventList />
+        </div>
+        <div style={{ marginTop: '6rem' }}>
+          <FAQ data={faqData} />
         </div>
       </Container>
     </Layout>

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 import Card from '../components/card';
 import Container from '../components/container';
@@ -34,25 +35,37 @@ const MembersPage = ({ data }) => (
           <div key={cls.year}>
             <h2 style={{ marginTop: '5rem' }}>{` ${cls.year}`}</h2>
             <Grid>
-              {cls.members.map(member => (
-                <Card key={member.name}>
-                  <div
-                    style={{
-                      fontWeight: '600',
-                      fontSize: '1.1em',
-                    }}
-                  >
-                    {member.name}
-                  </div>
-                  <div
-                    style={{
-                      fontSize: '0.9em',
-                    }}
-                  >
-                    {member.role}
-                  </div>
-                </Card>
-              ))}
+              {cls.members.map(member => {
+                return (
+                  <Card key={member.name}>
+                    <Img
+                      fixed={member.image.childImageSharp.fixed}
+                      style={{
+                        // height: 80,
+                        // width: 80,
+                        borderRadius: '50%',
+                        overflow: 'hidden',
+                        marginBottom: '1rem',
+                      }}
+                    />
+                    <div
+                      style={{
+                        fontWeight: '600',
+                        fontSize: '1.1em',
+                      }}
+                    >
+                      {member.name}
+                    </div>
+                    <div
+                      style={{
+                        fontSize: '0.9em',
+                      }}
+                    >
+                      {member.role}
+                    </div>
+                  </Card>
+                );
+              })}
             </Grid>
           </div>
         ))}
@@ -78,6 +91,13 @@ export const query = graphql`
         members {
           name
           role
+          image {
+            childImageSharp {
+              fixed(height: 80, width: 80, cropFocus: NORTH, fit: COVER) {
+                ...GatsbyImageSharpFixed
+              }
+            }
+          }
         }
       }
     }

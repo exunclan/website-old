@@ -1,15 +1,66 @@
 import React from 'react';
 
+class ApplyWithDevfolio extends React.Component {
+  componentDidMount = () => {
+    window.onload = this.loadApplyNowScript();
+  };
+
+  loadApplyNowScript = () => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co';
+    script.async = true;
+    document.body.appendChild(script);
+
+    script.onload = this.handleLoad;
+  };
+
+  handleLoad = () => {
+    new Devfolio({
+      key: 'exun',
+      buttonSelector: '#devfolio-apply-now',
+    });
+  };
+
+  render() {
+    return (
+      <button
+        id="devfolio-apply-now"
+        style={{
+          fontSize: '16px',
+          display: 'flex',
+          alignItems: 'center',
+          margin: '0 auto',
+        }}
+      >
+        <svg
+          class="logo"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="#fff"
+          viewBox="0 0 115.46 123.46"
+          style={{ height: '24px', width: '24px' }}
+        >
+          <path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" />
+          <path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z" />
+        </svg>
+        Apply with Devfolio
+      </button>
+    );
+  }
+}
+
 export default [
   {
     name: 'Build',
     description: (
-      <p>
-        Build is an event that requires creative participants from a team to
-        come together and build solutions to pervasive problems. Build at Exun
-        2019 will feature two separate events: the Designathon and the
-        Hackathon.
-      </p>
+      <>
+        <p>
+          Build is an event that requires creative participants from a team to
+          come together and build solutions to pervasive problems. Build at Exun
+          2020 will feature three separate sub-events, the Designathon,
+          Hackathon, and Unreality (GameDev).
+        </p>
+        <ApplyWithDevfolio />
+      </>
     ),
     eligibility: 'Open',
   },
@@ -29,10 +80,17 @@ export default [
     description: (
       <p>
         Sudocrypt, Exun Clan’s annual online cryptic hunt, will be held over 48
-        hours.
+        hours from 00:00:00 IST on 9th November to 23:59:59 IST on 10th
+        November. Details will be released soon. Participants are required to
+        join the{' '}
+        <a href="//exun.co/sudocrypt" target="_blank">
+          <b>official Sudocrypt Discord server</b>
+        </a>
+        .
       </p>
     ),
     eligibility: 'Open',
+    shortlink: '//sudocrypt.com',
   },
   {
     name: 'Competitive Programming',
@@ -43,7 +101,28 @@ export default [
       </p>
     ),
     eligibility: 'Open',
-    shortlink: 'cp',
+  },
+  {
+    name: 'LessWrong',
+    description: (
+      <p>
+        LessWrong is a first of a kind competitive programming event combining
+        the excitement of short contests with the forethought necessary for
+        preparing problems.
+      </p>
+    ),
+    eligibility: 'Open',
+  },
+  {
+    name: 'Lockout',
+    description: (
+      <p>
+        Another new addition to Exun 2020, Lockout is a competitive programming
+        event, where participants go head to head in a knockout style lockout
+        tournament featuring handpicked problems.
+      </p>
+    ),
+    eligibility: 'Open',
   },
   {
     name: 'Turing Test',
@@ -57,10 +136,21 @@ export default [
     eligibility: 'Open',
   },
   {
+    name: 'ExML',
+    description: (
+      <p>
+        Tired of the usual plug-and-chug in contests? Look no further, we bring
+        you a cross-disciplinary Machine Learning event where there will be a
+        rich variety of unique yet equally mesmerising machine learning
+        paradigms on display and in use.
+      </p>
+    ),
+    eligibility: 'Open',
+  },
+  {
     name: 'Group Discussion',
     description: <p>A test of creativity, logical skills and wit.</p>,
     eligibility: 'Open',
-    shortlink: 'gd',
   },
   {
     name: 'Hardware',
@@ -99,81 +189,63 @@ export default [
     description: (
       <p>
         A cryptic crossword based on wit, presence of mind, and an excellent
-        sense of humour. All answers will be related to the field of technology.
+        sense of humour. All answers will be related to the fields of computers,
+        technology, and recent events in the field of IT.
       </p>
     ),
     eligibility: 'Open',
   },
   {
-    name: 'Domain²+ Gaming',
+    name: 'DomainSquare+ Gaming',
     description: (
       <p>
-        The prelims will be held online in multiple batches, from October 4-7. A
-        Discord link will be released and the game to be played will be revealed
-        a week before. 30 players will qualify for the onsite round on Exun.
+        The prelims will be held online in multiple batches, on 10th, 11th and
+        12th November. Games for the prelims will be revealed a week before on
+        the Discord server. All further details will be given on the official
+        Domain<sup>2</sup>+ Discord server.
       </p>
     ),
     eligibility: 'Open',
-    shortlink: null,
   },
   {
-    name: 'Domain²+ Gaming Quiz',
+    name: 'Make-A-Thon',
     description: (
       <p>
-        An enigmatic quiz cross based on the field of gaming- a battleground for
-        seasoned professionals to test their wits under extreme pressure.
+        Build an innovative solution to solve real-life problems using Robotics
+        and Engineering.
       </p>
     ),
     eligibility: 'Open',
-    shortlink: null,
   },
   {
-    name: 'Delhi-NCR Jr. Gaming Championship Finals',
+    name: 'BISCUITS - Build and Simulate Circuits',
     description: (
       <p>
-        The finals of the Delhi-NCR Jr. Gaming Championship, of which the
-        qualifiers were held in the 15 schools that registered for it.
-      </p>
-    ),
-    eligibility: 'Open',
-    shortlink: null,
-  },
-  {
-    name: 'NOVA 2.0 (RoboRace)',
-    description: <p>May the fastest circuit win.</p>,
-    eligibility: 'Open',
-    shortlink: 'roborace',
-  },
-  {
-    name: 'MX+C',
-    description: (
-      <p>
-        Build a line following robot which is capable of following a black line
-        on a white surface in the least possible time.
+        Race your problem solving skills in circuits and electronics in a new
+        cryptic hunt format.
       </p>
     ),
     eligibility: 'Open',
   },
   {
-    name: 'Surprise Event For Girls',
+    name: 'Girls in Tech by WWC Delhi',
     description: (
       <p>
         At Exun Clan, we feel that a diverse set of participants is important
-        for the success of our event. With that in mind, Exun 2019 will feature
+        for the success of our event. With that in mind, Exun 2020 will feature
         an exciting surprise event for girls in collaboration with Women Who
         Code Delhi.
       </p>
     ),
     eligibility: 'Open',
-    shortlink: null,
   },
   {
     name: 'Cubing by CubXL',
     description: (
       <div>
         <p>
-          It’s always the small pieces that make the big picture. 2 participants
-          per school will compete individually in the following events:
+          It’s always the small pieces that make the big picture. Participants
+          can individually compete in 3 events:
         </p>
         <ul>
           <li>Pyraminx</li>
@@ -183,6 +255,5 @@ export default [
       </div>
     ),
     eligibility: 'Open',
-    shortlink: 'cubing',
   },
 ];
