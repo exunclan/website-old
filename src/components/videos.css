@@ -1,0 +1,21 @@
+@import '../../node_modules/react-modal-video/css/modal-video.min.css';
+
+.vids {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.vids-box {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+}
+.vids-img {
+  object-fit: cover;
+  width: 39rem;
+  height: 21.5rem;
+  cursor: pointer;
+}
+.modal-video-close-btn:hover {
+  background-color: transparent;
+}
