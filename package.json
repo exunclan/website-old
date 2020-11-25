@@ -31,6 +31,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-faq-component": "^1.2.1",
+    "react-google-slides": "^3.0.1",
     "react-helmet": "^5.2.1",
     "react-hook-form": "^5.7.2",
     "react-modal-video": "^1.2.6",

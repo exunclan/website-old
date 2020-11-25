@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import firesides from './../../data/firesides';
 import styles from './fireside.module.css';
+import ModalVideo from 'react-modal-video';
+import youtubeThumbnail from 'youtube-thumbnail';
 
 export default function fireside() {
+  const [isOpen, setOpen] = useState(false);
   return (
     <div>
       <h1>Exun Fireside Chat</h1>
@@ -39,6 +42,27 @@ export default function fireside() {
           </div>
         ))}
       </div>
+      {/* <div id="vid-box" className="vids-box">
+        <img
+          onClick={() => setOpen(true)}
+          className="vids-img"
+          src={
+            youtubeThumbnail('https://www.youtube.com/watch?v=Dfg8GxPafJA').high
+              .url
+          }
+          alt=""
+        />
+        <button className="vids-btn" onClick={() => setOpen(true)}>
+          Exun Fireside Chat
+        </button>
+        <ModalVideo
+          channel="youtube"
+          autoplay
+          isOpen={isOpen}
+          videoId={'Dfg8GxPafJA'}
+          onClose={() => setOpen(false)}
+        />
+      </div> */}
     </div>
   );
 }
