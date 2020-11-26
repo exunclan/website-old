@@ -19,6 +19,8 @@ import faqData from '../../data/faq';
 
 import styles from './index.module.css';
 import Videos from '../components/videos';
+4;
+import Slides from '../components/slides';
 
 const Grid = ({ children }) => <div className={styles.grid}> {children} </div>;
 Grid.propTypes = {
@@ -214,6 +216,7 @@ const IndexPage = ({ data }) => {
         <div style={{ marginTop: '6rem' }}>
           <Fireside />
           <Videos />
+          <Slides />
           <Talks />
           <EventList />
         </div>

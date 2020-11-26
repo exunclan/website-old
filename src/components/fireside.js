@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import firesides from './../../data/firesides';
 import styles from './fireside.module.css';
-import ModalVideo from 'react-modal-video';
-import youtubeThumbnail from 'youtube-thumbnail';
 
 export default function fireside() {
   const [isOpen, setOpen] = useState(false);

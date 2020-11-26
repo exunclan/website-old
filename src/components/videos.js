@@ -59,12 +59,6 @@ class Videos extends React.Component {
           })}
         </div>
         <h1 style={{ marginTop: '3rem' }}>Results</h1>
-        <ReactGoogleSlides
-          width="800rem"
-          height="480rem"
-          slidesLink="https://docs.google.com/presentation/d/11Pb7aDHt38LydehkRdkVrqM-t389YLpISmbkh7H0_Is/edit?usp=sharing"
-          showControls
-        />
       </div>
     );
   }
