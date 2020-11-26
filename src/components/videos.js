@@ -2,8 +2,6 @@ import React from 'react';
 import video from '../../data/video';
 import ModalVideo from 'react-modal-video';
 import './videos.css';
-import ReactGoogleSlides from 'react-google-slides';
-
 import youtubeThumbnail from 'youtube-thumbnail';
 
 class Videos extends React.Component {
