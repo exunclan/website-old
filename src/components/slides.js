@@ -2,7 +2,7 @@ import React from 'react';
 import ReactGoogleSlides from 'react-google-slides';
 
 function Slides() {
-  if (window !== undefined) {
+  if (typeof window !== undefined) {
     return (
       <div>
         <ReactGoogleSlides
