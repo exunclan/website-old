@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactGoogleSlides from 'react-google-slides';
 
 function Slides() {
-  const isBrowser = typeof window !== `undefined`;
+  // const isBrowser = typeof window !== `undefined`;
+  const [isBrowser, setIsBrowser] = useState(false);
+  useEffect(() => {
+    typeof window !== `undefined` ? setIsBrowser(true) : false;
+  });
   if (isBrowser) {
     return (
       <div>
