@@ -2,7 +2,8 @@ import React from 'react';
 import ReactGoogleSlides from 'react-google-slides';
 
 function Slides() {
-  if (typeof window !== undefined) {
+  const isBrowser = typeof window !== `undefined`;
+  if (isBrowser) {
     return (
       <div>
         <ReactGoogleSlides
@@ -13,8 +14,6 @@ function Slides() {
         />
       </div>
     );
-  } else {
-    return <h1>LOL</h1>;
   }
 }
 export default Slides;
