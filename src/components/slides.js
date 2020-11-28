@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactGoogleSlides from 'react-google-slides';
 
 function Slides() {
