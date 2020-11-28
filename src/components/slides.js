@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import ReactGoogleSlides from 'react-google-slides';
+// import ReactGoogleSlides from 'react-google-slides';
 
 export default class Slides extends Component {
   render() {
     const isBrowser = typeof window !== `undefined`;
+    const ReactGoogleSlides = isBrowser ? require('react-google-slides') : null;
     if (isBrowser) {
       return (
         <div>
