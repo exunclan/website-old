@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ReactGoogleSlides from 'react-google-slides';
 
 function Slides() {
-  // const isBrowser = typeof window !== `undefined`;
+  const isBrowser = typeof window !== `undefined`;
   if (isBrowser) {
     return (
       <div>
