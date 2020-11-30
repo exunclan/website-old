@@ -7,7 +7,7 @@ const linkstyle = {
 
 const Link = (props) => {
   return (
-    <a href={props.page} style={linkstyle}>
+    <a href={props.page} target="_blank" style={linkstyle}>
       {props.name}
     </a>
   );
