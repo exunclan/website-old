@@ -1,22 +1,16 @@
 import React, { Component } from 'react';
-// import ReactGoogleSlides from 'react-google-slides';
+import ReactGoogleSlides from 'react-google-slides';
 
-export default class Slides extends Component {
-  render() {
-    const isBrowser = typeof window !== `undefined`;
-    const ReactGoogleSlides = isBrowser ? require('react-google-slides') : null;
-    if (isBrowser) {
-      return (
-        <div>
-          <ReactGoogleSlides
-            width="800rem"
-            height="480rem"
-            slidesLink="https://docs.google.com/presentation/d/11Pb7aDHt38LydehkRdkVrqM-t389YLpISmbkh7H0_Is/edit?usp=sharing"
-            showControls
-          />
-        </div>
-      );
-    }
-    return null;
-  }
+export default function Slides() {
+  return (
+    <iframe
+      src="https://docs.google.com/presentation/d/e/2PACX-1vR7Wz5b3QAtV031bPPuWU59KTgdEbR-nFDYuN0PDGqUzM31mngWOAnIQKesOobvabb2LeyJgLIi0pSi/embed?start=false&loop=false&delayms=5000"
+      frameborder="0"
+      width="800"
+      height="480"
+      allowfullscreen="true"
+      mozallowfullscreen="true"
+      webkitallowfullscreen="true"
+    ></iframe>
+  );
 }
