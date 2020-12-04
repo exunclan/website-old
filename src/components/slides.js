@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactGoogleSlides from 'react-google-slides';
 
 export default function Slides() {
   return (
