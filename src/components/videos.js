@@ -2,7 +2,6 @@ import React from 'react';
 import video from '../../data/video';
 import ModalVideo from 'react-modal-video';
 import './videos.css';
-
 import youtubeThumbnail from 'youtube-thumbnail';
 
 class Videos extends React.Component {
@@ -57,6 +56,7 @@ class Videos extends React.Component {
             );
           })}
         </div>
+        <h1 style={{ marginTop: '3rem' }}>Results</h1>
       </div>
     );
   }

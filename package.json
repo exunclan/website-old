@@ -31,9 +31,11 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-faq-component": "^1.2.1",
+    "react-google-slides": "^3.0.1",
     "react-helmet": "^5.2.1",
     "react-hook-form": "^5.7.2",
     "react-modal-video": "^1.2.6",
+    "react-player": "^2.7.0",
     "react-toast-notifications": "^2.4.0",
     "react-toastify": "^6.0.8",
     "youtube-thumbnail": "^1.3.0"

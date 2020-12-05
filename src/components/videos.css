@@ -16,6 +16,9 @@
   height: 21.5rem;
   cursor: pointer;
 }
+.vids-btn {
+  width: 39rem;
+}
 .modal-video-close-btn:hover {
   background-color: transparent;
 }
