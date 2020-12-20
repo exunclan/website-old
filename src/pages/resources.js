@@ -32,6 +32,7 @@ const ResourcesPage = () => (
           to help newcomers navigate the fields of&nbsp;
           {ResourceList()} Before you begin, you may find it useful to learn{' '}
           <a
+            target="_blank"
             href="https://docs.google.com/document/d/1ON_SZS_0msRgfo8sB7jjtHDztXiqV17c8TmW22q-MSI/edit?usp=sharing"
             style={linkstyle}
           >
@@ -42,6 +43,7 @@ const ResourcesPage = () => (
         <p>
           Let us know if you like the resources{' '}
           <a
+            target="_blank"
             href="https://docs.google.com/forms/d/1awwX8ejmJE6Hvf4sfTyPI7weqZAYzYycnzFrCkygE4g/edit?usp=sharing"
             style={linkstyle}
           >
