@@ -32,3 +32,15 @@
   margin: 0;
   font-size: 0.9em;
 }
+#vid-box {
+  margin: 3rem 0 3rem 0;
+}
+@media screen and (max-width: 768px) {
+  .flex {
+    display: block;
+  }
+  .box {
+    width: 100%;
+    margin: 2rem 0 2rem 0;
+  }
+}
