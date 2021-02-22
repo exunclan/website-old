@@ -14,28 +14,28 @@
       },
       {
         "name": "Amadika Mahapatra",
-        "role": "Member",
+        "role": "Chief Advisor",
         "image": "./images/amadika.jpg"
       },
       {
         "name": "Alhad Sethi",
-        "role": "Member",
+        "role": "Chief Advisor",
         "image": "./images/alhad.jpg"
       },
       {
         "name": "Priyanshi Ahuja",
-        "role": "Member",
+        "role": "Chief Advisor",
         "image": "./images/priyanshi.jpg"
+      },
+      {
+        "name": "Areeb Nabi",
+        "role": "Chief Advisor",
+        "image": "./images/areeb.jpg"
       },
       {
         "name": "Saranyaa Kashyap",
         "role": "Member",
         "image": "./images/saranyaa.jpg"
-      },
-      {
-        "name": "Areeb Nabi",
-        "role": "Member",
-        "image": "./images/areeb.jpg"
       },
       {
         "name": "Alankar Dutta",
