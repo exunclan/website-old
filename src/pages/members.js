@@ -38,16 +38,19 @@ const MembersPage = ({ data }) => (
               {cls.members.map(member => {
                 return (
                   <Card key={member.name}>
-                    <Img
-                      fixed={member.image.childImageSharp.fixed}
-                      style={{
-                        // height: 80,
-                        // width: 80,
-                        borderRadius: '50%',
-                        overflow: 'hidden',
-                        marginBottom: '1rem',
-                      }}
-                    />
+                    {/* {member.image && (
+                      <Img
+                        fixed={member.image.childImageSharp.fixed}
+                        style={{
+                          // height: 80,
+                          // width: 80,
+                          borderRadius: '50%',
+                          overflow: 'hidden',
+                          marginBottom: '1rem',
+                        }}
+                      />
+                    )} */}
+
                     <div
                       style={{
                         fontWeight: '600',
