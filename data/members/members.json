@@ -136,6 +136,12 @@
         "name": "Aujasvit Datta",
         "role": "Member",
         "image": ""
+      },
+
+      {
+        "name": "Harit Gangwani",
+        "role": "Member",
+        "image": ""
       }
     ]
   },
@@ -188,6 +194,12 @@
         "name": "Saksham Raheja",
         "role": "Member",
         "image": "./images/saksham.jpg"
+      },
+
+      {
+        "name": "Avni Gupta",
+        "role": "Member",
+        "image": ""
       },
       {
         "name": "Angad Miglani",
