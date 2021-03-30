@@ -1,5 +1,65 @@
 [
   {
+    "year": "2020-21",
+    "alumni": [
+      {
+        "name": "Natasha Arya",
+        "role": "President",
+        "image": ""
+      },
+      {
+        "name": "Shashwat Chandra",
+        "role": "President",
+        "image": ""
+      },
+      {
+        "name": "Amadika Mahapatra",
+        "role": "Chief Advisor",
+        "image": ""
+      },
+      {
+        "name": "Alhad Sethi",
+        "role": "Chief Advisor",
+        "image": ""
+      },
+      {
+        "name": "Priyanshi Ahuja",
+        "role": "Chief Advisor",
+        "image": ""
+      },
+      {
+        "name": "Areeb Nabi",
+        "role": "Chief Advisor",
+        "image": ""
+      },
+      {
+        "name": "Saranyaa Kashyap",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Alankar Dutta",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Arsh Malik",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Akshit Kumar",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Naman Mansukhani",
+        "role": "Member",
+        "image": ""
+      }
+    ]
+  },
+  {
     "year": "2019-20",
     "alumni": [
       {
