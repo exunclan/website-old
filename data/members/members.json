@@ -1,6 +1,66 @@
 [
   {
-    "year": "12th",
+    "year": "12th (2020-21)",
+    "members": [
+      {
+        "name": "Natasha Arya",
+        "role": "President",
+        "image": ""
+      },
+      {
+        "name": "Shashwat Chandra",
+        "role": "President",
+        "image": ""
+      },
+      {
+        "name": "Amadika Mahapatra",
+        "role": "Chief Advisor",
+        "image": ""
+      },
+      {
+        "name": "Alhad Sethi",
+        "role": "Chief Advisor",
+        "image": ""
+      },
+      {
+        "name": "Priyanshi Ahuja",
+        "role": "Chief Advisor",
+        "image": ""
+      },
+      {
+        "name": "Areeb Nabi",
+        "role": "Chief Advisor",
+        "image": ""
+      },
+      {
+        "name": "Saranyaa Kashyap",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Alankar Dutta",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Arsh Malik",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Akshit Kumar",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Naman Mansukhani",
+        "role": "Member",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "year": "12th (2021-22)",
     "members": [
       {
         "name": "Angad Singh",
@@ -146,7 +206,7 @@
     ]
   },
   {
-    "year": "11th",
+    "year": "10th (2022-23)",
     "members": [
       {
         "name": "Kavin Desi Valli",
@@ -176,7 +236,7 @@
     ]
   },
   {
-    "year": "10th",
+    "year": "10th (2023-24)",
     "members": [
       {
         "name": "Shivansh Gupta",
