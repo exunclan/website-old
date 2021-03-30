@@ -3008,13 +3008,6 @@
   "resolved" "https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.2.0.tgz"
   "version" "2.2.0"
 
-"bindings@^1.5.0":
-  "integrity" "sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ=="
-  "resolved" "https://registry.npmjs.org/bindings/-/bindings-1.5.0.tgz"
-  "version" "1.5.0"
-  dependencies:
-    "file-uri-to-path" "1.0.0"
-
 "bl@^1.0.0":
   "integrity" "sha512-pvcNpa0UU69UT341rO6AYy4FVAIkUHuZXRIWbq+zHnsVcRzDDjIAhGuuYoi0d//cwIwtt4pkpKycWEfjdV+vww=="
   "resolved" "https://registry.npmjs.org/bl/-/bl-1.2.3.tgz"
@@ -3673,7 +3666,6 @@
     "anymatch" "^2.0.0"
     "async-each" "^1.0.1"
     "braces" "^2.3.2"
-    "fsevents" "^1.2.7"
     "glob-parent" "^3.1.0"
     "inherits" "^2.0.3"
     "is-binary-path" "^1.0.0"
@@ -3692,7 +3684,6 @@
   dependencies:
     "anymatch" "~3.1.1"
     "braces" "~3.0.2"
-    "fsevents" "~2.3.1"
     "glob-parent" "~5.1.0"
     "is-binary-path" "~2.1.0"
     "is-glob" "~4.0.1"
@@ -6463,19 +6454,6 @@
   "resolved" "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   "version" "1.0.0"
 
-"fsevents@^1.2.7":
-  "integrity" "sha512-oWb1Z6mkHIskLzEJ/XWX0srkpkTQ7vaopMQkyaEIoq0fmtFVxOthb8cCxeT+p3ynTdkk/RZwbgG4brR5BeWECw=="
-  "resolved" "https://registry.npmjs.org/fsevents/-/fsevents-1.2.13.tgz"
-  "version" "1.2.13"
-  dependencies:
-    "bindings" "^1.5.0"
-    "nan" "^2.12.1"
-
-"fsevents@~2.3.1":
-  "integrity" "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="
-  "resolved" "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
-  "version" "2.3.2"
-
 "fstream@^1.0.0", "fstream@^1.0.12":
   "integrity" "sha512-WvJ193OHa0GHPEL+AycEJgxvBEwyfRkN1vhjca23OaPVMCaLCXTd5qAu82AjTcgP1UJmytkOKb63Ypde7raDIg=="
   "resolved" "https://registry.npmjs.org/fstream/-/fstream-1.0.12.tgz"
@@ -8904,8 +8882,6 @@
   "integrity" "sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss="
   "resolved" "https://registry.npmjs.org/jsonfile/-/jsonfile-4.0.0.tgz"
   "version" "4.0.0"
-  dependencies:
-    "graceful-fs" "^4.1.6"
   optionalDependencies:
     "graceful-fs" "^4.1.6"
 
@@ -8914,7 +8890,6 @@
   "resolved" "https://registry.npmjs.org/jsonfile/-/jsonfile-6.1.0.tgz"
   "version" "6.1.0"
   dependencies:
-    "graceful-fs" "^4.1.6"
     "universalify" "^2.0.0"
   optionalDependencies:
     "graceful-fs" "^4.1.6"
@@ -9909,7 +9884,7 @@
   "resolved" "https://registry.npmjs.org/name-all-modules-plugin/-/name-all-modules-plugin-1.0.1.tgz"
   "version" "1.0.1"
 
-"nan@^2.12.1", "nan@^2.13.2":
+"nan@^2.13.2":
   "integrity" "sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ=="
   "resolved" "https://registry.npmjs.org/nan/-/nan-2.14.2.tgz"
   "version" "2.14.2"
@@ -13350,7 +13325,6 @@
     "async-cache" "^1.1.0"
     "bl" "^4.0.0"
     "fd" "~0.0.2"
-    "graceful-fs" "^4.2.3"
     "mime" "^2.4.4"
     "negotiator" "~0.6.2"
   optionalDependencies:
@@ -14713,10 +14687,8 @@
   "resolved" "https://registry.npmjs.org/watchpack/-/watchpack-1.7.5.tgz"
   "version" "1.7.5"
   dependencies:
-    "chokidar" "^3.4.1"
     "graceful-fs" "^4.1.2"
     "neo-async" "^2.5.0"
-    "watchpack-chokidar2" "^2.0.1"
   optionalDependencies:
     "chokidar" "^3.4.1"
     "watchpack-chokidar2" "^2.0.1"
