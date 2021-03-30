@@ -5,57 +5,57 @@
       {
         "name": "Natasha Arya",
         "role": "President",
-        "image": ""
+        "image": "./images/natasha.jpg"
       },
       {
         "name": "Shashwat Chandra",
         "role": "President",
-        "image": ""
+        "image": "./images/shashwatchandra.jpg"
       },
       {
         "name": "Amadika Mahapatra",
         "role": "Chief Advisor",
-        "image": ""
+        "image": "./images/amadika.jpg"
       },
       {
         "name": "Alhad Sethi",
         "role": "Chief Advisor",
-        "image": ""
+        "image": "./images/alhad.jpg"
       },
       {
         "name": "Priyanshi Ahuja",
         "role": "Chief Advisor",
-        "image": ""
+        "image": "./images/priyanshi.jpg"
       },
       {
         "name": "Areeb Nabi",
         "role": "Chief Advisor",
-        "image": ""
+        "image": "./images/areeb.jpg"
       },
       {
         "name": "Saranyaa Kashyap",
         "role": "Member",
-        "image": ""
+        "image": "./images/saranyaa.jpg"
       },
       {
         "name": "Alankar Dutta",
         "role": "Member",
-        "image": ""
+        "image": "./images/alankar.jpg"
       },
       {
         "name": "Arsh Malik",
         "role": "Member",
-        "image": ""
+        "image": "./images/arsh.jpg"
       },
       {
         "name": "Akshit Kumar",
         "role": "Member",
-        "image": ""
+        "image": "./images/akshit.jpg"
       },
       {
         "name": "Naman Mansukhani",
         "role": "Member",
-        "image": ""
+        "image": "./images/namanmansukhani.jpg"
       }
     ]
   },
