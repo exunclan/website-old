@@ -10,7 +10,7 @@ const pages = [
       'https://docs.google.com/document/d/1qonbzE_8a2QHgz29MZoAfS-P64Zp0DbUrK3KjpakNRU/edit?usp=sharing',
   },
   {
-    name: 'Programming',
+    name: 'Competitive Programming',
     url:
       'https://docs.google.com/document/d/1SGbqGwCewDjNVt36wCMepo93DfZEPQYsrhfJSR67XQ0/edit?usp=sharing',
   },
