@@ -10,3 +10,9 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

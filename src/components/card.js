@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Card = ({ children, style }) => (
+const Card = ({ children, style, className}) => (
   <div
+    className={className}
     style={{
       flexBasis: 1,
       border: '1px solid #eaeaef',
