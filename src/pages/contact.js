@@ -28,8 +28,11 @@ const ContactPage = ({ data }) => (
         <h1>Contact Us</h1>
         <Grid>
           {data.allContactsJson.nodes.map(contact => (
-            <Card>
+            <Card
+            className={styles.contact}>
+              <div>
               <div
+                
                 style={{
                   fontWeight: '600',
                   fontSize: '1.1em',
@@ -44,11 +47,12 @@ const ContactPage = ({ data }) => (
               >
                 {contact.role}
               </div>
+              </div>
+              
               <p style={{ marginTop: '1rem', marginBottom: 0 }}>
-                <a href={`tel:${contact.number}`}>{contact.number}</a>
-                <br />
-                <a href={`MAILTO:${contact.email}`}>{contact.email}</a>
+              <a href={`MAILTO:${contact.email}`}>{contact.email}</a>
               </p>
+              
             </Card>
           ))}
         </Grid>
