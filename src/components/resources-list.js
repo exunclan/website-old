@@ -20,6 +20,11 @@ const pages = [
       'https://docs.google.com/document/d/1Vo968KcgkWDQBa2Cm1f-YKYjAcmQegH-pNDwP6xAdHw/edit?usp=sharing',
   },
   {
+    name: 'Crossword',
+    url:
+      'https://docs.google.com/document/d/1V7Uf3V_f-uzKZ4_TAoTUf8JhpSVRIO2px-9FVDqC_Ww/',
+  },
+  {
     name: '3D Design',
     url:
       'https://docs.google.com/document/d/1y8Oan6DfyfHBxMDpzxktL_b2Li1xFrKvrRSmJLvEi20/edit?usp=sharing',
@@ -60,7 +65,7 @@ const pages = [
       'https://docs.google.com/document/d/1bpeRtE2YC09lHyKIuPUFJkxxp1gfuPPvRneCMJxPv7U/edit?usp=sharing',
   },
   {
-    name: 'Motion Graphics',
+    name: 'Motion Design',
     url:
       'https://docs.google.com/document/d/1inx9nQ_oqOrTtD8PYxh_oZGZZRikMGDoaXpmkdpxTLE/edit?usp=sharing',
   },

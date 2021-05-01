@@ -217,11 +217,21 @@
         "name": "Harit Gangwani",
         "role": "Member",
         "image": ""
+      },
+      {
+        "name": "Aniket Negi",
+        "role": "Member",
+        "image": "./images/angad.jpg"
+      },
+      {
+        "name": "Aadya Dhir",
+        "role": "Member",
+        "image": "./images/angad.jpg"
       }
     ]
   },
   {
-    "year": "10th (Class of 2022-23)",
+    "year": "10th (Class of 2020-21)",
     "members": [
       {
         "name": "Kavin Desi Valli",
@@ -251,7 +261,7 @@
     ]
   },
   {
-    "year": "10th (Class of 2023-24)",
+    "year": "10th (Class of 2021-22)",
     "members": [
       {
         "name": "Shivansh Gupta",
@@ -328,6 +338,16 @@
       },
       {
         "name": "Shaurya Pratap Srivastava",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Anav Jain",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Pavni Goel",
         "role": "Member",
         "image": ""
       }
