@@ -92,6 +92,12 @@
         "role": "Member",
         "image": "./images/somesh.jpg"
       },
+      
+      {
+        "name": "Aryaman Chandra",
+        "role": "Member",
+        "image": "./images/aryaman.jpg"
+      },
       {
         "name": "Rudraneel Sinha",
         "role": "Member",
@@ -152,11 +158,7 @@
         "role": "Member",
         "image": "./images/pearl.jpg"
       },
-      {
-        "name": "Aryaman Chandra",
-        "role": "Member",
-        "image": "./images/aryaman.jpg"
-      },
+      
       {
         "name": "Vir Malhotra",
         "role": "Member",
@@ -217,11 +219,23 @@
         "name": "Harit Gangwani",
         "role": "Member",
         "image": ""
+      },
+      {
+        "name": "Aniket Negi",
+        "role": "Member",
+        "image": "./images/angad.jpg"
+      },
+      {
+        "name": "Aadya Dhir",
+        "role": "Member",
+        "image": "./images/angad.jpg"
       }
     ]
   },
   {
+
     "year": "11th",
+
     "members": [
       {
         "name": "Kavin Desi Valli",
@@ -251,7 +265,9 @@
     ]
   },
   {
+
     "year": "10th",
+
     "members": [
       {
         "name": "Shivansh Gupta",
@@ -328,6 +344,16 @@
       },
       {
         "name": "Shaurya Pratap Srivastava",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Anav Jain",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Pavni Goel",
         "role": "Member",
         "image": ""
       }
