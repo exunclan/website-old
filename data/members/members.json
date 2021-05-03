@@ -92,6 +92,12 @@
         "role": "Member",
         "image": "./images/somesh.jpg"
       },
+      
+      {
+        "name": "Aryaman Chandra",
+        "role": "Member",
+        "image": "./images/aryaman.jpg"
+      },
       {
         "name": "Rudraneel Sinha",
         "role": "Member",
@@ -152,11 +158,7 @@
         "role": "Member",
         "image": "./images/pearl.jpg"
       },
-      {
-        "name": "Aryaman Chandra",
-        "role": "Member",
-        "image": "./images/aryaman.jpg"
-      },
+      
       {
         "name": "Vir Malhotra",
         "role": "Member",
@@ -231,7 +233,9 @@
     ]
   },
   {
-    "year": "10th (Class of 2020-21)",
+
+    "year": "11th",
+
     "members": [
       {
         "name": "Kavin Desi Valli",
@@ -261,7 +265,9 @@
     ]
   },
   {
-    "year": "10th (Class of 2021-22)",
+
+    "year": "10th",
+
     "members": [
       {
         "name": "Shivansh Gupta",
