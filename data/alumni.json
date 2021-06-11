@@ -1,5 +1,80 @@
 [
   {
+    "year": "2020-21",
+    "alumni": [
+      {
+        "name": "Natasha Arya",
+        "role": "President",
+        "image": "./images/natasha.jpg"
+      },
+      {
+        "name": "Shashwat Chandra",
+        "role": "President",
+        "image": "./images/shashwatchandra.jpg"
+      },
+      {
+        "name": "Amadika Mahapatra",
+        "role": "Chief Advisor",
+        "image": "./images/amadika.jpg"
+      },
+      {
+        "name": "Alhad Sethi",
+        "role": "Chief Advisor",
+        "image": "./images/alhad.jpg"
+      },
+      {
+        "name": "Priyanshi Ahuja",
+        "role": "Chief Advisor",
+        "image": "./images/priyanshi.jpg"
+      },
+      {
+        "name": "Areeb Nabi",
+        "role": "Chief Advisor",
+        "image": "./images/areeb.jpg"
+      },
+      {
+        "name": "Saranyaa Kashyap",
+        "role": "Member",
+        "image": "./images/saranyaa.jpg"
+      },
+      {
+        "name": "Alankar Dutta",
+        "role": "Member",
+        "image": "./images/alankar.jpg"
+      },
+      {
+        "name": "Arsh Malik",
+        "role": "Member",
+        "image": "./images/arsh.jpg"
+      },
+      {
+        "name": "Akshit Kumar",
+        "role": "Member",
+        "image": "./images/akshit.jpg"
+      },
+      {
+        "name": "Naman Mansukhani",
+        "role": "Member",
+        "image": "./images/namanmansukhani.jpg"
+      },
+      {
+        "name": "Madhav Shekhar Sharma",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Aditya Jarodiya",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Aryamun Narayan Das",
+        "role": "Member",
+        "image": ""
+      }
+    ]
+  },
+  {
     "year": "2019-20",
     "alumni": [
       {
@@ -1810,4 +1885,3 @@
     ]
   }
 ]
-
