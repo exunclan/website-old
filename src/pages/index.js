@@ -38,7 +38,6 @@ const Header = () => (
   >
     <Container>
       <Navbar />
-      {/*
  <div style={{ padding: '10rem 0 4rem', color: 'green' }}>
      <div
         style={{
@@ -75,7 +74,6 @@ const Header = () => (
       </ToastProvider>
       </div>
       </div>
-      */}
       </Container>
     <div className={styles.landingContainer}>
       <Container style={{ padding: '0' }}>
