@@ -11,12 +11,18 @@ const InviteForm = () => {
   const onSubmit = values => {
     const proxyURL = 'https://cors-anywhere.herokuapp.com/';
 
-    fetch(`https://exun-mail.herokuapp.com/addmail?email=${values.email}`)
-      .then(resp => resp.text())
+    fetch(proxyURL + 'https://exun-email-api.now.sh', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ email: values.email }),
+    })
+      .then(resp => resp.json())
       .then(res => {
         console.log(res);
-        addToast(res, {
-          appearance: res==="saved"?"success":"error",
+        addToast(res.message, {
+          appearance: res.status,
           autoDismiss: true,
           autoDismissTimeout: 3200,
         });
