@@ -38,8 +38,9 @@ const Header = () => (
   >
     <Container>
       <Navbar />
-      {/* <div style={{ padding: '10rem 0 4rem', color: 'green' }}> */}
-      {/* <div
+      {/*
+ <div style={{ padding: '10rem 0 4rem', color: 'green' }}>
+     <div
         style={{
           padding: '10rem 0 4rem',
         }}
@@ -71,10 +72,11 @@ const Header = () => (
         </p>
         <ToastProvider>
         <InviteForm />
-        </ToastProvider>
-        <Sponsors />
-      </div> */}
-    </Container>
+      </ToastProvider>
+      </div>
+      </div>
+      */}
+      </Container>
     <div className={styles.landingContainer}>
       <Container style={{ padding: '0' }}>
         <div className={styles.contentContainer}>
@@ -110,7 +112,7 @@ const Splash = ({ fluid }) => (
       position: 'relative',
     }}
   >
-    {/* <Img
+    {/*<Img
       objectFit="cover"
       fluid={fluid}
       style={{
@@ -121,7 +123,7 @@ const Splash = ({ fluid }) => (
         width: '100%',
         zIndex: -1,
       }}
-    /> */}
+    />*/}
     <div
       style={{
         padding: '5rem 0',
