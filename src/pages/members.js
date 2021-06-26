@@ -38,7 +38,7 @@ const MembersPage = ({ data }) => (
               {cls.members.map(member => {
                 return (
                   <Card key={member.name}>
-                    {/* {member.image && (
+                     {/*{member.image && (
                       <Img
                         fixed={member.image.childImageSharp.fixed}
                         style={{
@@ -49,7 +49,7 @@ const MembersPage = ({ data }) => (
                           marginBottom: '1rem',
                         }}
                       />
-                    )} */}
+                    )}*/}
 
                     <div
                       style={{
