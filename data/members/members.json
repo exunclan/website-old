@@ -154,6 +154,11 @@
         "name": "Aadya Dhir",
         "role": "Member",
         "image": "./images/angad.jpg"
+      },
+      {
+        "name":"Damini Rana",
+        "role":"Member",
+        "image":""
       }
     ]
   },
@@ -185,6 +190,11 @@
         "name": "Aadhya Dhar",
         "role": "Member",
         "image": ""
+      },
+      {
+        "role":"Member", 
+        "name":"Vishesh Saraswat",
+        "image":""
       }
     ]
   },
@@ -213,6 +223,11 @@
         "name": "Mridul Agarwal",
         "role": "Member",
         "image": ""
+      },
+      {
+        "name":"Kanishka Verma",
+        "role":"Member",
+        "image":""
       }
     ]
   },
