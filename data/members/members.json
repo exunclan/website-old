@@ -203,6 +203,11 @@
 
     "members": [
       {
+        "name": "Adi Mathur",
+        "role": "Member",
+        "image" : ""
+      },
+      {
         "name": "Shivansh Gupta",
         "role": "Member",
         "image": "./images/shivansh.jpg"
