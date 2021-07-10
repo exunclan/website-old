@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
+import Events from './events'
 
 import Layout from '../components/layout';
 import Container from '../components/container';
@@ -68,123 +69,7 @@ const AboutPage = () => {
             symposium, Exun. Exun has been held 24 times and has been a great
             success each time.
           </p>
-          <table>
-            <tbody>
-              <tr>
-                <th>Symposium</th>
-                <th>Sponsor</th>
-              </tr>
-              <tr>
-                <td>Exun 2019</td>
-                <td>
-                  BML Munjal University, Oxford University Press, Evelyn
-                  Learning, Digital India
-                </td>
-              </tr>
-              <tr>
-                <td>Exun 2018</td>
-                <td>
-                  UniRely, Athena Education, Pearl Academy, Supported by Digital
-                  India
-                </td>
-              </tr>
-              <tr>
-                <td>Exun 2017</td>
-                <td>Bennett University, AVIT, USA Univquest, Sony</td>
-              </tr>
-              <tr>
-                <td>Exun 2016</td>
-                <td>
-                  Sony, Playstation, Zeiss, Bennett University, Avit, Cubelelo
-                </td>
-              </tr>
-              <tr>
-                <td>Exun 2015</td>
-                <td>Intel, Unity Group, Microsoft Research, SmartEdu</td>
-              </tr>
-              <tr>
-                <td>Exun 2014</td>
-                <td>
-                  Intel, Crompton, T.I.M.E., Compton Computers (P) Limited
-                </td>
-              </tr>
-              <tr>
-                <td>Exun 2013</td>
-                <td>Intel, InSynegy</td>
-              </tr>
-              <tr>
-                <td>Exun 2012</td>
-                <td>Intel</td>
-              </tr>
-              <tr>
-                <td>Exun 2011</td>
-                <td>Intel</td>
-              </tr>
-              <tr>
-                <td>Exun 2010</td>
-                <td>NIIT eGuru, Masonite, Xtreme Gaming</td>
-              </tr>
-              <tr>
-                <td>Exun 2009</td>
-                <td>
-                  Norton (Symantec), Xsys Technologies, RX Infotech Pvt. Ltd,
-                  Dominos Pizza
-                </td>
-              </tr>
-              <tr>
-                <td>Exun 2008</td>
-                <td>Mangalayatan University</td>
-              </tr>
-              <tr>
-                <td>Exun 2007</td>
-                <td>Pavna</td>
-              </tr>
-              <tr>
-                <td>Exun 2006</td>
-                <td>HP</td>
-              </tr>
-              <tr>
-                <td>Exun 2005</td>
-                <td>Sony</td>
-              </tr>
-              <tr>
-                <td>Exun 2004</td>
-                <td>HCL Infosystems</td>
-              </tr>
-              <tr>
-                <td>Exun 2003</td>
-                <td>HCL Infosystems</td>
-              </tr>
-              <tr>
-                <td>Exun 2002</td>
-                <td>Legris</td>
-              </tr>
-              <tr>
-                <td>Exun 2001</td>
-                <td>-</td>
-              </tr>
-              <tr>
-                <td>Exun 2000</td>
-                <td>eGurucool.com</td>
-              </tr>
-              <tr>
-                <td>Exun 1999</td>
-                <td>MantraOnline</td>
-              </tr>
-              <tr>
-                <td>Exun 1998</td>
-                <td>HCL</td>
-              </tr>
-              <tr>
-                <td>Exun 1997</td>
-                <td>NIIT</td>
-              </tr>
-              <tr>
-                <td>Exun 1996</td>
-                <td>HCL Infosystems</td>
-              </tr>
-            </tbody>
-          </table>
+          <Events/>
         </div>
       </Container>
     </Layout>
