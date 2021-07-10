@@ -75,6 +75,12 @@ const AboutPage = () => {
                 <th>Sponsor</th>
               </tr>
               <tr>
+                <td>Exun 2020</td>
+                <td>BML Munjal University, Athena Education, Wolfram Language, 
+                  Women Who Code Delhi, Devfolio, Supported by Digital India
+                </td>
+              </tr>
+              <tr>
                 <td>Exun 2019</td>
                 <td>
                   BML Munjal University, Oxford University Press, Evelyn
