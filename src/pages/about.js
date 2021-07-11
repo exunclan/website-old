@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import Events from './events'
+import Events from '../components/events';
 
 import Layout from '../components/layout';
 import Container from '../components/container';
