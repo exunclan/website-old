@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import eventsData from './about.json'
+import eventsData from '../../data/about.json'
 
 var eventsList = eventsData.data;
 
