@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import FAQ from 'react-faq-component';
@@ -22,7 +21,6 @@ import styles from './index.module.css';
 import Videos from '../components/videos';
 // 4;
 import Slides from '../components/slides';
-import Events from './about';
 
 const Grid = ({ children }) => <div className={styles.grid}> {children} </div>;
 Grid.propTypes = {
@@ -254,9 +252,5 @@ export const query = graphql`
     }
   }
 `;
-
-ReactDOM.render(
-  <Events/>, document.getElementById('root')
-)
 
 export default IndexPage;
