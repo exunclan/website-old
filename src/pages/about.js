@@ -66,7 +66,7 @@ const AboutPage = () => {
           <p>
             Having represented the school in various computing symposia in India
             and around the world, the club also hosts its annual computer
-            symposium, Exun. Exun has been held 24 times and has been a great
+            symposium, Exun. Exun has been held 25 times and has been a great
             success each time.
           </p>
           <Events/>
