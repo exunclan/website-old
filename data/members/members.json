@@ -3,21 +3,45 @@
     "year": "12th",
     "members": [
       {
-        "name": "Angad Singh",
-        "role": "Member",
-        "image": "./images/angad.jpg"
-      },
-      {
         "name": "Ashvin Verma",
-        "role": "Member",
+        "role": "President",
         "image": "./images/ashvin.jpg"
       },
       {
         "name": "Somesh Kar",
-        "role": "Member",
+        "role": "President",
         "image": "./images/somesh.jpg"
       },
-
+      {
+        "name": "Sarthak Mangla",
+        "role": "Vice President",
+        "image": "./images/sarthakmangla.jpg"
+      },
+      {
+        "name": "Shashwat Mundra",
+        "role": "Vice President",
+        "image": "./images/shashwatmundra.jpg"
+      },
+      {
+        "name": "Ishir Bhardwaj",
+        "role": "Director",
+        "image": "./images/ishir.jpg"
+      },
+      {
+        "name": "Angad Singh",
+        "role": "Director",
+        "image": "./images/angad.jpg"
+      },
+      {
+        "name": "Pulkit Garg",
+        "role": "Director",
+        "image": "./images/pulkit.jpg"
+      },
+      {
+        "name": "Pearl Dhingra",
+        "role": "Creative Director",
+        "image": "./images/pearl.jpg"
+      },
       {
         "name": "Aryaman Chandra",
         "role": "Member",
@@ -39,11 +63,6 @@
         "image": "./images/anirudh.jpg"
       },
       {
-        "name": "Ishir Bhardwaj",
-        "role": "Member",
-        "image": "./images/ishir.jpg"
-      },
-      {
         "name": "Josh Randhawa",
         "role": "Member",
         "image": "./images/josh.jpg"
@@ -62,26 +81,6 @@
         "name": "Saathvik Sharma",
         "role": "Member",
         "image": "./images/saathvik.jpg"
-      },
-      {
-        "name": "Pulkit Garg",
-        "role": "Member",
-        "image": "./images/pulkit.jpg"
-      },
-      {
-        "name": "Sarthak Mangla",
-        "role": "Member",
-        "image": "./images/sarthakmangla.jpg"
-      },
-      {
-        "name": "Shashwat Mundra",
-        "role": "Member",
-        "image": "./images/shashwatmundra.jpg"
-      },
-      {
-        "name": "Pearl Dhingra",
-        "role": "Member",
-        "image": "./images/pearl.jpg"
       },
 
       {
@@ -156,9 +155,9 @@
         "image": "./images/angad.jpg"
       },
       {
-        "name":"Damini Rana",
-        "role":"Member",
-        "image":""
+        "name": "Damini Rana",
+        "role": "Member",
+        "image": ""
       }
     ]
   },
@@ -192,9 +191,9 @@
         "image": ""
       },
       {
-        "role":"Member", 
-        "name":"Vishesh Saraswat",
-        "image":""
+        "role": "Member",
+        "name": "Vishesh Saraswat",
+        "image": ""
       }
     ]
   },
@@ -205,7 +204,7 @@
       {
         "name": "Adi Mathur",
         "role": "Member",
-        "image" : ""
+        "image": ""
       },
       {
         "name": "Shivansh Gupta",
@@ -230,9 +229,9 @@
         "image": ""
       },
       {
-        "name":"Kanishka Verma",
-        "role":"Member",
-        "image":""
+        "name": "Kanishka Verma",
+        "role": "Member",
+        "image": ""
       }
     ]
   },
@@ -318,3 +317,4 @@
     ]
   }
 ]
+
