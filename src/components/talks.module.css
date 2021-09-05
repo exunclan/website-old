@@ -28,6 +28,7 @@
 }
 .talksh1 {
   font-size: 3rem;
+  overflow-wrap: anywhere;
 }
 .talksh2 {
   font-size: 1.3em;
