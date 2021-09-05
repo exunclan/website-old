@@ -109,7 +109,9 @@ class Navbar extends React.Component {
                 {links.map((link) => (
                   <li className={styles.linksItem} key={link.href}>
                     {link.external ? (
-                      <a href={link.href}>{link.title}</a>
+                      <a target="_blank" href={link.href}>
+                        {link.title}
+                      </a>
                     ) : (
                       <Link to={link.href}>{link.title}</Link>
                     )}
