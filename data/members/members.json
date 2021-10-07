@@ -44,17 +44,37 @@
       },
       {
         "name": "Aryaman Chandra",
-        "role": "Member",
+        "role": "Honorary Chief Advisor",
         "image": "./images/aryaman.jpg"
       },
       {
         "name": "Rudraneel Sinha",
-        "role": "Member",
+        "role": "Honorary Chief Advisor",
         "image": "./images/rudraneel.jpg"
       },
       {
+        "name": "Vir Malhotra",
+        "role": "Honorary Chief Advisor",
+        "image": "./images/vir.jpg"
+      },
+      {
+        "name": "Vinayak Pachnanda",
+        "role": "Honorary Chief Advisor",
+        "image": "./images/vinayak.jpg"
+      },
+      {
+        "name": "Tanmay Singhal",
+        "role": "Honorary Tech Advisor",
+        "image": ""
+      },
+      {
+        "name": "Yash Jha",
+        "role": "Honorary Tech Advisor",
+        "image": ""
+      },
+      {
         "name": "Rahul Bhargava",
-        "role": "Member",
+        "role": "Honorary Creative Advisor",
         "image": "./images/rahul.jpg"
       },
       {
@@ -73,20 +93,9 @@
         "image": "./images/ashay.jpg"
       },
       {
-        "name": "Vinayak Pachnanda",
-        "role": "Member",
-        "image": "./images/vinayak.jpg"
-      },
-      {
         "name": "Saathvik Sharma",
         "role": "Member",
         "image": "./images/saathvik.jpg"
-      },
-
-      {
-        "name": "Vir Malhotra",
-        "role": "Member",
-        "image": "./images/vir.jpg"
       },
       {
         "name": "Sarthak Asotra",
@@ -100,11 +109,6 @@
       },
       {
         "name": "Riday Raheja ",
-        "role": "Member",
-        "image": ""
-      },
-      {
-        "name": "Tanmay Singhal",
         "role": "Member",
         "image": ""
       },
@@ -124,11 +128,6 @@
         "image": ""
       },
       {
-        "name": "Yash Jha",
-        "role": "Member",
-        "image": ""
-      },
-      {
         "name": "Advitya Singhal",
         "role": "Member",
         "image": ""
@@ -138,7 +137,6 @@
         "role": "Member",
         "image": ""
       },
-
       {
         "name": "Harit Gangwani",
         "role": "Member",
