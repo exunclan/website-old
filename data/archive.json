@@ -1,5 +1,47 @@
 [
   {
+    "year": "2021",
+    "symposium": ".Createch 2021",
+    "organisingSchool": "Ryan International School, Vasant Kunj",
+    "position": "Runners Up"
+  },
+  {
+    "year": "2021",
+    "symposium": "CORE 14",
+    "organisingSchool": "Delhi Public School, Dwarka",
+    "position": "Winners"
+  },
+  {
+    "year": "2021",
+    "symposium": "Force Fest 2021",
+    "organisingSchool": "Apeejay School, Panchsheel Park, Delhi",
+    "position": "Runners Up"
+  },
+  {
+    "year": "2021",
+    "symposium": "Code Wars 2021",
+    "organisingSchool": "Delhi Public School, Vasant Kunj",
+    "position": "Winners"
+  },
+  {
+    "year": "2021",
+    "symposium": "MINET X 2021",
+    "organisingSchool": "Mother's International School",
+    "position": "Winners"
+  },
+  {
+    "year": "2021",
+    "symposium": "Binary Bots 2021",
+    "organisingSchool": "Lotus Valley International School, Gurugram",
+    "position": "Winners"
+  },
+  {
+    "year": "2021",
+    "symposium": "Z3NITH 2K21",
+    "organisingSchool": "Air Force Golden Jubilee Institute",
+    "position": "Winners"
+  },
+  {
     "year": "2020",
     "symposium": "Haywire 3.0",
     "organisingSchool": "Mount Carmel School, Dwarka",

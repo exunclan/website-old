@@ -3,45 +3,84 @@
     "year": "12th",
     "members": [
       {
-        "name": "Angad Singh",
-        "role": "Member",
-        "image": "./images/angad.jpg"
-      },
-      {
         "name": "Ashvin Verma",
-        "role": "Member",
+        "role": "President",
         "image": "./images/ashvin.jpg"
       },
       {
         "name": "Somesh Kar",
-        "role": "Member",
+        "role": "President",
         "image": "./images/somesh.jpg"
       },
-
+      {
+        "name": "Sarthak Mangla",
+        "role": "Vice President",
+        "image": "./images/sarthakmangla.jpg"
+      },
+      {
+        "name": "Shashwat Mundra",
+        "role": "Vice President",
+        "image": "./images/shashwatmundra.jpg"
+      },
+      {
+        "name": "Ishir Bhardwaj",
+        "role": "Director",
+        "image": "./images/ishir.jpg"
+      },
+      {
+        "name": "Angad Singh",
+        "role": "Director",
+        "image": "./images/angad.jpg"
+      },
+      {
+        "name": "Pulkit Garg",
+        "role": "Director",
+        "image": "./images/pulkit.jpg"
+      },
+      {
+        "name": "Pearl Dhingra",
+        "role": "Creative Director",
+        "image": "./images/pearl.jpg"
+      },
       {
         "name": "Aryaman Chandra",
-        "role": "Member",
+        "role": "Honorary Chief Advisor",
         "image": "./images/aryaman.jpg"
       },
       {
         "name": "Rudraneel Sinha",
-        "role": "Member",
+        "role": "Honorary Chief Advisor",
         "image": "./images/rudraneel.jpg"
       },
       {
+        "name": "Vir Malhotra",
+        "role": "Honorary Chief Advisor",
+        "image": "./images/vir.jpg"
+      },
+      {
+        "name": "Vinayak Pachnanda",
+        "role": "Honorary Chief Advisor",
+        "image": "./images/vinayak.jpg"
+      },
+      {
+        "name": "Tanmay Singhal",
+        "role": "Honorary Tech Advisor",
+        "image": ""
+      },
+      {
+        "name": "Yash Jha",
+        "role": "Honorary Tech Advisor",
+        "image": ""
+      },
+      {
         "name": "Rahul Bhargava",
-        "role": "Member",
+        "role": "Honorary Creative Advisor",
         "image": "./images/rahul.jpg"
       },
       {
         "name": "Anirudh Vempati",
         "role": "Member",
         "image": "./images/anirudh.jpg"
-      },
-      {
-        "name": "Ishir Bhardwaj",
-        "role": "Member",
-        "image": "./images/ishir.jpg"
       },
       {
         "name": "Josh Randhawa",
@@ -54,40 +93,9 @@
         "image": "./images/ashay.jpg"
       },
       {
-        "name": "Vinayak Pachnanda",
-        "role": "Member",
-        "image": "./images/vinayak.jpg"
-      },
-      {
         "name": "Saathvik Sharma",
         "role": "Member",
         "image": "./images/saathvik.jpg"
-      },
-      {
-        "name": "Pulkit Garg",
-        "role": "Member",
-        "image": "./images/pulkit.jpg"
-      },
-      {
-        "name": "Sarthak Mangla",
-        "role": "Member",
-        "image": "./images/sarthakmangla.jpg"
-      },
-      {
-        "name": "Shashwat Mundra",
-        "role": "Member",
-        "image": "./images/shashwatmundra.jpg"
-      },
-      {
-        "name": "Pearl Dhingra",
-        "role": "Member",
-        "image": "./images/pearl.jpg"
-      },
-
-      {
-        "name": "Vir Malhotra",
-        "role": "Member",
-        "image": "./images/vir.jpg"
       },
       {
         "name": "Sarthak Asotra",
@@ -101,11 +109,6 @@
       },
       {
         "name": "Riday Raheja ",
-        "role": "Member",
-        "image": ""
-      },
-      {
-        "name": "Tanmay Singhal",
         "role": "Member",
         "image": ""
       },
@@ -125,11 +128,6 @@
         "image": ""
       },
       {
-        "name": "Yash Jha",
-        "role": "Member",
-        "image": ""
-      },
-      {
         "name": "Advitya Singhal",
         "role": "Member",
         "image": ""
@@ -139,7 +137,6 @@
         "role": "Member",
         "image": ""
       },
-
       {
         "name": "Harit Gangwani",
         "role": "Member",
@@ -156,9 +153,9 @@
         "image": "./images/angad.jpg"
       },
       {
-        "name":"Damini Rana",
-        "role":"Member",
-        "image":""
+        "name": "Damini Rana",
+        "role": "Member",
+        "image": ""
       }
     ]
   },
@@ -192,9 +189,9 @@
         "image": ""
       },
       {
-        "role":"Member", 
-        "name":"Vishesh Saraswat",
-        "image":""
+        "role": "Member",
+        "name": "Vishesh Saraswat",
+        "image": ""
       }
     ]
   },
@@ -202,6 +199,11 @@
     "year": "10th",
 
     "members": [
+      {
+        "name": "Adi Mathur",
+        "role": "Member",
+        "image": ""
+      },
       {
         "name": "Shivansh Gupta",
         "role": "Member",
@@ -225,9 +227,9 @@
         "image": ""
       },
       {
-        "name":"Kanishka Verma",
-        "role":"Member",
-        "image":""
+        "name": "Kanishka Verma",
+        "role": "Member",
+        "image": ""
       }
     ]
   },
@@ -244,11 +246,6 @@
         "name": "Avni Gupta",
         "role": "Member",
         "image": ""
-      },
-      {
-        "name": "Angad Miglani",
-        "role": "Member",
-        "image": "./images/angadmiglani.jpg"
       },
       {
         "name": "Shiven Kanodia",
@@ -313,3 +310,4 @@
     ]
   }
 ]
+
