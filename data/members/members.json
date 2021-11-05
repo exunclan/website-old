@@ -192,6 +192,21 @@
         "role": "Member",
         "name": "Vishesh Saraswat",
         "image": ""
+      },
+      {
+        "name": "Vedant Singh",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Sneha Chandra",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Aarshia Gupta",
+        "role": "Member",
+        "image": ""
       }
     ]
   },
@@ -230,6 +245,26 @@
         "name": "Kanishka Verma",
         "role": "Member",
         "image": ""
+      },
+      {
+        "name": "Yashasva Bhatia",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Eshan Sharma",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Sneha Pandey",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Aadibhav Prasad",
+        "role": "Member",
+        "image": ""
       }
     ]
   },
@@ -254,6 +289,21 @@
       },
       {
         "name": "Samik Tuteja",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Shreyansh Agarwal",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Aarush Semwal",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Ananya Mangla",
         "role": "Member",
         "image": ""
       }
@@ -306,8 +356,12 @@
         "name": "Tarush Aran",
         "role": "Member",
         "image": ""
+      },
+      {
+        "name": "Avika Jain",
+        "role": "Member",
+        "image": ""
       }
     ]
   }
 ]
-
