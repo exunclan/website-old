@@ -164,6 +164,21 @@
 
     "members": [
       {
+        "name": "Manan Jindal",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Bhuvnesh Nagpal",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Mehul Srivastava",
+        "role": "Member",
+        "image": ""
+      },
+      {
         "name": "Kavin Desi Valli",
         "role": "Member",
         "image": ""
@@ -192,6 +207,21 @@
         "role": "Member",
         "name": "Vishesh Saraswat",
         "image": ""
+      },
+      {
+        "name": "Vedant Singh",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Sneha Chandra",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Aarshia Gupta",
+        "role": "Member",
+        "image": ""
       }
     ]
   },
@@ -199,6 +229,16 @@
     "year": "10th",
 
     "members": [
+      {
+        "name": "Garv Jain",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Hitaarth Soni",
+        "role": "Member",
+        "image": ""
+      },
       {
         "name": "Adi Mathur",
         "role": "Member",
@@ -214,13 +254,11 @@
         "role": "Member",
         "image": "./images/pratyush.jpg"
       },
-
       {
         "name": "Navya Garg",
         "role": "Member",
         "image": ""
       },
-
       {
         "name": "Mridul Agarwal",
         "role": "Member",
@@ -230,6 +268,26 @@
         "name": "Kanishka Verma",
         "role": "Member",
         "image": ""
+      },
+      {
+        "name": "Yashasva Bhatia",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Eshan Sharma",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Sneha Pandey",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Aadibhav Prasad",
+        "role": "Member",
+        "image": ""
       }
     ]
   },
@@ -237,11 +295,15 @@
     "year": "9th",
     "members": [
       {
+        "name": "Shreya Nirvan",
+        "role": "Member",
+        "image": ""
+      },
+      {
         "name": "Saksham Raheja",
         "role": "Member",
         "image": "./images/saksham.jpg"
       },
-
       {
         "name": "Avni Gupta",
         "role": "Member",
@@ -256,12 +318,32 @@
         "name": "Samik Tuteja",
         "role": "Member",
         "image": ""
+      },
+      {
+        "name": "Shreyansh Agarwal",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Aarush Semwal",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Ananya Mangla",
+        "role": "Member",
+        "image": ""
       }
     ]
   },
   {
     "year": "8th",
     "members": [
+      {
+        "name": "Darsh Sikka",
+        "role": "Member",
+        "image": ""
+      },
       {
         "name": "Nyra Bhushan",
         "role": "Member",
@@ -306,8 +388,12 @@
         "name": "Tarush Aran",
         "role": "Member",
         "image": ""
+      },
+      {
+        "name": "Avika Jain",
+        "role": "Member",
+        "image": ""
       }
     ]
   }
 ]
-
