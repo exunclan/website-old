@@ -2,35 +2,46 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
+  gap: 4rem;
 }
 
 .landing-container {
-  width: 99vw;
+  width: full;
   background-color: #2977f5;
   margin: 30px 0;
   padding: 50px 0;
   font-family: 'Segoe UI', SegoeUI, sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
   background-image: url(/bg.svg), linear-gradient(180deg, #017efc, #0052b8);
   background-repeat: repeat-x;
 }
 
-.emphasized {
+/* .emphasized {
   font-size: 68px;
-}
+} */
 
-.date {
+/* .date {
   margin-top: 30px;
   color: #e5e5e5;
   font-size: 30px;
-}
+} */
 
 .name {
-  font-size: 43px;
+  font-size: 70px;
+  padding-top: 6rem;
 }
 
-.register-buttons {
+.subtitle {
+  font-size: 30px;
+}
+
+.gif {
+  width: 500px;
+  height: 350px;
+}
+
+/* .register-buttons {
   width: 65%;
   height: 65px;
 
@@ -39,7 +50,7 @@
   grid-template-rows: 1fr;
   column-gap: 10px;
   margin-top: 20px;
-}
+} */
 
 .register {
   /* padding: 20px;
@@ -98,10 +109,12 @@
   .content-container {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
+    gap: 0;
   }
 
   .landing-container {
     width: 100vw;
+    text-align: center;
   }
 
   .emphasized {
@@ -112,8 +125,32 @@
     width: 100%;
   }
 
+  .name {
+    font-size: 70px;
+  }
+
+  .subtitle {
+    font-size: 30px;
+  }
+
+  .gif {
+    width: 80vw;
+    height: auto;
+    margin: auto;
+  }
+
   /* .register {
     padding: 20px;
     width: 50%;
   } */
+}
+
+@media (max-width: 386px) {
+  .name {
+    font-size: 60px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
 }
