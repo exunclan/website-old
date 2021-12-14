@@ -19,6 +19,7 @@ import faqData from '../../data/faq';
 
 import styles from './index.module.css';
 import Videos from '../components/videos';
+import Reel from '../images/reel.gif'
 // 4;
 import Slides from '../components/slides';
 
@@ -80,24 +81,10 @@ const Header = () => (
     <div className={styles.landingContainer}>
       <Container style={{ padding: '0' }}>
         <div className={styles.contentContainer}>
-          <div className={styles.emphasized}>Celebrating 25 years of Exun.</div>
+          <img className={styles.gif} src={Reel} />
           <div>
-            <div className={styles.date}>15 - 22 November</div>
-            <div className={styles.name}>Exun 2020</div>
-            <div
-              className={styles.name}
-              style={{ fontSize: '25px', marginTop: '25px' }}
-            >
-              Register
-            </div>
-            <div className={styles.registerButtons}>
-              <a href="//exun.co/schoolreg" target="_blank">
-                <div className={styles.register}>School</div>
-              </a>
-              <a href="//exun.co/independentreg" target="_blank">
-                <div className={styles.register}>Independent</div>
-              </a>
-            </div>
+            <div className={styles.name}>Exun 2021</div>
+            <div className={styles.subtitle}>Coming Soon...</div>
           </div>
         </div>
       </Container>
