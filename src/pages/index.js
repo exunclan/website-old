@@ -81,10 +81,10 @@ const Header = () => (
     <div className={styles.landingContainer}>
       <Container style={{ padding: '0' }}>
         <div className={styles.contentContainer}>
-          <img className={styles.gif} src={Reel} />
+          <img className={styles.gif} src={Reel}/>
           <div>
             <div className={styles.name}>Exun 2021</div>
-            <div className={styles.subtitle}>Coming Soon...</div>
+            <div className={styles.subtitle}>Coming Soon</div>
           </div>
         </div>
       </Container>
