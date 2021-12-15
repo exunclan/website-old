@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  gap: 4rem;
+  gap: 6rem;
 }
 
 .landing-container {
@@ -28,8 +28,8 @@
 } */
 
 .name {
-  font-size: 70px;
-  padding-top: 6rem;
+  font-size: 60px;
+  padding-top: 9rem;
 }
 
 .subtitle {
@@ -37,8 +37,8 @@
 }
 
 .gif {
-  width: 500px;
-  height: 350px;
+  width: 480px;
+  height: 400px;
 }
 
 /* .register-buttons {
