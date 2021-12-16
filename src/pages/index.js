@@ -19,7 +19,6 @@ import faqData from '../../data/faq';
 
 import styles from './index.module.css';
 import Videos from '../components/videos';
-import Reel from '../images/4.webm'
 // 4;
 import Slides from '../components/slides';
 
