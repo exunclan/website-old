@@ -19,7 +19,7 @@ import faqData from '../../data/faq';
 
 import styles from './index.module.css';
 import Videos from '../components/videos';
-import Reel from '../images/reel.gif'
+import Reel from '../images/4.webm'
 // 4;
 import Slides from '../components/slides';
 
@@ -81,7 +81,9 @@ const Header = () => (
     <div className={styles.landingContainer}>
       <Container style={{ padding: '0' }}>
         <div className={styles.contentContainer}>
-          <img className={styles.gif} src={Reel}/>
+          <video playsInline autoPlay loop muted aria-controls='false' className={styles.gif}>
+            <source src='https://cdn.discordapp.com/attachments/920723504335310939/920739352491999242/4.webm' type="video/mp4"/>
+          </video>
           <div>
             <div className={styles.name}>Exun 2021</div>
             <div className={styles.subtitle}>Coming Soon</div>
