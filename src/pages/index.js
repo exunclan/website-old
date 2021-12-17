@@ -84,7 +84,7 @@ const Header = () => (
             <source src='https://cdn.discordapp.com/attachments/920723504335310939/920739352491999242/4.webm' type="video/mp4"/>
           </video>
           <div>
-            <div className={styles.name}>Exun 2021</div>
+            <div className={styles.name}>Exun 2021-22</div>
             <div className={styles.subtitle}>Coming Soon</div>
           </div>
         </div>
