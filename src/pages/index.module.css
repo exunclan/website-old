@@ -13,7 +13,7 @@
   font-family: 'Segoe UI', SegoeUI, sans-serif;
   font-weight: 600;
   color: #fff;
-  background-image: url(/bg.svg), linear-gradient(180deg, #017efc, #0052b8);
+  background-image: linear-gradient(180deg, #017efc, #0052b8);
   background-repeat: repeat-x;
 }
 
