@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  gap: 6rem;
+  /* gap: 2rem; */
 }
 
 .landing-container {
@@ -28,12 +28,12 @@
 } */
 
 .name {
-  font-size: 70px;
-  padding-top: 9rem;
+  font-size: 50px;
+  padding-top: 10rem;
 }
 
 .subtitle {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .gif {
@@ -127,11 +127,11 @@
   }
 
   .name {
-    font-size: 70px;
+    font-size: 50px;
   }
 
   .subtitle {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .gif {
@@ -148,10 +148,10 @@
 
 @media (max-width: 386px) {
   .name {
-    font-size: 60px;
+    font-size: 40px;
   }
 
   .subtitle {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
