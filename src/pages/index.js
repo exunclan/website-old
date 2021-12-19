@@ -76,12 +76,22 @@ const Header = () => (
       </div>
       </div>
       */}
-      </Container>
+    </Container>
     <div className={styles.landingContainer}>
       <Container style={{ padding: '0' }}>
         <div className={styles.contentContainer}>
-          <video playsInline autoPlay loop muted aria-controls='false' className={styles.gif}>
-            <source src='https://cdn.discordapp.com/attachments/920723504335310939/920739352491999242/4.webm' type="video/mp4"/>
+          <video
+            playsInline
+            autoPlay
+            loop
+            muted
+            aria-controls="false"
+            className={styles.gif}
+          >
+            <source
+              src="https://cdn.discordapp.com/attachments/920723504335310939/920739352491999242/4.webm"
+              type="video/mp4"
+            />
           </video>
           <div>
             <div className={styles.name}>Exun 2021-22</div>
@@ -120,10 +130,11 @@ const Splash = ({ fluid }) => (
       <Container>
         <h1> Bigger and better than ever before. </h1>
         <div style={{ maxWidth: 600 }}>
-          Exun has been organizing its annual flagship event for over two
-          decades. With Exun 2020, we're going international — participants from
-          all around the globe, coming together to celebrate the essence of
-          technology.
+          Exun 2021-22 is the largest student-run event of its kind, being the
+          latest iteration in our series of flagship technology symposiums going
+          back two decades. With Exun 2021, we're international
+          again—participants from all around the globe are coming together to
+          deeply investigate and celebrate the essence of technology.
         </div>
       </Container>
     </div>
