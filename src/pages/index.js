@@ -89,7 +89,7 @@ const Header = () => (
             className={styles.gif}
           >
             <source
-              src="https://cdn.discordapp.com/attachments/920723504335310939/920739352491999242/4.webm"
+              src="https://cdn.discordapp.com/attachments/920723504335310939/922371365284249630/transparent-3D.webm"
               type="video/mp4"
             />
           </video>
