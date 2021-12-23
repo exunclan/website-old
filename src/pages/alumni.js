@@ -39,7 +39,7 @@ const AlumniPage = ({ data }) => (
             </h2>
             <Grid>
               {batch.alumni.map(alum => (
-                <Card key={alum.name}>
+                <Card key={alum.name} className={styles.card}>
                   <div
                     style={{
                       fontWeight: '600',
