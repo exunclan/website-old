@@ -33,7 +33,7 @@ const FacultyPage = ({ data }) => (
             <h2 style={{ marginTop: '5rem' }}>{department.title}</h2>
             <Grid>
               {department.members.map(member => (
-                <Card key={member.name}>
+                <Card key={member.name} className={styles.card}>
                   <Img
                     fixed={member.image.childImageSharp.fixed}
                     style={{

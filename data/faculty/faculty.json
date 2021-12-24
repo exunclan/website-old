@@ -111,7 +111,12 @@
         "name": "Gunanand Tiwari",
         "role": "Former Support Team",
         "image": "./images/gunanandtiwari.jpg"
-      },
+      }
+    ]
+  },
+  {
+    "title": "Former Exun Support Team",
+    "members": [
       {
         "name": "Vijay Lal",
         "role": "Support Team",
