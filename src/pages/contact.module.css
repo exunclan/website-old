@@ -1,18 +1,21 @@
 .grid {
-  display: grid;
-  grid-gap: 2rem;
-  grid-auto-rows: 1fr;
-  grid-template-columns: repeat(1, 1fr);
-}
-
-@media (min-width: 768px) {
-  .grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .contact {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex-basis: 100%;
+  margin: 12px;
 }
+
+@media (min-width: 768px) {
+  .contact {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+}
+
