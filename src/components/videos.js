@@ -56,7 +56,6 @@ class Videos extends React.Component {
             );
           })}
         </div>
-        <h1 style={{ marginTop: '3rem' }}>Results</h1>
       </div>
     );
   }
