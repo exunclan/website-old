@@ -246,11 +246,11 @@ const IndexPage = ({ data }) => {
           </ul>
         </div>
         <div style={{ marginTop: '6rem' }}>
-          <Fireside />
+          {/*<Fireside />*/}
           <Videos />
-          <Slides />
-          <Talks />
-          <EventList />
+          {/*<Slides />*/}
+          {/*<Talks />*/}
+          {/*<EventList />*/}
         </div>
         <div style={{ marginTop: '6rem' }}>
           <FAQ data={faqData} />
