@@ -1,14 +1,5 @@
 import React from 'react';
 
-import BMLLogo from './bml-munjal-logo.png';
-import EvelynLogo from './evelyn-logo.png';
-import OxfordLogo from './oxford.jpg';
-import DigitalIndia from './digitalindia.jpg';
-import WolframLogo from './wolfram.png';
-import DevfolioLogo from './devfolio.png';
-import AthenaLogo from './athena.png';
-import WwcDelhiLogo from './wwc.jpeg';
-
 const logoStyles = {
   height: '150px',
   width: 'auto',
@@ -24,20 +15,6 @@ export default () => (
         paddingBottom: '',
       }}
     >
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'space-around',
-          alignItems: 'center',
-          flexWrap: 'wrap',
-          maxWidth: '400px',
-          margin: '0 auto',
-        }}
-      >
-        <img alt="BML Munjal University" src={BMLLogo} style={logoStyles} />
-        <img alt="Athena" src={AthenaLogo} style={logoStyles} />
-        {/* <img alt="Digital India" src={DigitalIndia} style={logoStyles} /> */}
-      </div>
       <div
         style={{
           maxWidth: '900px',
@@ -56,7 +33,7 @@ export default () => (
               marginTop: '30px',
             }}
           >
-            Community Partners
+            Powered by
           </div>
           <div
             style={{
@@ -64,46 +41,16 @@ export default () => (
               justifyContent: 'space-around',
               alignItems: 'center',
               flexWrap: 'wrap',
+              maxWidth: '500px',
+              width: '100%',
+              padding: '0 15px',
             }}
           >
             <img
-              alt="Wolfram"
-              src={WolframLogo}
-              style={{ height: '70px', width: 'auto' }}
+              alt="Ivy Achievement"
+              src="https://images-ext-2.discordapp.net/external/QD9Ylgd2jn7TloqMDT1JxOTl6S3L0OylGqqOb1RhHa0/https/exunclan.com/static/ivyachievement-439bfed6b2f70583cfef86d72743daa8.png"
+              style={{ height: 'auto', width: '100%' }}
             />
-            <img
-              alt="Women Who Code Delhi"
-              src={WwcDelhiLogo}
-              style={{ height: '70px', width: 'auto' }}
-            />
-          </div>
-        </div>
-        <div>
-          <div>
-            <div
-              style={{
-                fontSize: '30px',
-                marginBottom: '30px',
-                textAlign: 'center',
-                marginTop: '30px',
-              }}
-            >
-              Hackathon Partner
-            </div>
-            <div
-              style={{
-                display: 'flex',
-                justifyContent: 'space-around',
-                alignItems: 'center',
-                flexWrap: 'wrap',
-              }}
-            >
-              <img
-                alt="Devfolio"
-                src={DevfolioLogo}
-                style={{ height: '50px', width: 'auto' }}
-              />
-            </div>
           </div>
         </div>
       </div>

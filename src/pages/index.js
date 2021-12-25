@@ -80,22 +80,53 @@ const Header = () => (
     <div className={styles.landingContainer}>
       <Container style={{ padding: '0' }}>
         <div className={styles.contentContainer}>
-          <video
-            playsInline
-            autoPlay
-            loop
-            muted
-            aria-controls="false"
-            className={styles.gif}
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+            }}
           >
-            <source
-              src="https://cdn.discordapp.com/attachments/920723504335310939/920739352491999242/4.webm"
-              type="video/mp4"
-            />
-          </video>
-          <div>
+            <video
+              playsInline
+              autoPlay
+              loop
+              muted
+              aria-controls="false"
+              className={styles.gif}
+            >
+              <source
+                src="https://cdn.discordapp.com/attachments/920723504335310939/920739352491999242/4.webm"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+            }}
+          >
+            <div className={styles.date}>14 - 21 January 2022</div>
             <div className={styles.name}>Exun 2021-22</div>
-            <div className={styles.subtitle}>Coming Soon</div>
+            <div className={styles.emphasized}>
+              Celebrating 26 years of Exun.
+            </div>
+            <div
+              className={styles.name}
+              style={{ fontSize: '25px', marginTop: '25px' }}
+            >
+              Register
+            </div>
+            <div className={styles.registerButtons}>
+              <a href="//exun.co/schoolreg" target="_blank">
+                <div className={styles.register}>School</div>
+              </a>
+              <a href="//exun.co/independentreg" target="_blank">
+                <div className={styles.register}>Independent</div>
+              </a>
+            </div>
           </div>
         </div>
       </Container>

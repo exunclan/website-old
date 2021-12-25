@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  /* gap: 2rem; */
+  gap: 2rem;
 }
 
 .landing-container {
@@ -21,15 +21,14 @@
   font-size: 68px;
 } */
 
-/* .date {
+.date {
   margin-top: 30px;
   color: #e5e5e5;
-  font-size: 30px;
-} */
+  font-size: 20px;
+}
 
 .name {
   font-size: 50px;
-  padding-top: 10rem;
 }
 
 .subtitle {
@@ -42,20 +41,19 @@
   pointer-events: none;
 }
 
-/* .register-buttons {
-  width: 65%;
+.register-buttons {
+  width: 100%;
+  max-width: 500px;
   height: 65px;
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   column-gap: 10px;
-  margin-top: 20px;
-} */
+  margin-top: 5px;
+}
 
 .register {
-  /* padding: 20px;
-  width: 40%; */
   height: 100%;
   text-align: center;
   background-color: #10336b;
@@ -65,7 +63,11 @@
   justify-content: center;
 
   font-family: 'Chivo', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 1.8rem;
+  color: #eaeae5;
 
   cursor: pointer;
   user-select: none;
@@ -119,11 +121,16 @@
   }
 
   .emphasized {
-    font-size: 55px;
+    font-size: 20px;
   }
 
   .register-buttons {
     width: 100%;
+  }
+
+  .register {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
   }
 
   .name {
@@ -155,3 +162,4 @@
     font-size: 15px;
   }
 }
+
