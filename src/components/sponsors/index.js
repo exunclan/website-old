@@ -8,7 +8,6 @@ const logoStyles = {
 
 export default () => (
   <>
-    <div style={{ textAlign: 'center', fontSize: '30px' }}>Powered by</div>
     <div
       style={{
         margin: '1em 0',
