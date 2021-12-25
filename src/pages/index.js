@@ -194,13 +194,13 @@ const IndexPage = ({ data }) => {
             <li>
               <a
                 style={quickLinkStyle}
-                href="//exun.co/invite2020"
+                href="https://reg.exun.co/invite"
                 target="_blank"
               >
                 Invite
               </a>
             </li>
-            <li>
+            {/*<li>
               <a
                 style={quickLinkStyle}
                 href="//exun.co/schedule"
@@ -208,18 +208,18 @@ const IndexPage = ({ data }) => {
               >
                 Schedule
               </a>
-            </li>
+      </li>*/}
             <li>
               <a style={quickLinkStyle} href="//sudocrypt.com" target="_blank">
                 Sudocrypt
               </a>
             </li>
-            {/* <li>
+            <li>
               <a style={quickLinkStyle} href="//lnexun.com" target="_blank">
                 ln(Exun)
               </a>{' '}
               (Results)
-            </li> */}
+            </li>
             <li>
               <a
                 style={quickLinkStyle}
