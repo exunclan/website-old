@@ -162,4 +162,6 @@
     font-size: 15px;
   }
 }
-
+.try {
+  max-width: 1060px !important;
+}

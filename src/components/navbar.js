@@ -41,7 +41,12 @@ const links = [
     title: 'Contact',
     href: '/contact',
   },
-  ,
+
+  {
+    title: 'Invite',
+    href: 'https://reg.exun.co/invite',
+    external: true,
+  },
   {
     title: 'ln(exun)',
     href: '//lnexun.com',
@@ -59,7 +64,7 @@ class Navbar extends React.Component {
   }
 
   toggle() {
-    this.setState((prevState) => ({
+    this.setState(prevState => ({
       active: !prevState.active,
     }));
   }
@@ -81,7 +86,7 @@ class Navbar extends React.Component {
             }
           }
         `}
-        render={(data) => (
+        render={data => (
           <nav className={styles.wrapper}>
             <Link to="/" style={{ lineHeight: 0 }}>
               <Img fixed={data.file.childImageSharp.fixed} />
@@ -106,7 +111,7 @@ class Navbar extends React.Component {
                 ✕
               </button>
               <ul className={styles.links}>
-                {links.map((link) => (
+                {links.map(link => (
                   <li className={styles.linksItem} key={link.href}>
                     {link.external ? (
                       <a target="_blank" href={link.href}>

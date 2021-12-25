@@ -22,6 +22,8 @@ import Videos from '../components/videos';
 // 4;
 import Slides from '../components/slides';
 
+import BannerAnim from './../images/transparent-4.webm';
+
 const Grid = ({ children }) => <div className={styles.grid}> {children} </div>;
 Grid.propTypes = {
   children: PropTypes.node.isRequired,
@@ -36,7 +38,7 @@ const Header = () => (
     }
     className={styles.header}
   >
-    <Container>
+    <Container classes={styles.try}>
       <Navbar />
       {/*
  <div style={{ padding: '10rem 0 4rem', color: 'green' }}>
@@ -95,10 +97,7 @@ const Header = () => (
               aria-controls="false"
               className={styles.gif}
             >
-              <source
-                src="https://cdn.discordapp.com/attachments/920723504335310939/920739352491999242/4.webm"
-                type="video/mp4"
-              />
+              <source src={BannerAnim} type="video/mp4" />
             </video>
           </div>
           <div
@@ -125,6 +124,17 @@ const Header = () => (
               </a>
               <a href="//exun.co/independentreg" target="_blank">
                 <div className={styles.register}>Independent</div>
+              </a>
+            </div>
+            <div
+              className={styles.name}
+              style={{ fontSize: '25px', marginTop: '25px' }}
+            >
+              Information
+            </div>
+            <div className={styles.registerButtons}>
+              <a href="//reg.exun.co/invite" target="_blank">
+                <div className={styles.register}>Invite</div>
               </a>
             </div>
           </div>
@@ -213,12 +223,6 @@ const IndexPage = ({ data }) => {
               <a style={quickLinkStyle} href="//sudocrypt.com" target="_blank">
                 Sudocrypt
               </a>
-            </li>
-            <li>
-              <a style={quickLinkStyle} href="//lnexun.com" target="_blank">
-                ln(Exun)
-              </a>{' '}
-              (Results)
             </li>
             <li>
               <a
