@@ -37,8 +37,8 @@ const MembersPage = ({ data }) => (
             <Grid>
               {cls.members.map(member => {
                 return (
-                  <Card key={member.name}>
-                     {/*{member.image && (
+                  <Card key={member.name} className={styles.card}>
+                    {/*{member.image && (
                       <Img
                         fixed={member.image.childImageSharp.fixed}
                         style={{

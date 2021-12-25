@@ -1,18 +1,20 @@
 import React from 'react';
+import IvyAchievement from './ivyachievement.png';
 
 const logoStyles = {
-  height: '150px',
+  height: '60px',
   width: 'auto',
 };
 
 export default () => (
   <>
+    <div style={{ textAlign: 'center', fontSize: '30px' }}>Powered by</div>
     <div
       style={{
-        // borderTop: '1px solid #eaeaef',
-        margin: '3em 0',
-        // padding: '3em 0',
+        margin: '1em 0',
         paddingBottom: '',
+        display: 'flex',
+        justifyContent: 'center',
       }}
     >
       <div
@@ -48,7 +50,7 @@ export default () => (
           >
             <img
               alt="Ivy Achievement"
-              src="https://images-ext-2.discordapp.net/external/QD9Ylgd2jn7TloqMDT1JxOTl6S3L0OylGqqOb1RhHa0/https/exunclan.com/static/ivyachievement-439bfed6b2f70583cfef86d72743daa8.png"
+              src={IvyAchievement}
               style={{ height: 'auto', width: '100%' }}
             />
           </div>
