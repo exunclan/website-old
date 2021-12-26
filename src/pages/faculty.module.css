@@ -10,6 +10,9 @@
 .card {
   flex-basis: 100%;
   margin: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media (min-width: 768px) {
