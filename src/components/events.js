@@ -20,5 +20,5 @@ class Events extends Component{
         )
     }
 }
-console.log(eventsList)
-export default Events
+export default Events;
+
