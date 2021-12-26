@@ -215,12 +215,6 @@ const IndexPage = ({ data }) => {
               </a>
             </li>
             <li>
-              <a style={quickLinkStyle} href="//lnexun.com" target="_blank">
-                ln(Exun)
-              </a>{' '}
-              (Results)
-            </li>
-            <li>
               <a
                 style={quickLinkStyle}
                 href="//exun.co/discord"

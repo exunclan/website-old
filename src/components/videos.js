@@ -16,7 +16,7 @@ class Videos extends React.Component {
   render() {
     return (
       <div>
-        <h1 style={{ marginTop: '6rem' }}>Exun Videos</h1>
+        <h1 style={{ marginTop: '6rem' }}>Exun 2020 Videos</h1>
         <div className="vids">
           {video.map((box, index) => {
             return (
