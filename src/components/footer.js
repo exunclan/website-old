@@ -51,7 +51,7 @@ const Footer = () => (
       </a>
     </div>
     <div style={{ fontSize: '13px' }}>
-      &copy; 2021 Exun Clan and DPS RK Puram, New Delhi, India
+      &copy; 2021-22 Exun Clan and DPS RK Puram, New Delhi, India
     </div>
   </div>
 );
