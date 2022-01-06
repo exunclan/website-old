@@ -15,7 +15,6 @@ class Talks extends React.Component {
                 <div style={{marginTop: "7rem"}}></div>
                 <Fireside />
                 <Talk />
-                <Fireside />
               </Container>
           </Layout>
       </div>
