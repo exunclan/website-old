@@ -242,8 +242,6 @@ const IndexPage = ({ data }) => {
         <div style={{ marginTop: '6rem' }}>
           {/*<Fireside />*/}
           <Videos />
-          <Talk />
-          <Fireside />
           {/*<Slides />*/}
           {/*<Talks />*/}
           {/*<EventList />*/}
