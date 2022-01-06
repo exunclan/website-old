@@ -14,6 +14,10 @@ const links = [
     href: '/about',
   },
   {
+    title: 'Talks',
+    href: '/talks'
+  },
+  {
     title: 'Members',
     href: '/members',
   },

@@ -12,7 +12,7 @@ import SEO from '../components/seo';
 import EventList from '../components/event-list';
 import InviteForm from '../components/invite-form';
 import Sponsors from '../components/sponsors';
-import Talks from '../components/talks';
+import Talk from '../components/talk';
 import Fireside from '../components/fireside';
 
 import faqData from '../../data/faq';
@@ -242,6 +242,8 @@ const IndexPage = ({ data }) => {
         <div style={{ marginTop: '6rem' }}>
           {/*<Fireside />*/}
           <Videos />
+          <Talk />
+          <Fireside />
           {/*<Slides />*/}
           {/*<Talks />*/}
           {/*<EventList />*/}
