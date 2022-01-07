@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Container = ({ children }) => (
   <div
     style={{
-      maxWidth: 960,
+      maxWidth: 1025,
       margin: '0 auto',
       padding: '0 2.25rem',
     }}
