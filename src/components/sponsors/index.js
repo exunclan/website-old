@@ -70,83 +70,63 @@ export default () => (
               src={WolframLogo}
               style={{ height: '70px', width: 'auto' }}
             />
-            <img
+            {/* <img
               alt="Women Who Code Delhi"
               src={WwcDelhiLogo}
               style={{ height: '70px', width: 'auto' }}
-            />
+            /> */}
           </div>
         </div>
         <div>
           <div>
             <div
               style={{
-                fontSize: '30px',
-                marginBottom: '30px',
-                textAlign: 'center',
-                marginTop: '30px',
-              }}
-            >
-              Hackathon Partner
-            </div>
-            <div
-              style={{
+                maxWidth: '900px',
+                margin: '30px auto',
                 display: 'flex',
-                justifyContent: 'space-around',
-                alignItems: 'center',
+                justifyContent: 'center',
                 flexWrap: 'wrap',
               }}
             >
-              <img
-                alt="Devfolio"
-                src={DevfolioLogo}
-                style={{ height: '50px', width: 'auto' }}
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        style={{
-          maxWidth: '900px',
-          margin: '30px auto',
-          display: 'flex',
-          justifyContent: 'center',
-          flexWrap: 'wrap',
-        }}
-      >
-        <div>
-          <div>
-            <div
-              style={{
-                fontSize: '30px',
-                marginBottom: '30px',
-                textAlign: 'center',
-                marginTop: '30px',
-              }}
-            >
-              Other Partners
-            </div>
-            <div
-              style={{
-                display: 'flex',
-                justifyContent: 'space-around',
-                alignItems: 'center',
-                flexWrap: 'wrap',
-              }}
-            >
-              <img
-                alt="AOPS"
-                src={AOPSLogo}
-                style={{ height: '50px', width: 'auto' }}
-              />
-              <a href="https://taskade.com" target="_blank" rel="noreferrer">
-                <img
-                  alt="Taskade"
-                  src={TaskadeLogo}
-                  style={{ height: '50px', width: 'auto' }}
-                />
-              </a>
+              <div>
+                <div>
+                  <div
+                    style={{
+                      fontSize: '30px',
+                      marginBottom: '30px',
+                      textAlign: 'center',
+                      marginTop: '30px',
+                    }}
+                  >
+                    Other Partners
+                  </div>
+                  <div
+                    style={{
+                      display: 'flex',
+                      justifyContent: 'space-around',
+                      alignItems: 'center',
+                      flexWrap: 'wrap',
+                    }}
+                  >
+                    <img
+                      alt="AOPS"
+                      src={AOPSLogo}
+                      style={{ height: '50px', width: 'auto' }}
+                    />
+                    <a
+                      href="https://taskade.com"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <img
+                        alt="Taskade"
+                        src={TaskadeLogo}
+                        style={{ height: '50px', width: 'auto' }}
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
