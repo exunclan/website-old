@@ -82,7 +82,6 @@ export default () => (
             <div
               style={{
                 maxWidth: '900px',
-                margin: '30px auto',
                 display: 'flex',
                 justifyContent: 'center',
                 flexWrap: 'wrap',
