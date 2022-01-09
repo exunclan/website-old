@@ -6,6 +6,34 @@ export default {
     {
       title: (
         <span style={{ color: '#456484' }}>
+          How many members do I need to have for team events?
+        </span>
+      ),
+      content: (
+        <>
+          <p>
+             We recommend you participate with the maximum number of team members to get the best shot, but you can participate in any team size upto maximum limit. For example, in SpaceTech, you may participate in a team 1, a team of 2, a team of 3 or a team of 4
+          </p>
+        </>
+      ),
+    },
+    {
+      title: (
+        <span style={{ color: '#456484' }}>
+          Which programming languages can be used for Competitive Programming events?
+        </span>
+      ),
+      content: (
+        <>
+          <p>
+          Any language supported by CodeChef can be used.
+          </p>
+        </>
+      ),
+    },
+    {
+      title: (
+        <span style={{ color: '#456484' }}>
           Where are the competitions listed? What about the schedule?
         </span>
       ),
