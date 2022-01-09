@@ -17,6 +17,7 @@
 .righttalk {
   max-width: 70%;
   min-width: 70%;
+  padding-left: 2rem;
 }
 .talksimg {
   border-radius: 50%;

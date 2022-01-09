@@ -6,7 +6,7 @@ export default function fireside() {
   const [isOpen, setOpen] = useState(false);
   return (
     <div>
-      <h1>Exun Fireside Chat</h1>
+      <h1 style={{fontSize: "3.5rem"}}>Exun Fireside Chat 2020</h1>
       <h2>
         22<sup>nd</sup> November (Sunday) at 10:00 am IST
       </h2>
