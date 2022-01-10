@@ -11,6 +11,7 @@ import Balsamiq from './balsamiq.png';
 import Rosenfield from './rosenfield.png';
 import Replit from './replit.png';
 import styles from './sponsor.module.css';
+import Cake from './interview-cake.svg';
 
 const logoStyles = {
   height: '150px',
@@ -69,6 +70,11 @@ export default () => (
             alt="replit"
             src={TaskadeLogo}
             style={{ height: '80px', marginLeft: '2rem' }}
+          />
+          <img
+            alt="replit"
+            src={Cake}
+            style={{ height: '80px', marginTop: '2rem' }}
           />
         </div>
       </div>
