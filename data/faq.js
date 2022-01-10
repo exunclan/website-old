@@ -12,7 +12,10 @@ export default {
       content: (
         <>
           <p>
-             We recommend you participate with the maximum number of team members to get the best shot, but you can participate in any team size upto maximum limit. For example, in SpaceTech, you may participate in a team 1, a team of 2, a team of 3 or a team of 4
+            We recommend you participate with the maximum number of team members
+            to get the best shot, but you can participate in any team size upto
+            maximum limit. For example, in SpaceTech, you may participate in a
+            team 1, a team of 2, a team of 3 or a team of 4
           </p>
         </>
       ),
@@ -20,14 +23,13 @@ export default {
     {
       title: (
         <span style={{ color: '#456484' }}>
-          Which programming languages can be used for Competitive Programming events?
+          Which programming languages can be used for Competitive Programming
+          events?
         </span>
       ),
       content: (
         <>
-          <p>
-          Any language supported by CodeChef can be used.
-          </p>
+          <p>Any language supported by CodeChef can be used.</p>
         </>
       ),
     },
@@ -40,7 +42,6 @@ export default {
       content: (
         <>
           <p>
-            {/* TODO Schedule Link */}
             You can find complete descriptions of competitions on our{' '}
             <a
               href="//reg.exun.co/invite"
@@ -49,7 +50,15 @@ export default {
             >
               Events
             </a>{' '}
-            page. The schedule will be available soon.
+            page. The schedule is available at{' '}
+            <a
+              href="//exun.co/schedule"
+              target="_blank"
+              style={{ color: '#2977f5' }}
+            >
+              exun.co/schedule
+            </a>
+            .
           </p>
         </>
       ),
