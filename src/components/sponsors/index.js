@@ -12,6 +12,7 @@ import Rosenfield from './rosenfield.png';
 import Replit from './replit.png';
 import styles from './sponsor.module.css';
 import Cake from './interview-cake.svg';
+import Codechef from './codechef.svg';
 
 const logoStyles = {
   height: '150px',
@@ -57,23 +58,28 @@ export default () => (
         />
         <div style={{ marginTop: '2rem' }} className={styles.sponsorAll}>
           <img
-            alt="replit"
+            alt="Wolfram"
             src={WolframLogo}
             style={{ height: '80px', marginLeft: '2rem' }}
           />
           <img
-            alt="replit"
+            alt="AOPS"
             src={AOPSLogo}
             style={{ height: '80px', marginLeft: '2rem' }}
           />
           <img
-            alt="replit"
+            alt="Taskade"
             src={TaskadeLogo}
             style={{ height: '80px', marginLeft: '2rem' }}
           />
           <img
-            alt="replit"
+            alt="Interview Cake"
             src={Cake}
+            style={{ height: '80px', marginTop: '2rem' }}
+          />
+          <img
+            alt="Code chef"
+            src={Codechef}
             style={{ height: '80px', marginTop: '2rem' }}
           />
         </div>
