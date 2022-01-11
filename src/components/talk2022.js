@@ -26,7 +26,9 @@ class List2022 extends React.Component {
     return (
       <div>
         <div>
-          <h1 style={{fontSize: "3.5rem", marginTop: "3rem"}}>Exun Talks 2022</h1>
+          <h1 style={{ fontSize: '3.5rem', marginTop: '3rem' }}>
+            Exun Talks 2021-22
+          </h1>
           <p>
             Exun Talks are a series of semi-professional sessions relating to
             technology, with speakers including Exun and DPS RKP alumni,
