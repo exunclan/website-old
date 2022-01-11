@@ -27,7 +27,10 @@ export default () => (
       }}
     >
       <div className={styles.sponsorAll}>
-        <img alt="Plaksha" src={Plaksha} style={logoStyles} />
+        <div className={styles.aboveComunity}>
+          <img alt="Plaksha" src={Plaksha} style={logoStyles} />
+          <img alt="Code chef" src={Codechef} style={logoStyles} />
+        </div>
         <div
           style={{
             fontSize: '30px',
@@ -75,11 +78,6 @@ export default () => (
           <img
             alt="Interview Cake"
             src={Cake}
-            style={{ height: '80px', marginTop: '2rem' }}
-          />
-          <img
-            alt="Code chef"
-            src={Codechef}
             style={{ height: '80px', marginTop: '2rem' }}
           />
         </div>
