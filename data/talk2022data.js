@@ -10,10 +10,10 @@ const talk = [
   {
     name: 'Monojit Choudhury',
     image: 'monojit.jpeg',
-    title: 'Computational Linguistics',
+    title: 'Why Language Understanding is the Hardest Piece of the AI Puzzle?',
     date: '15 January 2022, 4:00 - 5:00 PM IST',
     para:
-      'Monojit Choudhury has a lot of experience in the field of computational linguistics. He also holds the position as the General Chair of the Panini Linguistics Olympiad and Founding Co-chair of the Asia Pacific Linguistics Olympiad. This talk will be an interactive session where Mr.Choudhury will introduce himself and his work, and then open the session to QnA.',
+      'Monojit Choudhury has a lot of experience in the field of computational linguistics. He also holds the position as the General Chair of the Panini Linguistics Olympiad and Founding Co-chair of the Asia Pacific Linguistics Olympiad. This talk will be an interactive session where Mr. Choudhury will introduce himself and his work, and then open the session to QnA.',
   },
 ];
 
