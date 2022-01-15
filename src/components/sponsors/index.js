@@ -14,6 +14,8 @@ import styles from './sponsor.module.css';
 import Cake from './interview-cake.svg';
 import Codechef from './codechef.svg';
 import StreamYard from './streamyard.png';
+import Ndss from './ndss.png';
+import Athena from './athena.png';
 
 const logoStyles = {
   height: '150px',
@@ -34,6 +36,13 @@ export default () => (
           </a>
           <a href="https://www.codechef.com/" target="_blank">
             <img alt="Code chef" src={Codechef} style={logoStyles} />
+          </a>
+          <a
+            href="https://www.athenaeducation.co.in/"
+            target="_blank"
+            style={{ marginLeft: '25%' }}
+          >
+            <img alt="Code chef" src={Athena} style={logoStyles} />
           </a>
         </div>
         <div
@@ -101,6 +110,13 @@ export default () => (
             <img
               alt="Stream Yard"
               src={StreamYard}
+              style={{ height: '80px', marginTop: '2rem' }}
+            />
+          </a>
+          <a href="https://www.ndss.com.au/" target="_blank">
+            <img
+              alt="ndss"
+              src={Ndss}
               style={{ height: '80px', marginTop: '2rem' }}
             />
           </a>
