@@ -38,6 +38,7 @@ export default () => (
           >
             <img alt="Code chef" src={Athena} style={{ width: '20rem' }} />
           </a>
+          <p style={{ textAlign: 'center' }}>Powered by Athena</p>
           <a href="https://plaksha.edu.in/" target="_blank">
             <img alt="Plaksha" src={Plaksha} style={logoStyles} />
           </a>
