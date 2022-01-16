@@ -31,18 +31,18 @@ export default () => (
     >
       <div className={styles.sponsorAll}>
         <div className={styles.aboveComunity}>
-          <a href="https://plaksha.edu.in/" target="_blank">
-            <img alt="Plaksha" src={Plaksha} style={logoStyles} />
-          </a>
-          <a href="https://www.codechef.com/" target="_blank">
-            <img alt="Code chef" src={Codechef} style={logoStyles} />
-          </a>
           <a
             href="https://www.athenaeducation.co.in/"
             target="_blank"
             style={{ marginLeft: '25%' }}
           >
-            <img alt="Code chef" src={Athena} style={logoStyles} />
+            <img alt="Code chef" src={Athena} style={{ width: '20rem' }} />
+          </a>
+          <a href="https://plaksha.edu.in/" target="_blank">
+            <img alt="Plaksha" src={Plaksha} style={logoStyles} />
+          </a>
+          <a href="https://www.codechef.com/" target="_blank">
+            <img alt="Code chef" src={Codechef} style={logoStyles} />
           </a>
         </div>
         <div
@@ -113,7 +113,7 @@ export default () => (
               style={{ height: '80px', marginTop: '2rem' }}
             />
           </a>
-          <a href="https://www.ndss.com.au/" target="_blank">
+          <a href="https://newdelhi.nss.org/" target="_blank">
             <img
               alt="ndss"
               src={Ndss}
