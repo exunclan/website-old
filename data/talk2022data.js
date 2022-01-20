@@ -29,7 +29,7 @@ const talk = [
     date: '18 January 2022, 9:00 - 10:00 PM IST',
     title: 'Effective Real-World Scientific Computing',
     para:
-      'Research in physics and astronomy depends heavily on computation, but researchers often have to teach themselves key skills and concepts. This includes many techniques for faster computation, better algorithm design, or easier programming work styles. This talk will introduce some key computational ideas that are helpful to physicists, and how they can be implemented using the Julia programming language. Vectorizing problems, just-in-time compilation, hardware acceleration, using efficient algorithms and methods, and common real-world science issues will be covered. No programming experience is required, and examples will mostly be diagrams or pseudocode. Aditya Sengupta, is an alumnus of UC Berkeley currently studying in Cambridge, was the President of the Aerospace Society of DPS RK Puram, Aeross, and a member of Exun Clan.',
+      'Aditya Sengupta, is an alumnus of UC Berkeley currently studying in Cambridge, was the President of the Aerospace Society of DPS RK Puram, Aeross, and a member of Exun Clan. Research in physics and astronomy depends heavily on computation, but researchers often have to teach themselves key skills and concepts. This includes many techniques for faster computation, better algorithm design, or easier programming work styles. This talk will introduce some key computational ideas that are helpful to physicists, and how they can be implemented using the Julia programming language. Vectorizing problems, just-in-time compilation, hardware acceleration, using efficient algorithms and methods, and common real-world science issues will be covered. No programming experience is required, and examples will mostly be diagrams or pseudocode.',
   },
   {
     name: 'Ayush Mahajan',
@@ -43,7 +43,7 @@ const talk = [
     image: 'prateek-swain.jpeg',
     date: '20 January 2022, 4:00 - 5:00 PM IST',
     title: 'How to build a bank for today',
-    para: `Prateek Swain is the founder of Swadesh, a Y Combinator & venture backed fintech company, and an alumnus of Princeton University ‚Äô19 and Exun ‚Äô15. Why did society invent banks and what purpose do they serve now? This talk will cover topics from the history of banks to analyzing their business model, and build up to the role of tech in modernizing banking. You should leave with a holistic framework to understand banking and fintech, and the ability to design your own bank built for the future.`,
+    para: `Prateek Swain is the founder of Swadesh, a Y Combinator & venture backed fintech company, and an alumnus of Princeton University '19 and Exun '15. Why did society invent banks and what purpose do they serve now? This talk will cover topics from the history of banks to analyzing their business model, and build up to the role of tech in modernizing banking. You should leave with a holistic framework to understand banking and fintech, and the ability to design your own bank built for the future.`,
   },
   {
     name: 'Dev Shaurya Singhal',
