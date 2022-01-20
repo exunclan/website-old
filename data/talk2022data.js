@@ -46,6 +46,13 @@ const talk = [
     para: `Prateek Swain is the founder of Swadesh, a Y Combinator & venture backed fintech company, and an alumnus of Princeton University '19 and Exun '15. Why did society invent banks and what purpose do they serve now? This talk will cover topics from the history of banks to analyzing their business model, and build up to the role of tech in modernizing banking. You should leave with a holistic framework to understand banking and fintech, and the ability to design your own bank built for the future.`,
   },
   {
+    name: 'Ankit Wadhwa',
+    image: 'ankit-wadhwa.png',
+    date: '20 January 2022, 6:00 - 7:00 PM IST',
+    title: 'The Evolving Landscape of Blockchain and NFTs',
+    para: `Ankit Wadhwa is an Exun alumnus from the batch of 2000. He has co-founded multiple companies, including RARIO, an NFT collectibles company and wadi.com, one of the top ranked E-Commerce platforms in the UAE. He has been an integral part of our Exun event for the past few years. In this Exun Talk, he explains the rapidly evolving landscape of NFTs. The rise of blockchain-based platforms and how they affect our society as a whole, and how we perceive value and the future of veblen goods as a whole.`,
+  },
+  {
     name: 'Dev Shaurya Singhal',
     image: 'dev-shaurya-singhal.jpeg',
     date: '20 January 2022, 8:00 - 9:00 PM IST',
