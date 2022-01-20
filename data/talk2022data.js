@@ -29,7 +29,28 @@ const talk = [
     date: '18 January 2022, 9:00 - 10:00 PM IST',
     title: 'Effective Real-World Scientific Computing',
     para:
-      'Research in physics and astronomy depends heavily on computation, but researchers often have to teach themselves key skills and concepts. This includes many techniques for faster computation, better algorithm design, or easier programming work styles. This talk will introduce some key computational ideas that are helpful to physicists, and how they can be implemented using the Julia programming language. Vectorizing problems, just-in-time compilation, hardware acceleration, using efficient algorithms and methods, and common real-world science issues will be covered. No programming experience is required, and examples will mostly be diagrams or pseudocode.',
+      'Research in physics and astronomy depends heavily on computation, but researchers often have to teach themselves key skills and concepts. This includes many techniques for faster computation, better algorithm design, or easier programming work styles. This talk will introduce some key computational ideas that are helpful to physicists, and how they can be implemented using the Julia programming language. Vectorizing problems, just-in-time compilation, hardware acceleration, using efficient algorithms and methods, and common real-world science issues will be covered. No programming experience is required, and examples will mostly be diagrams or pseudocode. Aditya Sengupta, is an alumnus of UC Berkeley currently studying in Cambridge, was the President of the Aerospace Society of DPS RK Puram, Aeross, and a member of Exun Clan.',
+  },
+  {
+    name: 'Ayush Mahajan',
+    image: 'ayush-mahajan.jpeg',
+    date: '19 January 2022, 1:00 - 1:30 PM IST',
+    title: 'The Impact of Cloud Computing',
+    para: `Ayush Mahajan is an Incoming Software Engineer at Google and is currently working at Girl Code It. This Talk discusses Cloud Computing, it's usefulness for everyday computer user, independent programmer and corporations alike and many other interesting topics. He will also talk about the interesting engineering challenges in the field.`,
+  },
+  {
+    name: 'Prateek Swain',
+    image: 'prateek-swain.jpeg',
+    date: '20 January 2022, 4:00 - 5:00 PM IST',
+    title: 'How to build a bank for today',
+    para: `Prateek Swain is the founder of Swadesh, a Y Combinator & venture backed fintech company, and an alumnus of Princeton University ‚Äô19 and Exun ‚Äô15. Why did society invent banks and what purpose do they serve now? This talk will cover topics from the history of banks to analyzing their business model, and build up to the role of tech in modernizing banking. You should leave with a holistic framework to understand banking and fintech, and the ability to design your own bank built for the future.`,
+  },
+  {
+    name: 'Dev Shaurya Singhal',
+    image: 'dev-shaurya-singhal.jpeg',
+    date: '20 January 2022, 8:00 - 9:00 PM IST',
+    title: `Dev's Journey to University of Pennsylvania`,
+    para: `Dev Shaurya Singhal is an Exun alumni and University of Pennsylvania student who's completed his dual degree between the School of Engineering (Mechanical Engineering) and The Wharton School (Finance) at UPenn. He's also an Athena Alum. In this Exun Talk, he will be talking about the path he took to the University of Pennsylvania, and his steps since. This talk is powered by Athena Education, an education consultancy and life coaching partner.`,
   },
 ];
 
