@@ -1,107 +1,51 @@
 const video = [
   {
     heading: 'Exun Video',
-    // pop: `
-    // <iframe width="100%" height="100%" src="https://www.youtube.com/embed/rJCYkwHv5Rs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    // `,
     youtubeId: 'rJCYkwHv5Rs',
     link: 'https://www.youtube.com/watch?v=rJCYkwHv5Rs',
   },
   {
     heading: 'Exun Opening Ceremony',
-    // pop: `
-    // <iframe
-    //   width="100%"
-    //   height="100%"
-    //   src="https://www.youtube.com/embed/rJCYkwHv5Rs"
-    //   frameborder="0"
-    //   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    //   allowfullscreen
-    // ></iframe>`,
-    youtubeId: 'KBMiJHw9yCo',
-    link: 'https://www.youtube.com/watch?v=KBMiJHw9yCo',
+    youtubeId: 'SSveID0MhrM',
+    link: 'https://www.youtube.com/watch?v=SSveID0MhrM',
   },
   {
-    heading: 'Exun Talk - Ishaan Chugh',
-    // pop: `
-    // <iframe
-    //   width="100%"
-    //   height="100%"
-    //   src="https://www.youtube.com/embed/0hIfTFxkyRg"
-    //   frameborder="0"
-    //   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    //   allowfullscreen
-    // ></iframe>`,
-    youtubeId: '0hIfTFxkyRg',
-    link: 'https://www.youtube.com/watch?v=0hIfTFxkyRg',
+    heading: 'Exun Talk - Dev Shaurya Singhal',
+    youtubeId: 'DCvqnFt3Mws',
+    link: 'https://www.youtube.com/watch?v=DCvqnFt3Mws',
   },
   {
-    heading: 'Exun Talk - André Cardoso',
-    // pop: `
-    // <iframe
-    //   width="100%"
-    //   height="100%"
-    //   src="https://www.youtube.com/embed/wmitQ8GMwjg"
-    //   frameborder="0"
-    //   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    //   allowfullscreen
-    // ></iframe>`,
-    youtubeId: 'wmitQ8GMwjg',
-    link: 'https://www.youtube.com/watch?v=wmitQ8GMwjg',
+    heading: 'Exun Talk - Prateek Swain',
+    youtubeId: 'zHEfoWCEMhc',
+    link: 'https://www.youtube.com/watch?v=zHEfoWCEMhc',
+  },
+  {
+    heading: 'Exun Talk - Monojit Choudhury',
+    youtubeId: 'Q96LHXkdKEo',
+    link: 'https://www.youtube.com/watch?v=Q96LHXkdKEo',
   },
   {
     heading: 'Exun Talk - Shashwat Goel',
-    // pop: `
-    // <iframe
-    //   width="100%"
-    //   height="100%"
-    //   src="https://www.youtube.com/embed/yHP0AIdsdGk"
-    //   frameborder="0"
-    //   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    //   allowfullscreen
-    // ></iframe>`,
-    youtubeId: 'yHP0AIdsdGk',
-    link: 'https://www.youtube.com/watch?v=yHP0AIdsdGk',
+    youtubeId: 'CUOkZsZjvTE',
+    link: 'https://www.youtube.com/watch?v=CUOkZsZjvTE',
   },
   {
-    heading: 'Exun Talk - Udit Malik',
-    // pop: `
-    // <iframe
-    //   width="100%"
-    //   height="100%"
-    //   src="https://www.youtube.com/embed/3i-rPaYvJMM"
-    //   frameborder="0"
-    //   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    //   allowfullscreen
-    // ></iframe>`,
-    youtubeId: '3i-rPaYvJMM',
-    link: 'https://www.youtube.com/watch?v=3i-rPaYvJMM',
+    heading: 'Exun Talk - Jim Plaxo',
+    youtubeId: 'Qbm1G4CIS9E',
+    link: 'https://www.youtube.com/watch?v=Qbm1G4CIS9E',
   },
   {
-    heading: 'Exun Talk - Aarman Roy',
-    // pop: `
-    // <iframe
-    //   width="100%"
-    //   height="100%"
-    //   src="https://www.youtube.com/embed/c_Q98_pshNs"
-    //   frameborder="0"
-    //   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    //   allowfullscreen
-    // ></iframe>`,
-    youtubeId: 'c_Q98_pshNs',
-    link: 'https://www.youtube.com/watch?v=c_Q98_pshNs',
+    heading: 'Exun Talk - Aditya Sengupta',
+    youtubeId: 'OPtACQK9Dq0',
+    link: 'https://www.youtube.com/watch?v=OPtACQK9Dq0',
+  },
+  {
+    heading: 'Exun Talk - Ayush Mahajan',
+    youtubeId: 'ZDNjWuO0TN0',
+    link: 'https://www.youtube.com/watch?v=ZDNjWuO0TN0',
   },
   {
     heading: 'Exun Closing Ceremony',
-    // pop: `
-    // <iframe
-    //   width="100%"
-    //   height="100%"
-    //   src="https://www.youtube.com/embed/RWFH5ErcBi8"
-    //   frameborder="0"
-    //   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    //   allowfullscreen
-    // ></iframe>`,
     youtubeId: 'RWFH5ErcBi8',
     link: 'https://www.youtube.com/watch?v=RWFH5ErcBi8',
   },

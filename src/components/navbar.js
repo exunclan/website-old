@@ -15,7 +15,7 @@ const links = [
   },
   {
     title: 'Talks',
-    href: '/exun-talks',
+    href: '/exuntalks',
   },
   {
     title: 'Members',
