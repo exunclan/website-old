@@ -16,6 +16,7 @@ import Codechef from './codechef.svg';
 import StreamYard from './streamyard.png';
 import Ndss from './ndss.png';
 import Athena from './athena.png';
+import DigitalIndia from './Digital_India_logo.png';
 
 const logoStyles = {
   height: '150px',
@@ -31,18 +32,22 @@ export default () => (
     >
       <div className={styles.sponsorAll}>
         <div className={styles.aboveComunity}>
+          <a href="https://www.digitalindia.gov.in/" target="_blank" rel="nofollow" style={{ marginLeft: '35px' }}>
+            <img alt="Digital India" src={DigitalIndia} style={logoStyles} />
+          </a>
           <a
             href="https://www.athenaeducation.co.in/"
             target="_blank"
+            rel="nofollow"
             style={{ marginLeft: '25%' }}
           >
             <img alt="Code chef" src={Athena} style={{ width: '20rem' }} />
           </a>
           <p style={{ textAlign: 'center' }}>Powered by Athena</p>
-          <a href="https://plaksha.edu.in/" target="_blank">
+          <a href="https://plaksha.edu.in/" target="_blank" rel="nofollow">
             <img alt="Plaksha" src={Plaksha} style={logoStyles} />
           </a>
-          <a href="https://www.codechef.com/" target="_blank">
+          <a href="https://www.codechef.com/" target="_blank" rel="nofollow">
             <img alt="Code chef" src={Codechef} style={logoStyles} />
           </a>
         </div>
@@ -60,10 +65,10 @@ export default () => (
           style={{ marginTop: '1.5rem', marginLeft: 'auto' }}
           className={styles.sponsorAll}
         >
-          <a href="https://balsamiq.com/" target="_blank">
+          <a href="https://balsamiq.com/" target="_blank" rel="nofollow">
             <img alt="balsamiq" src={Balsamiq} style={{ height: '100px' }} />
           </a>
-          <a href="http://rosenfeldmedia.com/" target="_blank">
+          <a href="http://rosenfeldmedia.com/" target="_blank" rel="nofollow">
             <img
               alt="rosenfield"
               src={Rosenfield}
@@ -71,7 +76,7 @@ export default () => (
             />
           </a>
         </div>
-        <a href="https://replit.com/" target="_blank">
+        <a href="https://replit.com/" target="_blank" rel="nofollow">
           <img
             alt="replit"
             src={Replit}
@@ -79,42 +84,42 @@ export default () => (
           />
         </a>
         <div style={{ marginTop: '2rem' }} className={styles.sponsorAll}>
-          <a href="https://www.wolfram.com/language/" target="_blank">
+          <a href="https://www.wolfram.com/language/" target="_blank" rel="nofollow">
             <img
               alt="Wolfram"
               src={WolframLogo}
               style={{ height: '80px', marginLeft: '2rem' }}
             />
           </a>
-          <a href="https://artofproblemsolving.com/" target="_blank">
+          <a href="https://artofproblemsolving.com/" target="_blank" rel="nofollow">
             <img
               alt="AOPS"
               src={AOPSLogo}
               style={{ height: '80px', marginLeft: '2rem' }}
             />
           </a>
-          <a href="https://taskade.com/" target="_blank">
+          <a href="https://taskade.com/" target="_blank" rel="nofollow">
             <img
               alt="Taskade"
               src={TaskadeLogo}
               style={{ height: '80px', marginLeft: '2rem' }}
             />
           </a>
-          <a href="https://www.interviewcake.com/" target="_blank">
+          <a href="https://www.interviewcake.com/" target="_blank" rel="nofollow">
             <img
               alt="Interview Cake"
               src={Cake}
               style={{ height: '80px', marginTop: '2rem' }}
             />
           </a>
-          <a href="https://streamyard.com/" target="_blank">
+          <a href="https://streamyard.com/" target="_blank" rel="nofollow">
             <img
               alt="Stream Yard"
               src={StreamYard}
               style={{ height: '80px', marginTop: '2rem' }}
             />
           </a>
-          <a href="https://newdelhi.nss.org/" target="_blank">
+          <a href="https://newdelhi.nss.org/" target="_blank" rel="nofollow">
             <img
               alt="ndss"
               src={Ndss}
