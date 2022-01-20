@@ -1,13 +1,5 @@
 const talk = [
   {
-    name: 'KangSan Kim (Antonio Stark)',
-    image: 'antonio-stark.jpeg',
-    title: 'Space Policy, Strategy, and Emerging Technologies',
-    date: '16 January 2022, 4:30 - 5:30 PM IST ',
-    para:
-      'Antonio Stark is an International Business Developer & Space Policy Analyst based in the Republic of Korea, who serves as the Asia-Pacific Regional Partnerships Manager of the Space Generation Advisory Council. He has vast experience in space exploration advocacy, and has served as an International Space Development Conference Coordinator. This talk will be an interactive session where Mr. Antonio will introduce himself and his work, and then open the session to QnA.',
-  },
-  {
     name: 'Monojit Choudhury',
     image: 'monojit.jpeg',
     title: 'Why Language Understanding is the Hardest Piece of the AI Puzzle?',
