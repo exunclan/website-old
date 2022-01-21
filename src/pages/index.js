@@ -112,20 +112,6 @@ const Header = () => (
             <div className={styles.emphasized}>
               Celebrating 26 years of Exun.
             </div>
-            <div
-              className={styles.name}
-              style={{ fontSize: '25px', marginTop: '25px' }}
-            >
-              Register
-            </div>
-            <div className={styles.registerButtons}>
-              <a href="//exun.co/schoolreg" target="_blank">
-                <div className={styles.register}>School</div>
-              </a>
-              <a href="//exun.co/independentreg" target="_blank">
-                <div className={styles.register}>Independent</div>
-              </a>
-            </div>
           </div>
         </div>
       </Container>
