@@ -19,7 +19,7 @@ import Athena from './athena.png';
 import DigitalIndia from './Digital_India_logo.png';
 
 const logoStyles = {
-  height: '150px',
+  height: '100px',
   width: 'auto',
 };
 
@@ -30,7 +30,6 @@ export default () => (
         margin: '3em 0',
       }}
     >
-      <div className={styles.sponsorAll}>
         <div className={styles.aboveComunity}>
           <a href="https://www.digitalindia.gov.in/" target="_blank" rel="nofollow" style={{ marginLeft: '35px' }}>
             <img alt="Digital India" src={DigitalIndia} style={logoStyles} />
@@ -39,11 +38,11 @@ export default () => (
             href="https://www.athenaeducation.co.in/"
             target="_blank"
             rel="nofollow"
-            style={{ marginLeft: '25%' }}
+            style={{  }}
           >
-            <img alt="Code chef" src={Athena} style={{ width: '20rem' }} />
+            <img alt="Code chef" src={Athena} style={logoStyles} />
+            <p style={{ textAlign: 'center' }}>Powered by Athena</p>
           </a>
-          <p style={{ textAlign: 'center' }}>Powered by Athena</p>
           <a href="https://plaksha.edu.in/" target="_blank" rel="nofollow">
             <img alt="Plaksha" src={Plaksha} style={logoStyles} />
           </a>
@@ -59,45 +58,52 @@ export default () => (
             marginTop: '30px',
           }}
         >
-          Community Partners
+          <br />
+          <h2>Community Partners</h2>
         </div>
         <div
           style={{ marginTop: '1.5rem', marginLeft: 'auto' }}
           className={styles.sponsorAll}
         >
           <a href="https://balsamiq.com/" target="_blank" rel="nofollow">
-            <img alt="balsamiq" src={Balsamiq} style={{ height: '100px' }} />
+            <img alt="balsamiq" src={Balsamiq} style={{ height: '80px' }} />
           </a>
           <a href="http://rosenfeldmedia.com/" target="_blank" rel="nofollow">
             <img
               alt="rosenfield"
               src={Rosenfield}
-              style={{ height: '100px', marginLeft: '2rem' }}
+              style={{ height: '80px', marginLeft: '2rem' }}
             />
           </a>
-        </div>
+        
         <a href="https://replit.com/" target="_blank" rel="nofollow">
           <img
             alt="replit"
             src={Replit}
-            style={{ height: '80px', marginTop: '1.5rem' }}
+            style={{ height: '60px' }}
           />
         </a>
-        <div style={{ marginTop: '2rem' }} className={styles.sponsorAll}>
+        
           <a href="https://www.wolfram.com/language/" target="_blank" rel="nofollow">
             <img
               alt="Wolfram"
               src={WolframLogo}
-              style={{ height: '80px', marginLeft: '2rem' }}
+              style={{ height: '60px', marginLeft: '2rem' }}
             />
           </a>
+          
           <a href="https://artofproblemsolving.com/" target="_blank" rel="nofollow">
             <img
               alt="AOPS"
               src={AOPSLogo}
-              style={{ height: '80px', marginLeft: '2rem' }}
+              style={{ height: '60px', marginLeft: '2rem' }}
             />
           </a>
+          </div>
+        <div
+          style={{ marginTop: '1.5rem', marginLeft: 'auto' }}
+          className={styles.sponsorAll}
+        >
           <a href="https://taskade.com/" target="_blank" rel="nofollow">
             <img
               alt="Taskade"
@@ -105,18 +111,19 @@ export default () => (
               style={{ height: '80px', marginLeft: '2rem' }}
             />
           </a>
+          
           <a href="https://www.interviewcake.com/" target="_blank" rel="nofollow">
             <img
               alt="Interview Cake"
               src={Cake}
-              style={{ height: '80px', marginTop: '2rem' }}
+              style={{ height: '50px', marginTop: '2rem' }}
             />
           </a>
           <a href="https://streamyard.com/" target="_blank" rel="nofollow">
             <img
               alt="Stream Yard"
               src={StreamYard}
-              style={{ height: '80px', marginTop: '2rem' }}
+              style={{ height: '50px', marginTop: '2rem'}}
             />
           </a>
           <a href="https://newdelhi.nss.org/" target="_blank" rel="nofollow">
@@ -126,8 +133,7 @@ export default () => (
               style={{ height: '80px', marginTop: '2rem' }}
             />
           </a>
-        </div>
-      </div>
+          </div>
       <div
         style={{
           maxWidth: '900px',
@@ -137,6 +143,6 @@ export default () => (
           flexWrap: 'wrap',
         }}
       ></div>
-    </div>
+      </div>
   </>
 );

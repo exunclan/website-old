@@ -3,23 +3,40 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 600px;
+  /* max-width: 600px; */
   margin: 0 auto;
+  padding: 0 60px;
 }
 
 .aboveComunity {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  flex-direction: column;
+}
+
+.sponsorAll a img {
+  margin: 0 45px;
+}
+
+.aboveComunity a img {
+  margin: 0 60px;
 }
 
 @media only screen and (max-width: 600px) {
   .sponsorAll {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 0 auto;
   }
-  img {
-    margin-top: 2rem;
+
+  .aboveComunity {
+    flex-wrap: wrap;
   }
+
+  .sponsorAll a img,
+  .aboveComunity a img {
+    margin-top: 4rem;
+  }
+
 }

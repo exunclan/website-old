@@ -17,6 +17,7 @@ import faqData from '../../data/faq';
 
 import styles from './index.module.css';
 import Videos from '../components/videos';
+import Videos2022 from '../components/videos2022';
 // 4;
 import Slides from '../components/slides';
 
@@ -238,6 +239,7 @@ const IndexPage = ({ data }) => {
           </ul>
         </div>
         <div style={{ marginTop: '6rem' }}>
+          <Videos2022 />
           <Videos />
           {/*<Slides />*/}
           {/*<EventList />*/}
