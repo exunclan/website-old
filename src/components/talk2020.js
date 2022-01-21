@@ -8,7 +8,7 @@ import list from '../../data/talk2020data';
 
 import parse from 'html-react-parser';
 
-class List2021 extends React.Component {
+class List2020 extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -26,7 +26,9 @@ class List2021 extends React.Component {
     return (
       <div>
         <div>
-          <h1 style={{ marginTop: '6rem', fontSize: "3.5rem" }}>Exun Talks 2020</h1>
+          <h1 style={{ marginTop: '6rem', fontSize: '3.5rem' }}>
+            Exun Talks 2020
+          </h1>
         </div>
 
         <div
@@ -68,4 +70,4 @@ class List2021 extends React.Component {
   }
 }
 
-export default List2021;
+export default List2020;

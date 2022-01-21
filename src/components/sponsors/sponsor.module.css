@@ -1,6 +1,12 @@
-.sponsorAll {
+.logoStyles {
+  height: 150px;
+  width: 'auto';
+}
+
+.aboveCommunity {
   display: flex;
-  justify-content: space-around;
+  margin-top: 10rem;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   /* max-width: 600px; */
@@ -8,7 +14,11 @@
   padding: 0 60px;
 }
 
-.aboveComunity {
+.aboveCommunity > * {
+  margin-left: 3rem;
+}
+
+.belowcommunity {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -20,11 +30,29 @@
 
 .aboveComunity a img {
   margin: 0 60px;
+  align-items: center;
+}
+
+.belowcommunity img {
+  max-height: 80px;
+  margin-left: 2rem;
 }
 
 @media only screen and (max-width: 600px) {
-  .sponsorAll {
+  .aboveCommunity {
     display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+  }
+
+  .aboveCommunity img {
+    width: 90%;
+    height: auto;
+  }
+
+  .belowcommunity {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -37,6 +65,14 @@
   .sponsorAll a img,
   .aboveComunity a img {
     margin-top: 4rem;
+  }
+  .belowcommunity img {
+    height: auto;
+    width: auto;
+    max-width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-height: 80px;
   }
 
 }
