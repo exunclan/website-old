@@ -3,6 +3,11 @@
   width: 'auto';
 }
 
+.belowimg {
+  height: 60px;
+  margin: 20px 45px;
+}
+
 .aboveCommunity {
   display: flex;
   margin-top: 10rem;
@@ -12,6 +17,12 @@
   /* max-width: 600px; */
   margin: 0 auto;
   padding: 0 60px;
+}
+
+.sponsorAll {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .aboveCommunity > * {
@@ -42,7 +53,7 @@
   .aboveCommunity {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 2rem;
+    margin-left: -5rem;
   }
 
   .aboveCommunity img {
@@ -67,12 +78,9 @@
     margin-top: 4rem;
   }
   .belowcommunity img {
-    height: auto;
+    height: 60px;
+    margin: 20px 10px;
     width: auto;
-    max-width: 90%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    max-height: 80px;
   }
 
 }

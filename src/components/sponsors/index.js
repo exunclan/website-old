@@ -19,8 +19,8 @@ import Athena from './athena.png';
 import DigitalIndia from './Digital_India_logo.png';
 
 const logoStyles = {
-  height: '100px',
   width: 'auto',
+  margin: '0 20px'
 };
 
 export default () => (
@@ -30,110 +30,6 @@ export default () => (
         margin: '3em 0',
       }}
     >
-        <div className={styles.aboveComunity}>
-          <a href="https://www.digitalindia.gov.in/" target="_blank" rel="nofollow" style={{ marginLeft: '35px' }}>
-            <img alt="Digital India" src={DigitalIndia} style={logoStyles} />
-          </a>
-          <a
-            href="https://www.athenaeducation.co.in/"
-            target="_blank"
-            rel="nofollow"
-            style={{  }}
-          >
-            <img alt="Code chef" src={Athena} style={logoStyles} />
-            <p style={{ textAlign: 'center' }}>Powered by Athena</p>
-          </a>
-          <a href="https://plaksha.edu.in/" target="_blank" rel="nofollow">
-            <img alt="Plaksha" src={Plaksha} style={logoStyles} />
-          </a>
-          <a href="https://www.codechef.com/" target="_blank" rel="nofollow">
-            <img alt="Code chef" src={Codechef} style={logoStyles} />
-          </a>
-        </div>
-        <div
-          style={{
-            fontSize: '30px',
-            marginBottom: '30px',
-            textAlign: 'center',
-            marginTop: '30px',
-          }}
-        >
-          <br />
-          <h2>Community Partners</h2>
-        </div>
-        <div
-          style={{ marginTop: '1.5rem', marginLeft: 'auto' }}
-          className={styles.sponsorAll}
-        >
-          <a href="https://balsamiq.com/" target="_blank" rel="nofollow">
-            <img alt="balsamiq" src={Balsamiq} style={{ height: '80px' }} />
-          </a>
-          <a href="http://rosenfeldmedia.com/" target="_blank" rel="nofollow">
-            <img
-              alt="rosenfield"
-              src={Rosenfield}
-              style={{ height: '80px', marginLeft: '2rem' }}
-            />
-          </a>
-        
-        <a href="https://replit.com/" target="_blank" rel="nofollow">
-          <img
-            alt="replit"
-            src={Replit}
-            style={{ height: '60px' }}
-          />
-        </a>
-        
-          <a href="https://www.wolfram.com/language/" target="_blank" rel="nofollow">
-            <img
-              alt="Wolfram"
-              src={WolframLogo}
-              style={{ height: '60px', marginLeft: '2rem' }}
-            />
-          </a>
-          
-          <a href="https://artofproblemsolving.com/" target="_blank" rel="nofollow">
-            <img
-              alt="AOPS"
-              src={AOPSLogo}
-              style={{ height: '60px', marginLeft: '2rem' }}
-            />
-          </a>
-          </div>
-        <div
-          style={{ marginTop: '1.5rem', marginLeft: 'auto' }}
-          className={styles.sponsorAll}
-        >
-          <a href="https://taskade.com/" target="_blank" rel="nofollow">
-            <img
-              alt="Taskade"
-              src={TaskadeLogo}
-              style={{ height: '80px', marginLeft: '2rem' }}
-            />
-          </a>
-          
-          <a href="https://www.interviewcake.com/" target="_blank" rel="nofollow">
-            <img
-              alt="Interview Cake"
-              src={Cake}
-              style={{ height: '50px', marginTop: '2rem' }}
-            />
-          </a>
-          <a href="https://streamyard.com/" target="_blank" rel="nofollow">
-            <img
-              alt="Stream Yard"
-              src={StreamYard}
-              style={{ height: '50px', marginTop: '2rem'}}
-            />
-          </a>
-          <a href="https://newdelhi.nss.org/" target="_blank" rel="nofollow">
-            <img
-              alt="ndss"
-              src={Ndss}
-              style={{ height: '80px', marginTop: '2rem' }}
-            />
-          </a>
-          </div>
       {/* above community starts */}
       <div className={styles.aboveCommunity}>
         <a
@@ -144,7 +40,8 @@ export default () => (
           <img
             alt="Digital India"
             src={DigitalIndia}
-            className={styles.logoStyles}
+            className={logoStyles}
+            style={{ height: '100px', margin: '0 20px' }}
           />
         </a>
         <a
@@ -152,31 +49,25 @@ export default () => (
           target="_blank"
           rel="nofollow"
         >
-          <img alt="Code chef" src={Athena} className={{ width: '20rem' }} />
+          <img alt="Code chef" src={Athena} style={{ height: '150px', margin: '0 20px' }} />
           <p style={{ textAlign: 'center' }}>Powered by Athena</p>
         </a>
         <a href="https://plaksha.edu.in/" target="_blank" rel="nofollow">
-          <img alt="Plaksha" src={Plaksha} className={styles.logoStyles} />
+          <img alt="Plaksha" src={Plaksha} style={{ height: '100px', margin: '0 20px' }} />
         </a>
         <a href="https://www.codechef.com/" target="_blank" rel="nofollow">
-          <img alt="Code chef" src={Codechef} className={styles.logoStyles} />
+          <img alt="Code chef" src={Codechef} style={{ height: '100px', margin: '0 20px' }} />
         </a>
       </div>
       {/* above community ends */}
       {/* below community starts */}
-
-      <div
-        style={{
-          fontSize: '30px',
-          marginBottom: '30px',
-          textAlign: 'center',
-          marginTop: '30px',
-        }}
-      >
+      
+      <h2 style={{ textAlign: 'center', marginTop: '100px' }}>
         Community Partners
-      </div>
+      </h2>
 
       <div className={styles.belowcommunity}>
+        <center>
         <a href="https://balsamiq.com/" target="_blank" rel="nofollow">
           <img alt="balsamiq" src={Balsamiq} className={styles.belowimg} />
         </a>
@@ -213,6 +104,7 @@ export default () => (
         <a href="https://newdelhi.nss.org/" target="_blank" rel="nofollow">
           <img alt="ndss" src={Ndss} className={styles.belowimg} />
         </a>
+        </center>
       </div>
     </div>
   </>
