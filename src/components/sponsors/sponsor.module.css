@@ -8,6 +8,10 @@
   margin-top: 10rem;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  /* max-width: 600px; */
+  margin: 0 auto;
+  padding: 0 60px;
 }
 
 .aboveCommunity > * {
@@ -18,6 +22,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.sponsorAll a img {
+  margin: 0 45px;
+}
+
+.aboveComunity a img {
+  margin: 0 60px;
   align-items: center;
 }
 
@@ -42,6 +54,17 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .aboveComunity {
+    flex-wrap: wrap;
+  }
+
+  .sponsorAll a img,
+  .aboveComunity a img {
+    margin-top: 4rem;
   }
   .belowcommunity img {
     height: auto;
@@ -51,4 +74,5 @@
     margin-bottom: 1rem;
     max-height: 80px;
   }
+
 }
