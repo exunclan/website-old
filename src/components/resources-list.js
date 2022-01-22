@@ -57,7 +57,7 @@ const pages = [
   {
     name: 'Hardware',
     url:
-      'https://docs.google.com/document/d/1n60Upx3FkRpZT_rHwyQnVI6kZ-z274YPOHXXhuPl_WI/edit?usp=sharing',
+      'https://docs.google.com/document/d/1wi3rdE2uV8t1NH7NVHtKKBSjYo9XG-e-n-t97EAG8oI/edit?usp=sharing',
   },
   {
     name: 'Cryptic Hunts',
