@@ -44,6 +44,11 @@ const video = [
        youtubeId: 'DCvqnFt3Mws',
        link: 'https://www.youtube.com/watch?v=DCvqnFt3Mws',
     },
+    {
+       heading: 'Exun Closing Ceremony',
+       youtubeId: 'cwWVECRV6Ak',
+       link: 'https://www.youtube.com/watch?v=cwWVECRV6Ak',
+    },
   ];
   
   export default video;
