@@ -1,5 +1,10 @@
 const video = [
     {
+       heading: 'Exun Video',
+       youtubeId: 'E7iSalhLUMA',
+       link: 'https://www.youtube.com/watch?v=E7iSalhLUMA',
+    },
+    {
       heading: 'Exun Opening Ceremony',
       youtubeId: 'SSveID0MhrM',
       link: 'https://www.youtube.com/watch?v=SSveID0MhrM',
