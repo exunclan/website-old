@@ -34,12 +34,12 @@ class List2022 extends React.Component {
             technology, with speakers including Exun and DPS RKP alumni,
             YouTubers among others. We have an exciting lineup in store and more
             speakers to be confirmed soon! Register at{' '}
-            <a style={{ color: '#2977F5' }} href="exun.co/talkreg">
+            <a style={{ color: '#2977F5' }} href="https://exun.co/talkreg">
               exun.co/talkreg
             </a>{' '}
             to receive all information and latest updates regarding Exun Talks.
             To attend any talk, you can visit{' '}
-            <a style={{ color: '#2977F5' }} href="exun.co/exuntalks">
+            <a style={{ color: '#2977F5' }} href="https://exun.co/exuntalks">
               exun.co/exuntalks
             </a>{' '}
             at the scheduled time.
