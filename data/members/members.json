@@ -222,6 +222,16 @@
         "name": "Shubhaankar Gupta",
         "role": "Member",
         "image": ""
+      },
+      {
+        "name": "Pratishtha Batra",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Harshikaa Agrawal",
+        "role": "Member",
+        "image": ""
       }
     ]
   },
@@ -288,6 +298,21 @@
         "name": "Aadibhav Prasad",
         "role": "Member",
         "image": ""
+      },
+      {
+        "name": "Apoorva Dhanesh Ghadge",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Stuti Kathuria",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Tia Mehtani",
+        "role": "Member",
+        "image": ""
       }
     ]
   },
@@ -333,6 +358,21 @@
         "name": "Ananya Mangla",
         "role": "Member",
         "image": ""
+      },
+      {
+        "name": "Aaahana Mehrotra",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Mannat Kaur",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Aanya Yaduvanshi",
+        "role": "Member",
+        "image": ""
       }
     ]
   },
@@ -373,6 +413,11 @@
         "name": "Pavni Goel",
         "role": "Member",
         "image": ""
+      },
+      {
+        "name": "Shaurya Malhotra",
+        "role": "Member",
+        "image": ""
       }
     ]
   },
@@ -391,6 +436,31 @@
       },
       {
         "name": "Avika Jain",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Ahaana Pandit",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Dishita Negi",
+        "role": "Member",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "year": "6th",
+    "members": [
+      {
+        "name": "Nanya Gupta",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Reaansh Gupta",
         "role": "Member",
         "image": ""
       }
