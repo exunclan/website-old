@@ -16,9 +16,9 @@ const linkstyle = {
   color: '#298bf5',
 };
 
-const ResourcesPage = () => (
+const LearningPage = () => (
   <Layout>
-    <SEO title="Resources" />
+    <SEO title="Learning" />
     <Container>
       <Navbar />
       <div
@@ -56,4 +56,4 @@ const ResourcesPage = () => (
   </Layout>
 );
 
-export default ResourcesPage;
+export default LearningPage;
