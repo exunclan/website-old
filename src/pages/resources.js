@@ -1,7 +1,7 @@
 import React from 'react';
 import useScript from '../components/useScript'
 const resources=()=>{
-    useScript('/redirect.js')
+    useScript('/redirects/resources.js')
     return <div>
     </div>
 }
