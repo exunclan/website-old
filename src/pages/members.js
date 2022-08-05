@@ -94,13 +94,6 @@ export const query = graphql`
         members {
           name
           role
-          image {
-            childImageSharp {
-              fixed(height: 80, width: 80, cropFocus: NORTH, fit: COVER) {
-                ...GatsbyImageSharpFixed
-              }
-            }
-          }
         }
       }
     }
