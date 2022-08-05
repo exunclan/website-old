@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{"9I2h":function(e,n,t){"use strict";t.r(n);var c=t("q1tI"),r=t.n(c),o=function(e,n,t){void 0===n&&(n="body"),void 0===t&&(t=!0),Object(c.useEffect)((function(){var c=document.querySelector(n),r=document.createElement("script");return r.src=e,r.async=t,c.appendChild(r),function(){c.removeChild(r)}}),[e])};n.default=function(){return o("/redirects/resources.js"),r.a.createElement("div",null)}}}]);
+//# sourceMappingURL=component---src-pages-resources-js-f83e3b627d543a9aa6af.js.map
